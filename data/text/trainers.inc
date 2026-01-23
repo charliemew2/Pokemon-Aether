@@ -1,7 +1,7 @@
 Route102_Text_CalvinIntro:
-	.string "If you have POKéMON with you, then\n"
-	.string "you're an official POKéMON TRAINER!\l"
-	.string "You can't say no to my challenge!$"
+	.string "Hey! My name is Sayo!\n"
+	.string "I'm just over Calvin's text\l"
+	.string "So Charlie can test stuff!$"
 
 Route102_Text_CalvinDefeated:
 	.string "Arrgh, I lost…\n"

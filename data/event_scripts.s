@@ -585,6 +585,23 @@ gStdScripts_End::
 	.include "data/maps/Route119_House/scripts.inc"
 	.include "data/maps/Route124_DivingTreasureHuntersHouse/scripts.inc"
 
+        @Custom maps
+        .include "data/maps/StartingTown/scripts.inc"
+        .include "data/maps/ForestShrine/scripts.inc"
+		.include "data/maps/Docks/scripts.inc"
+		.include "data/maps/DocksWarehouse/scripts.inc"
+		.include "data/maps/DocksWarehouseBasement/scripts.inc"
+		.include "data/maps/MountainPath/scripts.inc"
+		.include "data/maps/MountainSpring/scripts.inc"
+		.include "data/maps/IceMountain1F/scripts.inc"
+		.include "data/maps/IceMountain2F/scripts.inc"
+		.include "data/maps/IceMountain3F/scripts.inc"
+		.include "data/maps/IceMountainTown/scripts.inc"
+		.include "data/maps/IceMountainPath/scripts.inc"
+		.include "data/maps/IceMountainSummit/scripts.inc"
+		.include "data/maps/Route1/scripts.inc"
+        .include "data/maps/Route2/scripts.inc"
+
 	.include "data/scripts/std_msgbox.inc"
 	.include "data/scripts/trainer_battle.inc"
 	.include "data/scripts/new_game.inc"

@@ -4410,6 +4410,156 @@
       "secondary_tileset": "gTileset_MysteryEventsHouse",
       "border_filepath": "data/layouts/SootopolisCity_MysteryEventsHouse_1F_StairsUnblocked/border.bin",
       "blockdata_filepath": "data/layouts/SootopolisCity_MysteryEventsHouse_1F_StairsUnblocked/map.bin"
+    },
+    {
+      "id": "LAYOUT_STARTING_TOWN",
+      "name": "StartingTown_Layout",
+      "width": 38,
+      "height": 38,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Petalburg",
+      "border_filepath": "data/layouts/StartingTown/border.bin",
+      "blockdata_filepath": "data/layouts/StartingTown/map.bin"
+    },
+    {
+      "id": "LAYOUT_FOREST_SHRINE",
+      "name": "ForestShrine_Layout",
+      "width": 38,
+      "height": 24,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Mossdeep",
+      "border_filepath": "data/layouts/ForestShrine/border.bin",
+      "blockdata_filepath": "data/layouts/ForestShrine/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE1",
+      "name": "Route1_Layout",
+      "width": 28,
+      "height": 30,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Fortree",
+      "border_filepath": "data/layouts/Route1/border.bin",
+      "blockdata_filepath": "data/layouts/Route1/map.bin"
+    },
+    {
+      "id": "LAYOUT_MOUNTAIN_PATH",
+      "name": "MountainPath_Layout",
+      "width": 38,
+      "height": 24,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Sootopolis",
+      "border_filepath": "data/layouts/MountainPath/border.bin",
+      "blockdata_filepath": "data/layouts/MountainPath/map.bin"
+    },
+    {
+      "id": "LAYOUT_MOUNTAIN_SPRING",
+      "name": "MountainSpring_Layout",
+      "width": 26,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/MountainSpring/border.bin",
+      "blockdata_filepath": "data/layouts/MountainSpring/map.bin"
+    },
+    {
+      "id": "LAYOUT_DOCKS",
+      "name": "Docks_Layout",
+      "width": 54,
+      "height": 26,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Slateport",
+      "border_filepath": "data/layouts/Docks/border.bin",
+      "blockdata_filepath": "data/layouts/Docks/map.bin"
+    },
+    {
+      "id": "LAYOUT_DOCKS_WAREHOUSE",
+      "name": "DocksWarehouse_Layout",
+      "width": 10,
+      "height": 10,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_BikeShop",
+      "border_filepath": "data/layouts/DocksWarehouse/border.bin",
+      "blockdata_filepath": "data/layouts/DocksWarehouse/map.bin"
+    },
+    {
+      "id": "LAYOUT_DOCKS_WAREHOUSE_BASEMENT",
+      "name": "DocksWarehouseBasement_Layout",
+      "width": 20,
+      "height": 10,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_BikeShop",
+      "border_filepath": "data/layouts/DocksWarehouseBasement/border.bin",
+      "blockdata_filepath": "data/layouts/DocksWarehouseBasement/map.bin"
+    },
+    {
+      "id": "LAYOUT_ICE_MOUNTAIN1F",
+      "name": "IceMountain1F_Layout",
+      "width": 26,
+      "height": 26,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/IceMountain1F/border.bin",
+      "blockdata_filepath": "data/layouts/IceMountain1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_ICE_MOUNTAIN2F",
+      "name": "IceMountain2F_Layout",
+      "width": 24,
+      "height": 24,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/IceMountain2F/border.bin",
+      "blockdata_filepath": "data/layouts/IceMountain2F/map.bin"
+    },
+    {
+      "id": "LAYOUT_ICE_MOUNTAIN3F",
+      "name": "IceMountain3F_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/IceMountain3F/border.bin",
+      "blockdata_filepath": "data/layouts/IceMountain3F/map.bin"
+    },
+    {
+      "id": "LAYOUT_ICE_MOUNTAIN_TOWN",
+      "name": "IceMountainTown_Layout",
+      "width": 42,
+      "height": 30,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Lavaridge",
+      "border_filepath": "data/layouts/IceMountainTown/border.bin",
+      "blockdata_filepath": "data/layouts/IceMountainTown/map.bin"
+    },
+    {
+      "id": "LAYOUT_ICE_MOUNTAIN_PATH",
+      "name": "IceMountainPath_Layout",
+      "width": 50,
+      "height": 31,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Lavaridge",
+      "border_filepath": "data/layouts/IceMountainPath/border.bin",
+      "blockdata_filepath": "data/layouts/IceMountainPath/map.bin"
+    },
+    {
+      "id": "LAYOUT_ICE_MOUNTAIN_SUMMIT",
+      "name": "IceMountainSummit_Layout",
+      "width": 21,
+      "height": 35,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_NavelRock",
+      "border_filepath": "data/layouts/IceMountainSummit/border.bin",
+      "blockdata_filepath": "data/layouts/IceMountainSummit/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE2",
+      "name": "Route2_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Petalburg",
+      "border_filepath": "data/layouts/Route2/border.bin",
+      "blockdata_filepath": "data/layouts/Route2/map.bin"
     }
   ]
 }
