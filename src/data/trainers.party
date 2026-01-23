@@ -5941,23 +5941,23 @@ Level: 39
 IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
 
 === TRAINER_CALVIN_1 ===
-Name: CALVIN
-Class: Youngster
-Pic: Youngster
-Gender: Male
-Music: Male
+Name: Sayo
+Class: Rival
+Pic: Leaf
+Gender: Female
+Music: Female
 Double Battle: Yes
-AI: Check Bad Move
+AI: Basic Trainer
 
 Kubfu
-Level: 5
+Level: 14
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 -Headbutt
 -Reversal
 -Aerial Ace
 
 Litten
-Level: 5
+Level: 12
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 -Flame Charge
 -Bite
