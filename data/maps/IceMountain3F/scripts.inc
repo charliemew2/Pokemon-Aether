@@ -30,7 +30,6 @@ IceMountain3F_EventScript_SayoAmbush::
 IceMountain3F_Movement_PlayerPushedBySayo::
 	walk_left
 	face_right
-	delay 60
 	walk_right
 	face_down
 	step_end

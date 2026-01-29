@@ -1222,8 +1222,8 @@
 #define FLAG_ITEM_SAFARI_ZONE_NORTH_EAST_NUGGET                     0x491
 #define FLAG_ITEM_SAFARI_ZONE_SOUTH_EAST_BIG_PEARL                  0x492
 
-#define FLAG_HIDE_SAYO_ICEMOUNTAIN                                   0x493 // CUSTOM FLAG FOR SAYO AMBUSH ICE MOUNTAIN
-#define FLAG_UNUSED_0x494                                           0x494 // Unused Flag
+#define FLAG_HIDE_SAYO_ICEMOUNTAIN                                  0x493 // CUSTOM FLAG FOR SAYO AMBUSH ICE MOUNTAIN
+#define FLAG_HIDE_GRUNT1_ICEMOUNTAIN                                0x494 // CUSTOM FLAG FOR GRUNT1 AMBUSH ICE MOUNTAIN
 #define FLAG_UNUSED_0x495                                           0x495 // Unused Flag
 #define FLAG_UNUSED_0x496                                           0x496 // Unused Flag
 #define FLAG_UNUSED_0x497                                           0x497 // Unused Flag

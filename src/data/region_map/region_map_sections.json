@@ -10,7 +10,7 @@
     },
     {
       "id": "MAPSEC_OLDALE_TOWN",
-      "name": "ICETOWN",
+      "name": "Ice Town",
       "x": 4,
       "y": 9,
       "width": 1,
@@ -130,7 +130,7 @@
     },
     {
       "id": "MAPSEC_ROUTE_101",
-      "name": "ROUTE 1",
+      "name": "Route 1",
       "x": 4,
       "y": 10,
       "width": 1,
@@ -490,7 +490,7 @@
     },
     {
       "id": "MAPSEC_ABANDONED_SHIP",
-      "name": "ICETOWN",
+      "name": "Mountain Spring",
       "x": 6,
       "y": 14,
       "width": 1,
@@ -522,7 +522,7 @@
     },
     {
       "id": "MAPSEC_MT_PYRE",
-      "name": "Ice Mountain Summit",
+      "name": "Icy Summit",
       "x": 16,
       "y": 4,
       "width": 1,
@@ -1049,7 +1049,7 @@
     },
     {
       "id": "MAPSEC_ICEFALL_CAVE",
-      "name": "ICEFALL CAVE"
+      "name": "Mountain Spring"
     },
     {
       "id": "MAPSEC_ROCKET_WAREHOUSE",

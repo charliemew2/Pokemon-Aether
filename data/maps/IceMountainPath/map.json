@@ -65,9 +65,10 @@
       "flag": "0"
     },
     {
+      "local_id": "LOCAL_ID_GRUNT1",
       "graphics_id": "OBJ_EVENT_GFX_AQUA_MEMBER_M",
-      "x": 8,
-      "y": 0,
+      "x": 9,
+      "y": 1,
       "elevation": 0,
       "movement_type": "MOVEMENT_TYPE_NONE",
       "movement_range_x": 0,
@@ -75,10 +76,20 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HIDE_GRUNT1_ICEMOUNTAIN"
     }
   ],
   "warp_events": [],
-  "coord_events": [],
+  "coord_events": [
+    {
+      "type": "trigger",
+      "x": 9,
+      "y": 6,
+      "elevation": 0,
+      "var": "VAR_ICEMOUNTAIN",
+      "var_value": "1",
+      "script": "IceMountainPath_EventScript_Grunt1Ambush"
+    }
+  ],
   "bg_events": []
 }
