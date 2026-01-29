@@ -289,7 +289,7 @@ static bool32 Fishing_GotBite(struct Task *task)
 
 static bool32 Fishing_ChangeMinigame(struct Task *task)
 {
-    switch (I_FISHING_MINIGAME)
+    /*switch (I_FISHING_MINIGAME)
     {
         case GEN_1:
         case GEN_2:
@@ -299,7 +299,8 @@ static bool32 Fishing_ChangeMinigame(struct Task *task)
         default:
             task->tStep = FISHING_WAIT_FOR_A;
             break;
-    }
+    }*/
+    task->tStep = FISHING_MON_ON_HOOK; //ADDED THIS LINE OF TEXT FOR ALEX - skips fishing minigame
     return TRUE;
 }
 
@@ -489,7 +490,8 @@ static bool32 Fishing_DoesFirstMonInPartyHaveSuctionCupsOrStickyHold(void)
     return (ability == ABILITY_SUCTION_CUPS || ability == ABILITY_STICKY_HOLD);
 }
 
-static bool32 Fishing_RollForBite(u32 rod, bool32 isStickyHold)
+/*static bool32 Fishing_RollForBite(u32 rod, bool32 isStickyHold)*/
+static UNUSED bool32 Fishing_RollForBite(u32 rod, bool32 isStickyHold)
 {
     return ((RandomUniform(RNG_FISHING_BITE, 1, 100)) <= CalculateFishingBiteOdds(rod, isStickyHold));
 }

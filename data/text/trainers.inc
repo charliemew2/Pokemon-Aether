@@ -1,15 +1,21 @@
 Route102_Text_CalvinIntro:
-	.string "Hey! My name is Sayo!\n"
-	.string "I'm just over Calvin's text\l"
-	.string "So Charlie can test stuff!$"
+	.string "Oh! Honestly didn't expect to find\n"
+	.string "someone climbing all the way up here!\p"
+	.string "The name's Sayo. You must be tough!\l"
+	.string "Care for a quick battle?$"
 
 Route102_Text_CalvinDefeated:
-	.string "Arrgh, I lost…\n"
-	.string "I should have trained mine more…$"
+	.string "Uuuuugh this really sucks!\n"
+	.string "Who are you? You're pretty good!$"
 
 Route102_Text_CalvinPostBattle:
-	.string "Listen, you. If you're strong,\n"
-	.string "you should have told me before!$"
+	.string "What the heck! I can't believe I\n"
+	.string "lost! Whats your name bucko?\p"
+	.string "...\p"
+	.string "{PLAYER} huh? Ahaha...You're tough!\n"
+	.string "This made coming here a bit less boring!\p"
+	.string "I have a feeling we will be seeing each\n"
+	.string "other again at some point.$"
 
 Route102_Text_CalvinRegister:
 	.string "I've been working hard at this since\n"

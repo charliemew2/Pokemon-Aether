@@ -4789,38 +4789,74 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Crunch
 
 === TRAINER_ROXANNE_1 ===
-Name: ROXANNE
+Name: Kristine
 Class: Leader
-Pic: Leader Roxanne
+Pic: Elite Four Glacia
 Gender: Female
 Music: Female
-Items: Potion / Potion
+Items: None
 Double Battle: No
 AI: Basic Trainer
+Mugshot: Blue
 
-Geodude
-Level: 12
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Tackle
-- Defense Curl
-- Rock Throw
-- Rock Tomb
+Vulpix_Alola @ NevermeltIce
+Ability: Ice Body
+Level: 19
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Nature: Timid
+-Extrasensory
+-Icy Wind
+-Confuse Ray
+-Protect
 
-Geodude
-Level: 12
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Tackle
-- Defense Curl
-- Rock Throw
-- Rock Tomb
+Sneasel @ Charti Berry
+Ability: Inner Focus
+Level: 19
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Nature: Adamant
+-Thief
+-Ice Shard
+-Poison Jab
+-Trailblaze
 
-Nosepass @ Oran Berry
-Level: 15
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Block
-- Harden
-- Tackle
-- Rock Tomb
+Stufful @ Assault Vest
+Ability: Fluffy
+Level: 18
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Nature: Adamant
+-Ice Punch
+-Retaliate
+-Rock Tomb
+-Force Palm
+
+Phione @ Berry Juice
+Ability: Hydration
+Level: 18
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Nature: Hardy
+-Flip Turn
+-Whirlpool
+-Grass Knot
+-Secret Power
+
+Sandshrew_Alola @ Eviolite
+Ability: Slush Rush
+Level: 19
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Nature: Adamant
+-Ice Spinner
+-Metal Claw
+-Aerial Ace
+-Spiky Shield
+
+Frosmoth @ Flying Gem
+Ability: Ice Scales
+Level: 18
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Nature: Timid
+-Acrobatics
+-Infestation
+-Powder Snow
 
 === TRAINER_BRAWLY_1 ===
 Name: BRAWLY
@@ -5940,28 +5976,48 @@ Hariyama
 Level: 39
 IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
 
-=== TRAINER_CALVIN_1 ===
+=== TRAINER_SAYO_1 ===
 Name: Sayo
 Class: Rival
 Pic: Leaf
 Gender: Female
-Music: Female
 Double Battle: Yes
 AI: Basic Trainer
+Mugshot: Pink
 
-Kubfu
-Level: 14
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
--Headbutt
--Reversal
--Aerial Ace
-
-Litten
-Level: 12
+Litten @ Fire Gem
+Level: 13
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 -Flame Charge
 -Bite
 -Fake Out
+-Will-O-Wisp
+
+Roselia @ Eviolite
+Level: 12
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+-Toxic
+-Venoshock
+-Mega Drain
+-Protect
+
+Gligar @ Yache Berry
+Level: 12
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+-Acrobatics
+-Breaking Swipe
+-Sludge Bomb
+
+Kubfu @ Salac Berry
+Level: 14
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+-Reversal
+-Rock Smash
+-Metal Claw
+
+
+
+
 
 === TRAINER_BILLY ===
 Name: BILLY
