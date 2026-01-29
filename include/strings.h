@@ -2415,4 +2415,8 @@ extern const u8 gText_CannotSendMonToBoxHM[];
 extern const u8 gText_CannotSendMonToBoxActive[];
 extern const u8 gText_CannotSendMonToBoxPartner[];
 
+//INFINITE REPEL
+extern const u8 gText_RepellentOn[];
+extern const u8 gText_RepellentOff[];
+
 #endif // GUARD_STRINGS_H

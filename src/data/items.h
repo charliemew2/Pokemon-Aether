@@ -15490,6 +15490,22 @@ const struct Item gItemsInfo[] =
         .iconPic = gItemIcon_PokeshiDoll,
         .iconPalette = gItemIconPalette_PokeshiDoll,
     },
+    // src/data/items.h; make sure you declare the item (THIS IS TO ADD THE INFINITE REPEL)
+    [ITEM_REPELLENT] =
+    {
+        .name = ITEM_NAME("Infinite Repel"),
+        .price = 0,
+        .description = COMPOUND_STRING(
+            "A Repel that\n"
+            "never runs out!-\n"
+            "How does it work?"), 
+        .importance = 1,
+        .pocket = POCKET_KEY_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_Repellent, 
+        .iconPic = gItemIcon_Repel,
+        .iconPalette = gItemIconPalette_MaxRepel,
+    },
 };
 
 #undef ITEM_NAME

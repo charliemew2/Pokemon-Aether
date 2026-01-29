@@ -169,6 +169,8 @@ const u8 gText_TheBattle[] = _("the battle");
 const u8 gText_ThePokemonList[] = _("the POKéMON LIST");
 const u8 gText_TheShop[] = _("the shop");
 const u8 gText_ThePC[] = _("the PC");
+const u8 gText_RepellentOn[] = _("{PLAYER} sprayed the Infinite Repel.{PAUSE_UNTIL_PRESS}"); //INFINITE REPEL
+const u8 gText_RepellentOff[] = _("The Infinite Repel was dispersed. {PAUSE_UNTIL_PRESS}"); //INFINITE REPEL
 
 const u8 *const gBagMenu_ReturnToStrings[] =
 {
