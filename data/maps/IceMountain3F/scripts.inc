@@ -13,7 +13,9 @@ IceMountain3F_EventScript_SayoAmbush::
 	delay 24
 	msgbox IceMountain3F_Text_SayoPrelude, MSGBOX_DEFAULT
 	trainerbattle_no_intro TRAINER_SAYO_1, IceMountain3F_Text_SayoDefeat
-	msgbox IceMountain3F_Text_SayoPostBattle, MSGBOX_DEFAULT
+	msgbox IceMountain3F_Text_SayoPostBattleBeforeGivingRepel, MSGBOX_DEFAULT
+	call IceMountain3F_giveitem_InfiniteRepel
+	msgbox IceMountain3F_Text_SayoPostBattleAfterGivingRepel, MSGBOX_DEFAULT
 	closemessage
 	applymovement OBJ_EVENT_ID_PLAYER, IceMountain3F_Movement_PlayerPushedBySayo
 	applymovement LOCAL_ID_SAYOICEMOUNTAIN, IceMountain3F_Movement_SayoLeaves
@@ -90,7 +92,7 @@ IceMountain3F_Text_SayoDefeat:
 	.string "little warmup huh?\p"
 	.string "Who are you? You're pretty good!$"
 
-IceMountain3F_Text_SayoPostBattle:
+IceMountain3F_Text_SayoPostBattleBeforeGivingRepel:
 	.string "...\l"
 	.string "{PLAYER} huh? Ahaha...I was right!\l"
 	.string "You really ARE tough! I knew my\n"
@@ -101,8 +103,14 @@ IceMountain3F_Text_SayoPostBattle:
 	.string "Ugh I don't really wanna go back\n"
 	.string "to the Pokémon center though.\p"
 	.string "This is why I'm glad I have this!\n"
-	.string "Actually you can have one too.\p"
-	.string "That's an infinite Repel.\l"
+	.string "Actually you can have one too.$"
+
+IceMountain3F_giveitem_InfiniteRepel:
+	giveitem ITEM_REPELLENT
+	return
+
+IceMountain3F_Text_SayoPostBattleAfterGivingRepel:
+	.string "That's an Infinite Repel.\l"
 	.string "It'll keep Wild Pokémon away as\n"
 	.string "long as you keep it activated!\p"
 	.string "It's an explorer's best friend!\l"
