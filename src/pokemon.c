@@ -6120,6 +6120,8 @@ u16 GetBattleBGM(void)
             if (!StringCompare(GetTrainerNameFromId(TRAINER_BATTLE_PARAM.opponentA), gText_BattleWallyName))
                 return MUS_VS_TRAINER;
             return MUS_VS_RIVAL;
+        case TRAINER_CLASS_ANDROID:
+            return MUS_VS_RIVAL;            
         case TRAINER_CLASS_ELITE_FOUR:
             return MUS_VS_ELITE_FOUR;
         case TRAINER_CLASS_SALON_MAIDEN:

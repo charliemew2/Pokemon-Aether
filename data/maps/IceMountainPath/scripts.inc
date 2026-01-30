@@ -10,7 +10,7 @@ IceMountainPath_EventScript_Grunt1Ambush::
 	waitmovement 0
 	delay 24
 	msgbox IceMountainPath_Text_Grunt1Prelude, MSGBOX_DEFAULT
-	trainerbattle_no_intro TRAINER_BILLY, IceMountainPath_Text_Grunt1Defeat
+	trainerbattle_no_intro TRAINER_GRUNT_1, IceMountainPath_Text_Grunt1Defeat
 	msgbox IceMountainPath_Text_Grunt1PostBattle, MSGBOX_DEFAULT
 	closemessage
 	applymovement OBJ_EVENT_ID_PLAYER, IceMountainPath_PushPlayer

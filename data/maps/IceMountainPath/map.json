@@ -87,7 +87,7 @@
       "y": 6,
       "elevation": 0,
       "var": "VAR_SPLIT1EVENTS",
-      "var_value": "3",
+      "var_value": "4",
       "script": "IceMountainPath_EventScript_Grunt1Ambush"
     }
   ],

@@ -43,6 +43,20 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
       "flag": "FLAG_MEWEVENT_NEWGAME"
+    },
+    {
+      "local_id": "LOCAL_ID_JOHN_STARTINGTOWN_RIVAL1",
+      "graphics_id": "OBJ_EVENT_GFX_STEVEN",
+      "x": 32,
+      "y": 19,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_UP",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "FLAG_JOHN_STARTINGTOWN_RIVAL1"
     }
   ],
   "warp_events": [
@@ -117,6 +131,24 @@
       "var": "VAR_SPLIT1EVENTS",
       "var_value": "0",
       "script": "StartingTown_EventScript_MewSpotted"
+    },
+    {
+      "type": "trigger",
+      "x": 35,
+      "y": 13,
+      "elevation": 0,
+      "var": "VAR_SPLIT1EVENTS",
+      "var_value": "2",
+      "script": "StartingTown_EventScript_JohnAmbush1"
+    },
+    {
+      "type": "trigger",
+      "x": 35,
+      "y": 14,
+      "elevation": 0,
+      "var": "VAR_SPLIT1EVENTS",
+      "var_value": "2",
+      "script": "StartingTown_EventScript_JohnAmbush1"
     }
   ],
   "bg_events": [

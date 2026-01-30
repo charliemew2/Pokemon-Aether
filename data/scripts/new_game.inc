@@ -274,5 +274,6 @@ EventScript_ResetAllMapFlags::
 	setflag FLAG_HIDE_SKY_PILLAR_TOP_RAYQUAZA_STILL
 	setflag FLAG_HIDE_SAYO_ICEMOUNTAIN
 	setflag FLAG_HIDE_GRUNT1_ICEMOUNTAIN
+	setflag FLAG_JOHN_STARTINGTOWN_RIVAL1
 	call EventScript_ResetAllBerries
 	end

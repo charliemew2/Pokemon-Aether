@@ -78,8 +78,87 @@ StartingTown_Text_YouShallNotPassTillYouHaveStarter::
 
 @JOHN RIVAL BATTLE
 
-StartingTown_EventScript_JohnAmbush1
-	
+StartingTown_EventScript_JohnAmbush1::
+	lock
+	addobject LOCAL_ID_JOHN_STARTINGTOWN_RIVAL1
+	playbgm MUS_ENCOUNTER_ELITE_FOUR, TRUE
+	msgbox StartingTown_Text_JohnCallOutForFirstBattle, MSGBOX_DEFAULT
+	closemessage
+	playse SE_PIN
+	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_ExclamationMark
+	waitmovement 0
+	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_FaceLeft
+	waitmovement 0
+	applymovement LOCAL_ID_JOHN_STARTINGTOWN_RIVAL1, StartingTown_Movement_JohnApproachesFirstRivalBattle
+	waitmovement 0
+	getplayerxy VAR_TEMP_3, VAR_TEMP_4
+	call_if_eq VAR_TEMP_4, 13, StartingTown_EventScript_JohnAlignPlayer
+	msgbox StartingTown_Text_JohnFirstRivalBattleIntro, MSGBOX_DEFAULT
+	trainerbattle_no_intro TRAINER_RIVAL_JOHN_1, StartingTown_Text_JohnFirstRivalBattleDefeat
+	msgbox StartingTown_Text_JohnFirstRivalBattlePostBattle, MSGBOX_DEFAULT
+	closemessage
+	removeobject LOCAL_ID_JOHN_STARTINGTOWN_RIVAL1
+	fadedefaultbgm
+	addvar VAR_SPLIT1EVENTS, 1
+	release
+	end
+
+StartingTown_Text_JohnCallOutForFirstBattle::
+	.string "Scanning Surroundings...$"
+
+StartingTown_Text_JohnFirstRivalBattleIntro::
+	.string "Lifeform detected.\n"
+	.string "Species: Human.\p"
+	.string "Human is in possession of a\n"
+	.string "Pokémon. Occupation: Trainer.\p"
+	.string "Trainer: Name given to Humans who\n"
+	.string "capture and battle with Pokémon.\p"
+	.string "Systems currently possess one\n"
+	.string "Pokémon. Combat systems loading...\p"
+	.string "Engaging combat with human. Will\n"
+	.string "analyze data from battle. Begin.$"
+
+StartingTown_Text_JohnFirstRivalBattleDefeat::
+	.string "Initial Observation from combat:\n"
+	.string "Humans are strong trainers.\p"
+	.string "Solution: Will need to more data in\n"
+	.string "order to surpass human trainers.\p"
+	.string "Victory is yours.$"
+
+StartingTown_Text_JohnFirstRivalBattlePostBattle::
+	.string "That was a splendid battle, human.\l"
+	.string "I am a Journey Operational Human\n"
+	.string "Droid. A Prototype Mach III.\p"
+	.string "My duty is to collect and record\n"
+	.string "record human behavior to Pokémon.\p"
+	.string "This data will be highly useful in\n"
+	.string "my mission.\p"
+	.string "Might I record your name in my\n"
+	.string "internal database?\p"
+	.string "{PLAYER}.\l"
+	.string "Opponent registered as: {PLAYER}\l"
+	.string "Continue operations elsewhere.\n"
+	.string "Farewell.$"
+
+StartingTown_Movement_JohnApproachesFirstRivalBattle::
+	walk_up
+	walk_up
+	walk_up
+	walk_up
+	walk_up
+	walk_right
+	walk_right
+	step_end
+
+StartingTown_EventScript_JohnAlignPlayer::
+	applymovement LOCAL_ID_JOHN_STARTINGTOWN_RIVAL1, StartingTown_Movement_AlignJohnPlayer
+	waitmovement 0
+	return
+
+StartingTown_Movement_AlignJohnPlayer::
+	walk_up
+	face_right
+	step_end
 
 @FUTURE SCRIPTS
 
