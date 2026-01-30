@@ -29,7 +29,22 @@
       "direction": "right"
     }
   ],
-  "object_events": [],
+  "object_events": [
+    {
+      "local_id": "LOCAL_ID_MEW_STARTGAME",
+      "graphics_id": "OBJ_EVENT_GFX_MEW",
+      "x": 6,
+      "y": 11,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "FLAG_MEWEVENT_NEWGAME"
+    }
+  ],
   "warp_events": [
     {
       "x": 9,
@@ -39,7 +54,71 @@
       "dest_warp_id": "0"
     }
   ],
-  "coord_events": [],
+  "coord_events": [
+    {
+      "type": "trigger",
+      "x": 6,
+      "y": 16,
+      "elevation": 0,
+      "var": "VAR_SPLIT1EVENTS",
+      "var_value": "1",
+      "script": "StartingTown_EventScript_YouMustGetStarter"
+    },
+    {
+      "type": "trigger",
+      "x": 5,
+      "y": 16,
+      "elevation": 0,
+      "var": "VAR_SPLIT1EVENTS",
+      "var_value": "1",
+      "script": "StartingTown_EventScript_YouMustGetStarter"
+    },
+    {
+      "type": "trigger",
+      "x": 4,
+      "y": 16,
+      "elevation": 0,
+      "var": "VAR_SPLIT1EVENTS",
+      "var_value": "1",
+      "script": "StartingTown_EventScript_YouMustGetStarter"
+    },
+    {
+      "type": "trigger",
+      "x": 3,
+      "y": 16,
+      "elevation": 0,
+      "var": "VAR_SPLIT1EVENTS",
+      "var_value": "1",
+      "script": "StartingTown_EventScript_YouMustGetStarter"
+    },
+    {
+      "type": "trigger",
+      "x": 2,
+      "y": 16,
+      "elevation": 0,
+      "var": "VAR_SPLIT1EVENTS",
+      "var_value": "1",
+      "script": "StartingTown_EventScript_YouMustGetStarter"
+    },
+    {
+      "type": "trigger",
+      "x": 7,
+      "y": 15,
+      "elevation": 0,
+      "var": "VAR_SPLIT1EVENTS",
+      "var_value": "1",
+      "script": "StartingTown_EventScript_YouMustGetStarter"
+    },
+    {
+      "type": "trigger",
+      "x": 8,
+      "y": 11,
+      "elevation": 0,
+      "var": "VAR_SPLIT1EVENTS",
+      "var_value": "0",
+      "script": "StartingTown_EventScript_MewSpotted"
+    }
+  ],
   "bg_events": [
     {
       "type": "sign",

@@ -21,6 +21,7 @@
   ],
   "object_events": [
     {
+      "local_id": "LOCAL_ID_BAG",
       "graphics_id": "OBJ_EVENT_GFX_BIRCHS_BAG",
       "x": 8,
       "y": 9,
@@ -34,6 +35,7 @@
       "flag": "0"
     },
     {
+      "local_id": "LOCAL_ID_MEWFORESTSHRINESTARTGAME",
       "graphics_id": "OBJ_EVENT_GFX_MEW",
       "x": 30,
       "y": 15,
@@ -43,11 +45,39 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
-      "flag": "0"
+      "script": "ForestShrine_EventScript_ShrineMewNPCStartGame",
+      "flag": "FLAG_MEWEVENT_SHRINE1"
     }
   ],
   "warp_events": [],
-  "coord_events": [],
+  "coord_events": [
+    {
+      "type": "trigger",
+      "x": 32,
+      "y": 15,
+      "elevation": 0,
+      "var": "VAR_SPLIT1EVENTS",
+      "var_value": "1",
+      "script": "ForestShrine_EventScript_MewLeadsPlayer"
+    },
+    {
+      "type": "trigger",
+      "x": 8,
+      "y": 11,
+      "elevation": 0,
+      "var": "VAR_SPLIT1EVENTS",
+      "var_value": "1",
+      "script": "ForestShrine_EventScript_CheckShrine"
+    },
+    {
+      "type": "trigger",
+      "x": 9,
+      "y": 11,
+      "elevation": 0,
+      "var": "VAR_SPLIT1EVENTS",
+      "var_value": "1",
+      "script": "ForestShrine_EventScript_CheckShrine"
+    }
+  ],
   "bg_events": []
 }

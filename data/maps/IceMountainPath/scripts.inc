@@ -20,7 +20,7 @@ IceMountainPath_EventScript_Grunt1Ambush::
 	removeobject LOCAL_ID_GRUNT1
 	delay 5
 	fadedefaultbgm
-	addvar VAR_ICEMOUNTAIN, 1	
+	addvar VAR_SPLIT1EVENTS, 1	
 	release
 	end
 
