@@ -9757,16 +9757,16 @@ Marshtomp
 Level: 31
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
-=== TRAINER_MAY_ROUTE_103_MUDKIP ===
-Name: MAY
+=== TRAINER_EVE_STARTINGTOWN_JANGMO_O ===
+Name: Eve
 Class: Rival
-Pic: May
-Gender: Female
-Music: Female
+Pic: Brendan
+Gender: Male
+Music: Male
 Double Battle: No
 AI: Basic Trainer
 
-Treecko
+Dratini
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -9812,16 +9812,16 @@ Grovyle
 Level: 31
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
-=== TRAINER_MAY_ROUTE_103_TREECKO ===
-Name: MAY
+=== TRAINER_EVE_STARTINGTOWN_DRATINI ===
+Name: Eve
 Class: Rival
-Pic: May
-Gender: Female
-Music: Female
+Pic: Brendan
+Gender: Male
+Music: Male
 Double Battle: No
 AI: Basic Trainer
 
-Torchic
+Frigibax
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -9867,16 +9867,16 @@ Combusken
 Level: 31
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
-=== TRAINER_MAY_ROUTE_103_TORCHIC ===
-Name: MAY
+=== TRAINER_EVE_STARTINGTOWN_FRIGIBAX ===
+Name: Eve
 Class: Rival
-Pic: May
-Gender: Female
-Music: Female
+Pic: Brendan
+Gender: Male
+Music: Male
 Double Battle: No
 AI: Basic Trainer
 
-Mudkip
+Jangmo-o
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 

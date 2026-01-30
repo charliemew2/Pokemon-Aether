@@ -201,7 +201,11 @@ ForestShrine_EventScript_StarterChosen::
 
 ForestShrine_Text_StarterChosenText::	
 	.string "The shrine sits calmly. You decide\n"
-	.string "to leave the remaining Pokéballs.$"
+	.string "to leave the remaining Pokéballs.\p"
+	.string "...\l"
+	.string "Huh?\l"
+	.string "There appears to be one less Pokéball?\l"
+	.string "How could it have vanished?$"
 
 ForestShrine_Text_MewGoneStartGame::
 .string "Mew appears to have left...$"

@@ -97,6 +97,12 @@ StartingTown_EventScript_JohnAmbush1::
 	trainerbattle_no_intro TRAINER_RIVAL_JOHN_1, StartingTown_Text_JohnFirstRivalBattleDefeat
 	msgbox StartingTown_Text_JohnFirstRivalBattlePostBattle, MSGBOX_DEFAULT
 	closemessage
+	getplayerxy VAR_TEMP_3, VAR_TEMP_4
+	call_if_eq VAR_TEMP_4, 13, StartingTown_EventScript_JohnLeavesAfterRival1TopTile
+	getplayerxy VAR_TEMP_3, VAR_TEMP_4
+	call_if_eq VAR_TEMP_4, 14, StartingTown_EventScript_JohnLeavesAfterRival1BottomTile
+	applymovement LOCAL_ID_JOHN_STARTINGTOWN_RIVAL1, StartingTown_Movement_JohnLeavesAfterRival1
+	waitmovement 0
 	removeobject LOCAL_ID_JOHN_STARTINGTOWN_RIVAL1
 	fadedefaultbgm
 	addvar VAR_SPLIT1EVENTS, 1
@@ -160,6 +166,175 @@ StartingTown_Movement_AlignJohnPlayer::
 	face_right
 	step_end
 
+StartingTown_EventScript_JohnLeavesAfterRival1TopTile::
+	applymovement LOCAL_ID_JOHN_STARTINGTOWN_RIVAL1, StartingTown_Movement_JohnWalksAroundPlayerAfterRival1TopTile
+	waitmovement 0
+	return
+
+StartingTown_Movement_JohnWalksAroundPlayerAfterRival1TopTile::
+	walk_down
+	walk_right
+	walk_right
+	walk_up
+	walk_right
+	step_end
+
+StartingTown_EventScript_JohnLeavesAfterRival1BottomTile::
+	applymovement LOCAL_ID_JOHN_STARTINGTOWN_RIVAL1, StartingTown_Movement_JohnWalksAroundPlayerAfterRival1BottomTile
+	waitmovement 0
+	return
+
+StartingTown_Movement_JohnWalksAroundPlayerAfterRival1BottomTile::
+	walk_up
+	walk_right
+	walk_right
+	step_end
+
+StartingTown_Movement_JohnLeavesAfterRival1::
+	walk_right
+	walk_right
+	walk_up
+	walk_right
+	walk_right
+	walk_up
+	walk_right
+	walk_right
+	walk_right
+	step_end
+
+@ MEW NPC BATTLE
+
+StartingTown_EventScript_EveMeetsPlayerForBattle1::
+	lock
+	applymovement LOCAL_ID_EVESTARTINGTOWN, Common_Movement_FaceUp
+	waitmovement 0
+	delay 16
+	applymovement LOCAL_ID_EVESTARTINGTOWN, Common_Movement_FaceDown
+	waitmovement 0
+	delay 16
+	applymovement LOCAL_ID_EVESTARTINGTOWN, Common_Movement_FaceLeft
+	waitmovement 0
+	delay 16
+	playse SE_PIN
+	applymovement LOCAL_ID_EVESTARTINGTOWN, Common_Movement_ExclamationMark
+	waitmovement 0
+	delay 32
+	getplayerxy VAR_TEMP_3, VAR_TEMP_4
+	call_if_eq VAR_TEMP_4, 27, StartingTown_EventScript_EveWalksToPlayerTopTile
+	getplayerxy VAR_TEMP_3, VAR_TEMP_4
+	call_if_eq VAR_TEMP_4, 28, StartingTown_EventScript_EveWalksToPlayerBottomTile
+	msgbox StartingTown_Text_EvePreBattle1, MSGBOX_DEFAULT
+	switch VAR_STARTER_MON
+	case 0, StartingTown_EventScript_BattleEveDratini
+	case 1, StartingTown_EventScript_BattleEveFrigibax
+	case 2, StartingTown_EventScript_BattleEveJangmo_o
+	end
+
+StartingTown_EventScript_EvePostBattle1::
+	msgbox StartingTown_Text_EvePostBattle, MSGBOX_DEFAULT
+	closemessage
+	applymovement LOCAL_ID_EVESTARTINGTOWN, StartingTown_Movement_EveLeavesForDocks
+	waitmovement 0
+	removeobject LOCAL_ID_EVESTARTINGTOWN
+	addvar VAR_SPLIT1EVENTS, 1
+	release
+	end
+
+StartingTown_EventScript_BattleEveDratini::
+	trainerbattle_no_intro TRAINER_EVE_STARTINGTOWN_DRATINI, StartingTown_Text_EveDefeat1
+	goto StartingTown_EventScript_EvePostBattle1 
+	end
+
+StartingTown_EventScript_BattleEveFrigibax::
+	trainerbattle_no_intro TRAINER_EVE_STARTINGTOWN_FRIGIBAX, StartingTown_Text_EveDefeat1
+	goto StartingTown_EventScript_EvePostBattle1 
+	end
+
+StartingTown_EventScript_BattleEveJangmo_o::
+	trainerbattle_no_intro TRAINER_EVE_STARTINGTOWN_JANGMO_O, StartingTown_Text_EveDefeat1
+	goto StartingTown_EventScript_EvePostBattle1 
+	end
+
+StartingTown_Text_EvePreBattle1::
+	.string "Hi!\l"
+	.string "And you are?\l"
+	.string "...\l"
+	.string "{PLAYER}! Thats a nice name! My\n"
+	.string "name is Eve! Are you a trainer?\p"
+	.string	"You are? Me too! I'm kind of new to\n"
+	.string "all of this though!\p"
+	.string	"Well...Do you wanna play? Battle, I\n"
+	.string "mean, hahaha! It'll be fun!\p"
+	.string	"Get ready! Here I come!$"
+
+StartingTown_Text_EveDefeat1::
+	.string "Woah hang on a second!\l"
+	.string "You didn't tell me you were\n"
+	.string "this good at battling...\p"
+	.string "Hehe...That was fun!$"
+
+StartingTown_Text_EvePostBattle::
+	.string "Oof...You got me...\l"
+	.string "Thanks for playing with me!\n"
+	.string "You're pretty strong {PLAYER}!\p"
+	.string "You know, I saw a boat come in at\n"
+	.string "the docks down south earlier!\p"
+	.string "Rumor has it some really strong\n"
+	.string "trainers have come to MYREGION!\p"
+	.string "Why don't we go see them?\n"
+	.string "It'll be fun! Come on!\p"
+	.string "I'll race you there!$"
+
+StartingTown_EventScript_EveWalksToPlayerTopTile::
+	applymovement LOCAL_ID_EVESTARTINGTOWN, StartingTown_Movement_EveWalksToPlayerTopTile
+	waitmovement 0
+	return
+
+StartingTown_Movement_EveWalksToPlayerTopTile::
+	walk_left
+	walk_down
+	walk_left
+	step_end
+
+StartingTown_EventScript_EveWalksToPlayerBottomTile::
+	applymovement LOCAL_ID_EVESTARTINGTOWN, StartingTown_Movement_EveWalksToPlayerBottomTile
+	waitmovement 0
+	return
+
+StartingTown_Movement_EveWalksToPlayerBottomTile::
+	walk_left
+	walk_down
+	walk_down
+	walk_left
+	step_end
+
+StartingTown_Movement_EveLeavesForDocks::
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	step_end
+
+@ NO PASSING UNTIL DOCKS EVENTS ARE COMPLETED
+
+StartingTown_EventScript_KickPlayerTillDocks::
+	msgbox StartingTown_Text_YouShallNotPassTillFinishDocks, MSGBOX_DEFAULT
+	closemessage
+	getplayerxy VAR_TEMP_3, VAR_TEMP_4
+	call_if_eq VAR_TEMP_4, 26, StartingTown_EventScript_KickPlayerbackDown
+	call_if_eq VAR_TEMP_3, 27, StartingTown_EventScript_KickPlayerbackLeft
+	release
+	end
+
+StartingTown_EventScript_KickPlayerbackDown::
+	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkDown
+	waitmovement 0
+	return
+	
+StartingTown_Text_YouShallNotPassTillFinishDocks::
+	.string "Eve is waiting for you!\n"
+	.string "Better hurry to the docks...$"
+
 @FUTURE SCRIPTS
-
-

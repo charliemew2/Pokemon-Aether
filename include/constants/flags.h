@@ -1227,7 +1227,7 @@
 #define FLAG_MEWEVENT_NEWGAME                                       0x495 // CUSTOM FLAG FOR THE STARTER MEW EVENT
 #define FLAG_MEWEVENT_SHRINE1                                       0x496 // CUSTOM FLAG FOR MEW LEADING PLAYER TO SHRINE
 #define FLAG_JOHN_STARTINGTOWN_RIVAL1                               0x497 // CUSTOM FLAG FOR FIRST JOHN RIVAL BATTLE
-#define FLAG_UNUSED_0x498                                           0x498 // Unused Flag
+#define FLAG_EVE_STARTINGTOWN_RIVAL1                                0x498 // CUSTOM FLAG FOR THE FIRST EVE BATTLE BEFORE THE DOCKS
 #define FLAG_UNUSED_0x499                                           0x499 // Unused Flag
 #define FLAG_UNUSED_0x49A                                           0x49A // Unused Flag
 #define FLAG_UNUSED_0x49B                                           0x49B // Unused Flag
