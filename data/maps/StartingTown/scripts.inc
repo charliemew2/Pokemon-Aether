@@ -218,6 +218,15 @@ StartingTown_EventScript_EveMeetsPlayerForBattle1::
 	playse SE_PIN
 	applymovement LOCAL_ID_EVESTARTINGTOWN, Common_Movement_ExclamationMark
 	waitmovement 0
+	delay 60
+	applymovement LOCAL_ID_EVESTARTINGTOWN, StartingTown_Movement_EveJumpsUpandDown
+	playse SE_LEDGE
+	delay 16
+	playse SE_LEDGE
+	delay 16
+	playse SE_LEDGE
+	delay 16
+	waitmovement 0
 	delay 32
 	getplayerxy VAR_TEMP_3, VAR_TEMP_4
 	call_if_eq VAR_TEMP_4, 27, StartingTown_EventScript_EveWalksToPlayerTopTile
@@ -233,6 +242,14 @@ StartingTown_EventScript_EveMeetsPlayerForBattle1::
 StartingTown_EventScript_EvePostBattle1::
 	msgbox StartingTown_Text_EvePostBattle, MSGBOX_DEFAULT
 	closemessage
+	applymovement LOCAL_ID_EVESTARTINGTOWN, StartingTown_Movement_EveJumpsUpandDown
+	playse SE_LEDGE
+	delay 16
+	playse SE_LEDGE
+	delay 16
+	playse SE_LEDGE
+	delay 16
+	waitmovement 0
 	applymovement LOCAL_ID_EVESTARTINGTOWN, StartingTown_Movement_EveLeavesForDocks
 	waitmovement 0
 	removeobject LOCAL_ID_EVESTARTINGTOWN
@@ -309,12 +326,18 @@ StartingTown_Movement_EveWalksToPlayerBottomTile::
 	step_end
 
 StartingTown_Movement_EveLeavesForDocks::
-	walk_down
-	walk_down
-	walk_down
-	walk_down
-	walk_down
-	walk_down
+	walk_fast_down
+	walk_fast_down
+	walk_fast_down
+	walk_fast_down
+	walk_fast_down
+	walk_fast_down
+	step_end
+
+StartingTown_Movement_EveJumpsUpandDown::
+	jump_in_place_left
+	jump_in_place_left
+	jump_in_place_left
 	step_end
 
 @ NO PASSING UNTIL DOCKS EVENTS ARE COMPLETED
