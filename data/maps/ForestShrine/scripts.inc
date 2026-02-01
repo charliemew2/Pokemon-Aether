@@ -165,7 +165,7 @@ ForestShrine_EventScript_starter_choose::
 	waitmovement 0
 	delay 16
 	msgbox ForestShrine_Text_MewGoneStartGame, MSGBOX_DEFAULT
-	addvar VAR_SPLIT1EVENTS, 1
+	addvar VAR_STARTER_CUTSCENE, 1
 	release
 	end
 

@@ -1228,11 +1228,11 @@
 #define FLAG_MEWEVENT_SHRINE1                                       0x496 // CUSTOM FLAG FOR MEW LEADING PLAYER TO SHRINE
 #define FLAG_JOHN_STARTINGTOWN_RIVAL1                               0x497 // CUSTOM FLAG FOR FIRST JOHN RIVAL BATTLE
 #define FLAG_EVE_STARTINGTOWN_RIVAL1                                0x498 // CUSTOM FLAG FOR THE FIRST EVE BATTLE BEFORE THE DOCKS
-#define FLAG_UNUSED_0x499                                           0x499 // Unused Flag
-#define FLAG_UNUSED_0x49A                                           0x49A // Unused Flag
-#define FLAG_UNUSED_0x49B                                           0x49B // Unused Flag
-#define FLAG_UNUSED_0x49C                                           0x49C // Unused Flag
-#define FLAG_UNUSED_0x49D                                           0x49D // Unused Flag
+#define FLAG_DOCKS_BLOCKDOCKS                                       0x499 // CUSTOM FLAG FOR DOCKS CUTSCENE - COUPLE BLOCKS DOCKS 
+#define FLAG_DOCKS_HIDECHARLIEDAWNDOCKSCONVO                        0x49A // CUSTOM FLAG FOR DOCKS CUTSCENE - AFTER BASEMENT SCENE
+#define FLAG_DOCKS_HIDENPCAFTERDOCKSEVENTS                          0x49B // CUSTOM FLAG FOR HIDING NPCS AFTER THE DOCKS CUTSCENE IS DONE
+#define FLAG_DOCKS_HIDENPCDURINGCUTSCENE                            0x49C // CUSTOM FLAG FOR HIDING NPCS DURING CUTSCENE OF DOCKS
+#define FLAG_DOCKS_BASEMENT_CUTSCENE_DONE                           0x49D // CUSTOM FLAG FOR CHANGING NPC LAYOUT AFTER TALKING TO CHARLIE IN THE BASEMENT
 #define FLAG_UNUSED_0x49E                                           0x49E // Unused Flag
 #define FLAG_UNUSED_0x49F                                           0x49F // Unused Flag
 #define FLAG_UNUSED_0x4A0                                           0x4A0 // Unused Flag

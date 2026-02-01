@@ -95,15 +95,15 @@
 #define VAR_POKELOT_RND1                                 0x404B
 #define VAR_POKELOT_RND2                                 0x404C
 #define VAR_POKELOT_PRIZE_PLACE                          0x404D
-#define VAR_SPLIT1EVENTS                                 0x404E // CUSTOM VARIABLE RENAMED FROM UNUSED
+#define VAR_STARTER_CUTSCENE                             0x404E // CUSTOM VARIABLE RENAMED FROM UNUSED FOR LINEAR PROGRESSION IN THE FIRST SPLIT
 #define VAR_LOTAD_SIZE_RECORD                            0x404F
 #define VAR_LITTLEROOT_TOWN_STATE                        0x4050
 #define VAR_OLDALE_TOWN_STATE                            0x4051
-#define VAR_DEWFORD_TOWN_STATE                           0x4052 // Unused Var
+#define VAR_DOCKS_CUTSCENE                               0x4052 // CUSTOM VARIABLE RENAMED FROM UNUSED DEWFORD STATE. USED FOR DOCKS CUTSCENE
 #define VAR_LAVARIDGE_TOWN_STATE                         0x4053
 #define VAR_CURRENT_SECRET_BASE                          0x4054 // was probably allocated for VAR_FALLARBOR_TOWN_STATE at one point
-#define VAR_VERDANTURF_TOWN_STATE                        0x4055 // Unused Var
-#define VAR_PACIFIDLOG_TOWN_STATE                        0x4056 // Unused Var
+#define VAR_JOHN_MEETING_TRIGGER                         0x4055 // CUSTOM VARIABLE RENAMED FROM LAVARIDGE STATE. USED FOR TRIGGERING JOHN CONVERSATIONS
+#define VAR_ICEMOUNTAIN_EVENTS                           0x4056 // CUSTOM VARIABLE RENAMED FROM VERDANTURF (IDK ITS UNUSED). USED FOR TRIGGERING ALL ICE MOUNTAIN EVENTS LINEARLY
 #define VAR_PETALBURG_CITY_STATE                         0x4057
 #define VAR_SLATEPORT_CITY_STATE                         0x4058
 #define VAR_MAUVILLE_CITY_STATE                          0x4059 // Unused Var

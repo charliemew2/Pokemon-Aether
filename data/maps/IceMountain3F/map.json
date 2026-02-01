@@ -58,8 +58,8 @@
       "x": 10,
       "y": 8,
       "elevation": 0,
-      "var": "VAR_SPLIT1EVENTS",
-      "var_value": "4",
+      "var": "VAR_ICEMOUNTAIN_EVENTS",
+      "var_value": "0",
       "script": "IceMountain3F_EventScript_SayoAmbush"
     }
   ],

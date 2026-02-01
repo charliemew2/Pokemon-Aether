@@ -4465,7 +4465,7 @@
       "id": "LAYOUT_DOCKS",
       "name": "Docks_Layout",
       "width": 54,
-      "height": 26,
+      "height": 28,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Slateport",
       "border_filepath": "data/layouts/Docks/border.bin",
@@ -4474,7 +4474,7 @@
     {
       "id": "LAYOUT_DOCKS_WAREHOUSE",
       "name": "DocksWarehouse_Layout",
-      "width": 10,
+      "width": 12,
       "height": 10,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_BikeShop",

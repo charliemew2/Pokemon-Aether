@@ -56,7 +56,7 @@
       "x": 32,
       "y": 15,
       "elevation": 0,
-      "var": "VAR_SPLIT1EVENTS",
+      "var": "VAR_STARTER_CUTSCENE",
       "var_value": "1",
       "script": "ForestShrine_EventScript_MewLeadsPlayer"
     },
@@ -65,7 +65,7 @@
       "x": 8,
       "y": 11,
       "elevation": 0,
-      "var": "VAR_SPLIT1EVENTS",
+      "var": "VAR_STARTER_CUTSCENE",
       "var_value": "1",
       "script": "ForestShrine_EventScript_CheckShrine"
     },
@@ -74,7 +74,7 @@
       "x": 9,
       "y": 11,
       "elevation": 0,
-      "var": "VAR_SPLIT1EVENTS",
+      "var": "VAR_STARTER_CUTSCENE",
       "var_value": "1",
       "script": "ForestShrine_EventScript_CheckShrine"
     }

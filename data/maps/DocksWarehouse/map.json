@@ -13,8 +13,44 @@
   "show_map_name": true,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": null,
-  "object_events": [],
+  "object_events": [
+    {
+      "local_id": "LOCAL_ID_WAREHOUSE_GRUNT",
+      "graphics_id": "OBJ_EVENT_GFX_AQUA_MEMBER_M",
+      "x": 10,
+      "y": 3,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "DocksWarehouse_EventScript_PostExplosionConversation",
+      "flag": "FLAG_DOCKS_BASEMENT_CUTSCENE_DONE"
+    },
+    {
+      "local_id": "LOCAL_ID_WAREHOUSE_WORKER",
+      "graphics_id": "OBJ_EVENT_GFX_BLACK_BELT",
+      "x": 10,
+      "y": 4,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_UP",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "DocksWarehouse_EventScript_PostExplosionConversation",
+      "flag": "FLAG_DOCKS_BASEMENT_CUTSCENE_DONE"
+    }
+  ],
   "warp_events": [
+    {
+      "x": 6,
+      "y": 9,
+      "elevation": 0,
+      "dest_map": "MAP_DOCKS",
+      "dest_warp_id": "0"
+    },
     {
       "x": 5,
       "y": 9,
@@ -23,20 +59,23 @@
       "dest_warp_id": "0"
     },
     {
-      "x": 4,
-      "y": 9,
-      "elevation": 0,
-      "dest_map": "MAP_DOCKS",
-      "dest_warp_id": "0"
-    },
-    {
-      "x": 9,
+      "x": 10,
       "y": 2,
       "elevation": 0,
       "dest_map": "MAP_DOCKS_WAREHOUSE_BASEMENT",
       "dest_warp_id": "0"
     }
   ],
-  "coord_events": [],
+  "coord_events": [
+    {
+      "type": "trigger",
+      "x": 9,
+      "y": 2,
+      "elevation": 0,
+      "var": "VAR_DOCKS_CUTSCENE",
+      "var_value": "1",
+      "script": "DocksWarehouse_EventScript_SetRepelforCharlieCutscene"
+    }
+  ],
   "bg_events": []
 }

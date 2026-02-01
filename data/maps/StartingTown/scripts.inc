@@ -1,7 +1,15 @@
 StartingTown_MapScripts::
 	.byte 0
 
+@VAR_STARTER_CUTSCENE
+	@0 - Triggers from leaving your house and seeing Mew escort you to the FOREST
+	@1 - Triggers Mew seeing you in ForestShrine and guiding you to pick your Starter (Needed to trigger 1st Eve fight)
+	@2 - Triggers first Eve Rival Battle (From either tile)
+	@3 - Triggers from meeting Eve at the Docks + doing the Warehouse  with Charlie and Dawn and getting the Pokedex/SuperRod/Balls
+			@-Final Increment. Completing sequence unlocks the way forward and allows access to the first John fight
 
+@VAR_JOHN_MEETING_TRIGGER
+	@0 - First Rival Battle with John - Triggers after the Docks Events clear the blockers after Eve
 
 @SCRIPTS FOR OPENING CUTSCENE WHERE MEW BRINGS PLAYER TO THE FOREST TO GET STARTER
 
@@ -27,7 +35,7 @@ StartingTown_EventScript_MewSpotted::
 	applymovement LOCAL_ID_MEW_STARTGAME, StartingTown_Movement_MewMovementP2
 	waitmovement 0
 	removeobject LOCAL_ID_MEW_STARTGAME
-	addvar VAR_SPLIT1EVENTS, 1
+	addvar VAR_STARTER_CUTSCENE, 1
 	release
 	end
 
@@ -105,7 +113,7 @@ StartingTown_EventScript_JohnAmbush1::
 	waitmovement 0
 	removeobject LOCAL_ID_JOHN_STARTINGTOWN_RIVAL1
 	fadedefaultbgm
-	addvar VAR_SPLIT1EVENTS, 1
+	addvar VAR_JOHN_MEETING_TRIGGER, 1
 	release
 	end
 
@@ -253,7 +261,7 @@ StartingTown_EventScript_EvePostBattle1::
 	applymovement LOCAL_ID_EVESTARTINGTOWN, StartingTown_Movement_EveLeavesForDocks
 	waitmovement 0
 	removeobject LOCAL_ID_EVESTARTINGTOWN
-	addvar VAR_SPLIT1EVENTS, 1
+	addvar VAR_STARTER_CUTSCENE, 1
 	release
 	end
 

@@ -25,7 +25,7 @@ IceMountain3F_EventScript_SayoAmbush::
 	removeobject LOCAL_ID_SAYOICEMOUNTAIN
 	delay 5
 	fadedefaultbgm
-	addvar VAR_SPLIT1EVENTS, 1	
+	addvar VAR_STARTER_CUTSCENE, 1	
 	release
 	end
 
