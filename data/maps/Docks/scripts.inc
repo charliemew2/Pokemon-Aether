@@ -407,7 +407,7 @@ SouthernDocks_Text_DawnPostBoomPreWarehouseNPC::
 	.string "spend the first day of this trip...\p"
 	.string "If anything happened to our stuff\n"
 	.string "its gonna get really annoying!\p"
-	.string "What is the Professor gonna say?l"
+	.string "What is the Professor gonna say?\l"
 	.string "Hey, can you check on Charlie?\l"
 	.string "He ran into the warehouse to\n"
 	.string "see if our cargo was damaged.$"
