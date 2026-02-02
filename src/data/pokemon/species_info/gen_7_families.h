@@ -5364,6 +5364,7 @@ const struct SpeciesInfo gSpeciesInfoGen7[] =
             "scales. Metallic sounds echo through the\n"
             "tall mountains where Jangmo-o live. They\n"
             "grow little by little battling one another."),
+        .isFatefulEncounter = TRUE,
         .pokemonScale = 422,
         .pokemonOffset = 12,
         .trainerScale = 256,

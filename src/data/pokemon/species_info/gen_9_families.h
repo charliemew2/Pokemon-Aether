@@ -6117,6 +6117,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
             "craggy areas. Using the power of its\n"
             "dorsal fin, it cools the inside of its\n"
             "nest like a refrigerator."),
+        .isFatefulEncounter = TRUE,
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,

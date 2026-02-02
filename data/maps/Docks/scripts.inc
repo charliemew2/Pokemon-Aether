@@ -540,6 +540,7 @@ SouthernDocks_Text_BeautyVendorNPCPostBoomPreShop::
 SouthernDocks_EventScript_OldWomenNPCSeesBoom::
 	lock
 	faceplayer
+	goto_if_set FLAG_DOCKS_BASEMENT_CUTSCENE_DONE, SouthernDocks_EventScript_Pokemart
 	msgbox SouthernDocks_Text_OldWomenNPCSeesBoom, MSGBOX_DEFAULT
 	closemessage
 	release

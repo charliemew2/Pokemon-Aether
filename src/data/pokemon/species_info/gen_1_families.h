@@ -19957,6 +19957,7 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
             "off its old skin. It does so because the\n"
             "life energy within its body steadily builds\n"
             "to reach uncontrollable levels."),
+        .isFatefulEncounter = TRUE,
         .pokemonScale = 256,
         .pokemonOffset = 8,
         .trainerScale = 386,
