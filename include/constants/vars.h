@@ -106,7 +106,7 @@
 #define VAR_ICEMOUNTAIN_EVENTS                           0x4056 // CUSTOM VARIABLE RENAMED FROM VERDANTURF (IDK ITS UNUSED). USED FOR TRIGGERING ALL ICE MOUNTAIN EVENTS LINEARLY
 #define VAR_PETALBURG_CITY_STATE                         0x4057
 #define VAR_SLATEPORT_CITY_STATE                         0x4058
-#define VAR_MAUVILLE_CITY_STATE                          0x4059 // Unused Var
+#define VAR_MOVE_GUY_ROUTE_1                             0x4059 // CUSTOM VARIABLE RENAMED FROM MAUVILLE_STATE. USED FOR REMOVING GUY ON ROUTE 1 FROM MOUNTAIN SPRING ENTRANCE
 #define VAR_RUSTBORO_CITY_STATE                          0x405A
 #define VAR_FORTREE_CITY_STATE                           0x405B // Unused Var
 #define VAR_LILYCOVE_CITY_STATE                          0x405C // Unused Var

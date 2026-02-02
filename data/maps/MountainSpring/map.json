@@ -30,6 +30,16 @@
       "dest_warp_id": "0"
     }
   ],
-  "coord_events": [],
+  "coord_events": [
+    {
+      "type": "trigger",
+      "x": 5,
+      "y": 5,
+      "elevation": 0,
+      "var": "VAR_MOVE_GUY_ROUTE_1",
+      "var_value": "0",
+      "script": "MountainSpring_EventScript_ToggleConstructionGuardOutFront"
+    }
+  ],
   "bg_events": []
 }
