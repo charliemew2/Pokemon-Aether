@@ -45,3 +45,30 @@ DocksWarehouse_Text_TalktoGrunt3::
 DocksWarehouse_EventScript_SetRepelforCharlieCutscene::
 	setflag FLAG_REPELTOGGLE
 	end
+
+DocksWarehouse_EventScript_WarehouseWorkerPostCutscene::
+	lock
+	faceplayer
+	msgbox DocksWarehouse_Text_WarehouseWorkerPostCutsceneDialogue, MSGBOX_DEFAULT
+	closemessage
+	release
+	end
+
+DocksWarehouse_Text_WarehouseWorkerPostCutsceneDialogue::
+	.string "The generator will be easy enough\n"
+	.string "to repair.\p"
+	.string "Fixing the wall will be a whole\n"
+	.string "different story.\p"
+	.string "We're going to have wild Pokémon\n"
+	.string "getting through any barrier we\l"
+	.string "put up.\p"
+	.string "Hopefully we can fix it soon.\l"
+	.string "I have a headache. That guy who\n"
+	.string "was here earlier was supposed to\l"
+	.string "pick up his cargo.\p"
+	.string "Honestly between you and me, he\n"
+	.string "seemed kinda shady.\p"
+	.string "But his name was on the order and\n"
+	.string "everything.\p"
+	.string "My boss is gonna kill me. This has\n"
+	.string "been a miserable week already.$"

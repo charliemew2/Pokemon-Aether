@@ -41,6 +41,20 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "DocksWarehouse_EventScript_PostExplosionConversation",
       "flag": "FLAG_DOCKS_BASEMENT_CUTSCENE_DONE"
+    },
+    {
+      "local_id": "LOCAL_ID_WAREHOUSE_WORKER_AFTERBOOM",
+      "graphics_id": "OBJ_EVENT_GFX_BLACK_BELT",
+      "x": 9,
+      "y": 6,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 2,
+      "movement_range_y": 1,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "DocksWarehouse_EventScript_WarehouseWorkerPostCutscene",
+      "flag": "FLAG_DOCKS_BLOCKDOCKS"
     }
   ],
   "warp_events": [

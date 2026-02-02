@@ -88,7 +88,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "SouthernDocks_EventScript_TalkToSailorPostBoom",
-      "flag": "FLAG_DOCKS_HIDENPCDURINGCUTSCENE"
+      "flag": "0"
     },
     {
       "local_id": "LOCAL_ID_EVEDOCKSPOSTBOOMPREWAREHOUSE",
@@ -191,12 +191,12 @@
     {
       "local_id": "LOCAL_ID_SOUTHERNDOCKSSAILOR1NPC",
       "graphics_id": "OBJ_EVENT_GFX_SAILOR",
-      "x": 45,
+      "x": 42,
       "y": 13,
       "elevation": 0,
       "movement_type": "MOVEMENT_TYPE_WANDER_AROUND",
-      "movement_range_x": 3,
-      "movement_range_y": 3,
+      "movement_range_x": 4,
+      "movement_range_y": 2,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "SouthernDocks_EventScript_Sailor1NPCExplosion",
@@ -275,16 +275,44 @@
     {
       "local_id": "LOCAL_ID_DOCKSMANNPC",
       "graphics_id": "OBJ_EVENT_GFX_MAN_1",
-      "x": 9,
-      "y": 16,
+      "x": 7,
+      "y": 12,
       "elevation": 0,
       "movement_type": "MOVEMENT_TYPE_WANDER_AROUND",
-      "movement_range_x": 2,
-      "movement_range_y": 1,
+      "movement_range_x": 1,
+      "movement_range_y": 2,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "SouthernDocks_EventScript_DocksManNPCDialogue",
       "flag": "0"
+    },
+    {
+      "local_id": "LOCAL_ID_CHARLIEDOCKSAFTERBASEMENT",
+      "graphics_id": "OBJ_EVENT_GFX_RED",
+      "x": 35,
+      "y": 13,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "SouthernDocks_EventScript_CharliePostDocksIntroText",
+      "flag": "FLAG_DOCKS_EVENTS_FINISHED_GET_POKEDEX"
+    },
+    {
+      "local_id": "LOCAL_ID_DAWNDOCKSAFTERBASEMENT",
+      "graphics_id": "OBJ_EVENT_GFX_LINK_MAY",
+      "x": 36,
+      "y": 13,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "SouthernDocks_EventScript_DawnPostDocksIntroText",
+      "flag": "FLAG_DOCKS_EVENTS_FINISHED_GET_POKEDEX"
     }
   ],
   "warp_events": [

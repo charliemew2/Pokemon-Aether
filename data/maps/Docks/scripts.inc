@@ -35,6 +35,7 @@ SouthernDocks_EventScript_EveEscortToShip::
 	lock
 	setflag FLAG_DOCKS_HIDENPCDURINGCUTSCENE
 	setflag FLAG_DOCKS_HIDENPCAFTERDOCKSEVENTS
+	setflag FLAG_DOCKS_EVENTS_FINISHED_GET_POKEDEX
 	applymovement LOCAL_ID_EVESOUTHERNDOCKS, Common_Movement_FaceLeft
 	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_FaceRight
 	msgbox SouthernDocks_Text_PlayerMeetsEveAtDocks, MSGBOX_DEFAULT
@@ -379,6 +380,7 @@ SouthernDocks_EventScript_TalkToDawnPostBoom::
 SouthernDocks_EventScript_TalkToSailorPostBoom::
 	lock
 	faceplayer
+	goto_if_ge VAR_DOCKS_CUTSCENE, 3 SouthernDocks_EventScript_DocksSailorWarehouseNPCDialogue
 	msgbox SouthernDocks_Text_SailorPostBoomTalkToDawn, MSGBOX_DEFAULT
 	closemessage
 	applymovement LOCAL_ID_SAILORPOSTBOOMWAREHOUSETALKDAWN, Common_Movement_FaceRight
@@ -519,20 +521,117 @@ SouthernDocks_Text_OldWomenNPCSeesBoom::
 
 SouthernDocks_EventScript_PostBasementCutscene::
 	lock
+	playse SE_PIN
+	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_ExclamationMark
+	waitmovement 0
+	delay 16
+	delay 16
+	delay 16
+	applymovement OBJ_EVENT_ID_PLAYER, SouthernDocks_Movement_PlayerWalksUptoDawnCharlie
+	waitmovement 0
+	delay 16
+	applymovement LOCAL_ID_DAWNDOCKSAFTERBASEMENT, Common_Movement_FaceUp
+	applymovement LOCAL_ID_CHARLIEDOCKSAFTERBASEMENT, Common_Movement_FaceUp
+	waitmovement 0
 	msgbox SouthernDocks_Text_CharlieDawnPostBasement1, MSGBOX_DEFAULT
 	closemessage
-	call SouthernDocks_giveitem_POKEDEX
+	applymovement LOCAL_ID_DAWNDOCKSAFTERBASEMENT, SouthernDocks_Movement_DawnGivesItem
+	waitmovement 0
+	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_FaceRight
+	waitmovement 0
+	delay 8
 	msgbox SouthernDocks_Text_CharlieDawnPostBasement2, MSGBOX_DEFAULT
+	call SouthernDocks_giveitem_TownMap
+	msgbox SouthernDocks_Text_CharlieDawnPostBasement3, MSGBOX_DEFAULT
+	delay 8
+	call SouthernDocks_giveitem_POKEDEX
 	closemessage
+	delay 8
+	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_FaceDown
+	applymovement LOCAL_ID_DAWNDOCKSAFTERBASEMENT, SouthernDocks_Movement_DawnGoesBacktoSpotAfterPokedex
+	waitmovement 0
+	msgbox SouthernDocks_Text_CharlieDawnPostBasement4, MSGBOX_DEFAULT
+	closemessage
+	applymovement LOCAL_ID_CHARLIEDOCKSAFTERBASEMENT, Common_Movement_FaceRight
+	applymovement LOCAL_ID_DAWNDOCKSAFTERBASEMENT, Common_Movement_FaceLeft
+	waitmovement 0
+	clearflag FLAG_REPELTOGGLE
 	addvar VAR_STARTER_CUTSCENE 1
 	addvar VAR_DOCKS_CUTSCENE 1
 	release
 	end
 
+SouthernDocks_Movement_PlayerWalksUptoDawnCharlie::
+	walk_down
+	walk_down
+	walk_down
+	step_end
+
 SouthernDocks_Text_CharlieDawnPostBasement1::
-	.string "Test 1$"
+	.string "Charlie: Oh hey {PLAYER}! Your\n" 
+	.string "friend seems to have left.\p"
+	.string "Dawn: They seemed like they were\n"
+	.string "nervous about something. \p"
+	.string "Their face got real pale when this\n"
+	.string "guy came storming out of the\l"
+	.string "warehouse a few moments ago.\p"
+	.string "Charlie: You know...I just realized\n"
+	.string "that in all the crazyness, I forgot\l"
+	.string "to introduce myself!\p"
+	.string "I'm Charlie. I'm a Pokemon Trainer.\l"
+	.string "I'm from Olivine City in Johto, but\n"
+	.string "I've lived in Hoenn for the last\l"
+	.string "several years.\p"
+	.string "Dawn: And I'm Dawn. I'm from Sinnoh,\n"
+	.string "as I said before, but I've taken\l"
+	.string "residence in Kalos as of late.\p"
+	.string "I'm a fashion designer and trainer.\l"
+	.string "Your name is {PLAYER} yes? And\n"
+	.string "your friend is?...Eve. I see.\p"
+	.string "Charlie: Are you going to go catch\n"
+	.string "up with your friend?\p"
+	.string "I heard them mutter something about\n"
+	.string "the ICEMOUNTAIN before they ran\l"
+	.string "off in a hurry.\p"
+	.string "...\l"
+	.string "Charlie: Huh? You don't know how to\n"
+	.string "get there?\p"
+	.string "Dawn: Oh I see...you've never really\n"
+	.string "gotten to travel before.$"
+
+SouthernDocks_Movement_DawnGivesItem::
+	walk_up
+	face_left
+	step_end
+
+SouthernDocks_Movement_DawnGivesItem2::
+	walk_in_place_left
+	step_end
+
+SouthernDocks_Text_CharlieDawnPostBasement2::
+	.string "Dawn: Here. If you're going to be\n"
+	.string "looking for your friend, you may\l"
+	.string "want this to help you get around.\p"
+	.string "They had these on the boat so I\n"
+	.string "took a few for Charlie and I.\p"
+	.string "You can have one!$"
+
+SouthernDocks_giveitem_TownMap::
+	applymovement LOCAL_ID_DAWNDOCKSAFTERBASEMENT, SouthernDocks_Movement_DawnGivesItem2
+	waitmovement 0
+	playfanfare MUS_OBTAIN_ITEM
+	giveitem ITEM_TOWN_MAP
+	waitfanfare
+	return
+
+SouthernDocks_Text_CharlieDawnPostBasement3::
+	.string "Dawn: And...take one of these. No\n"
+	.string "trainer would be caught dead \l"
+	.string "without one.$"
 
 SouthernDocks_giveitem_POKEDEX::
+	applymovement LOCAL_ID_DAWNDOCKSAFTERBASEMENT, SouthernDocks_Movement_DawnGivesItem2
+	waitmovement 0
 	playfanfare MUS_OBTAIN_ITEM
 	msgbox SouthernDocks_Text_GotPokedex, MSGBOX_DEFAULT
 	waitfanfare
@@ -545,9 +644,28 @@ SouthernDocks_giveitem_POKEDEX::
 SouthernDocks_Text_GotPokedex::
 	.string "You recieved a Pokédex from Dawn!$"
 
-SouthernDocks_Text_CharlieDawnPostBasement2::
-	.string "Test 2$"
+SouthernDocks_Movement_DawnGoesBacktoSpotAfterPokedex::
+	walk_down
+	face_up
+	step_end
 
+SouthernDocks_Text_CharlieDawnPostBasement4::
+	.string "Charlie: It was nice to meet you\n"
+	.string "{PLAYER}! We're supposed to be\l"
+	.string "staying at the Observatory to the\l"
+	.string "northeast of MYREIGON.\p"
+	.string "Dawn: I apologize that our meeting\n"
+	.string "was a bit haphazard. Next time we\l"
+	.string "will be a bit more relaxed - I hope!\p"
+	.string "Charlie: We'll be waiting here until\n"
+	.string "our escort arrives to guide us. In\l"
+	.string "the mean time, you better go find\l"
+	.string "your friend!\p"
+	.string "Dawn: Good luck {PLAYER}!\l"
+	.string "Charlie: And don't worry about\n"
+	.string "what happened. We'll figure it out.\p"
+	.string "We've both gotten out of more\n"
+	.string "sticky situations than this!$"
 
 @ STANDARD NPC DIALOGUE - UNCHANGED
 
@@ -607,6 +725,34 @@ SouthernDocks_Text_DocksManNPCDialogue::
 	.string "primary transport point for most\l"
 	.string "international travel in MYREGION.$"
 
+SouthernDocks_EventScript_DocksSailorWarehouseNPCDialogue::
+	lock
+	faceplayer
+	msgbox SouthernDocks_Text_DocksSailor4NPCDialogue, MSGBOX_DEFAULT
+	closemessage
+	release
+	end
+
+SouthernDocks_Text_DocksSailor4NPCDialogue::
+	.string "Ugh, wild Pokemon are living in the\n"
+	.string "basement already.\p"
+	.string "It's going to take us ages to fix\n"
+	.string "the damage done to the wall.\p"
+	.string "It's like something blasted its\n"
+	.string "way through the wall and dug\l"
+	.string "right to the surface!\p"
+	.string "What the heck was this cargo?\l"
+	.string "Those two down there were really\n"
+	.string "worried about it...but we always\l"
+	.string "screen cargo and found nothing\l"
+	.string "dangerous in the crate that\l"
+	.string "contained it.\p"
+	.string "Maybe someone tried to steal it by\n"
+	.string "digging into the warehouse?\p"
+	.string "Well, whatever. It's gone now, and\n"
+	.string "nobody got hurt. Coulda just been\l"
+	.string "nothing I guess.\p"
+	.string "Jeez, I need a raise...$"
 
 @ FISHERMAN GIVES SUPER ROD
 
@@ -640,8 +786,8 @@ SouthernDocks_Text_PreGivingSuperRodText::
 SouthernDocks_Text_FishermanGiveSuperRod::
 	.string "Hey you! Glad that nobody was\n"
 	.string	"injured earlier.\p"
-	.string "Hmm? I don't look like a dockhand.\l"
-	.string "You are right!\l"
+	.string "Hmm? I don't look like a dockhand?\n"
+	.string "You are right!\p"
 	.string "I'm a local fisherman.\l"
 	.string "I catch and sell my goods seven\n"
 	.string "days a week!\p"
@@ -716,4 +862,57 @@ SouthernDocks_Text_ByeByeNurse::
 	.string "Oh no worries! Good luck!\l"
 	.string "Please stay safe out there!$"
 
-@TEST FOR NPC XYZ PERM
+
+@ Charlie and Dawn Dialogue post Docks Cutscenes Start of GAME
+
+SouthernDocks_EventScript_CharliePostDocksIntroText::
+	lock
+	faceplayer
+	msgbox SouthernDocks_Text_CharliePostDocksIntroText, MSGBOX_DEFAULT
+	closemessage
+	applymovement LOCAL_ID_CHARLIEDOCKSAFTERBASEMENT, Common_Movement_FaceRight
+	waitmovement 0
+	release
+	end
+
+SouthernDocks_Text_CharliePostDocksIntroText::
+	.string "We're going to ask around and try\n"
+	.string "to get some help finding our\l"
+	.string "lost cargo.\p"
+	.string "Your friend said something about\n"
+	.string "going towards ICYTOWN.\p"
+	.string "Its north of here according\n"
+	.string "to the map.\p"
+	.string "Hey my advice? Enjoy your early\n"
+	.string "days as a trainer.\p"
+	.string "You'll never know what kinds of\n"
+	.string "experiences you will have.\p"
+	.string "Maybe we'll meet sometime again!\l"
+	.string "Dawn and I were planning to stay\n"
+	.string "here for quite a while!$"
+
+SouthernDocks_EventScript_DawnPostDocksIntroText::
+	lock
+	faceplayer
+	msgbox SouthernDocks_Text_DawnPostDocksIntroText, MSGBOX_DEFAULT
+	closemessage
+	applymovement LOCAL_ID_DAWNDOCKSAFTERBASEMENT, Common_Movement_FaceLeft
+	waitmovement 0
+	release
+	end
+
+SouthernDocks_Text_DawnPostDocksIntroText::
+	.string "How old are you, {PLAYER}?\l"
+	.string "17? Wow! You know, it's never\n"
+	.string "too late to become a trainer.\p"
+	.string "In Sinnoh, most kids become\n"
+	.string "trainers at only 10 years old.\p"
+	.string "Oh did I become a trainer that\n"
+	.string "young?\p"
+	.string "Sure did. I've been a trainer\n"
+	.string "for a very long time now.\p"
+	.string "Maybe once you get strong, we\n"
+	.string "can have a battle.\p"
+	.string "Hopefully all this business can\n"
+	.string "get sorted out soon. There's a\l"
+	.string "lot I want to see in MYREGION.$"
