@@ -1233,7 +1233,7 @@
 #define FLAG_DOCKS_HIDENPCAFTERDOCKSEVENTS                          0x49B // CUSTOM FLAG FOR HIDING NPCS AFTER THE DOCKS CUTSCENE IS DONE
 #define FLAG_DOCKS_HIDENPCDURINGCUTSCENE                            0x49C // CUSTOM FLAG FOR HIDING NPCS DURING CUTSCENE OF DOCKS
 #define FLAG_DOCKS_BASEMENT_CUTSCENE_DONE                           0x49D // CUSTOM FLAG FOR CHANGING NPC LAYOUT AFTER TALKING TO CHARLIE IN THE BASEMENT
-#define FLAG_DOCKS_EVENTS_FINISHED_GET_POKEDEX                      0x49E // Unused Flag
+#define FLAG_DOCKS_EVENTS_FINISHED_GET_POKEDEX                      0x49E // CUSTOM FLAG FOR SETTING ALL DOCKS FLAGS TO WHAT THEY SHOULD BE POST TUTORIAL
 #define FLAG_UNUSED_0x49F                                           0x49F // Unused Flag
 #define FLAG_UNUSED_0x4A0                                           0x4A0 // Unused Flag
 #define FLAG_UNUSED_0x4A1                                           0x4A1 // Unused Flag

@@ -474,6 +474,7 @@ SouthernDocks_Text_Sailor3NPCExplosion::
 SouthernDocks_EventScript_GuyByBoxesSeesBoom::
 	lock
 	faceplayer
+	goto_if_set FLAG_DOCKS_BASEMENT_CUTSCENE_DONE, SouthernDocks_Text_GuybyBoxesPostCutscene
 	msgbox SouthernDocks_Text_GuyByBoxesSeesBoom, MSGBOX_DEFAULT
 	closemessage
 	applymovement LOCAL_ID_SOUTHERNDOCKSGUYBYBOXESCUTSCENE, Common_Movement_FaceUp
@@ -481,11 +482,28 @@ SouthernDocks_EventScript_GuyByBoxesSeesBoom::
 	release
 	end
 
+SouthernDocks_EventScript_GuybyBoxesPostCutscene::
+	lock
+	faceplayer
+	msgbox SouthernDocks_Text_GuybyBoxesPostCutscene, MSGBOX_DEFAULT
+	closemessage
+	release
+	end
+
 SouthernDocks_Text_GuyByBoxesSeesBoom::
 	.string "It's rare that they have any\n"
 	.string "huge accidents here at the port.\p"
 	.string "I hope everyone's ok!$"
-	
+
+SouthernDocks_Text_GuybyBoxesPostCutscene::
+	.string "This dock is normally really busy.\l"
+	.string "There's accidents every so often\n"
+	.string "so what just happened isn't too \l"
+	.string "out of the ordinary, I suppose.\p"
+	.string "Hopefully the generator can be\n"
+	.string "fixed and shipments can keep on\l"
+	.string "moving!$"
+
 SouthernDocks_EventScript_BeautyVendorNPCSeesBoom::
 	lock
 	faceplayer
@@ -502,6 +520,23 @@ SouthernDocks_Text_BeautyVendorNPCSeesBoom::
 	.string "This kind of thing is rare, but\n"
 	.string "its a fright when it happens!$"
 
+SouthernDocks_EventScript_BeautyVendorNPCPostBoomPreShop::
+	lock
+	faceplayer
+	msgbox SouthernDocks_Text_BeautyVendorNPCPostBoomPreShop, MSGBOX_DEFAULT
+	closemessage
+	release
+	end
+
+SouthernDocks_Text_BeautyVendorNPCPostBoomPreShop::
+	.string "That big accident was more than\n"
+	.string "enough excitement for me today!\p"
+	.string "Ah! Would you like to buy any\n"
+	.string "flowers?\p"
+	.string "Is what I would say, but I'm still\n"
+	.string "getting my stall set up.\p"
+	.string "Come by again some other time!$"
+
 SouthernDocks_EventScript_OldWomenNPCSeesBoom::
 	lock
 	faceplayer
@@ -511,12 +546,13 @@ SouthernDocks_EventScript_OldWomenNPCSeesBoom::
 	end
 
 SouthernDocks_Text_OldWomenNPCSeesBoom::
-	.string "Oh goodness. This harbor is always\n"
-	.string "so lively!\p"
-	.string "Did you come to see the boats?\l"
-	.string "I used to bring my grandchild\n"
-	.string "out here to watch them.$"
-
+	.string "I was in the middle of setting up\n"
+	.string "my shop for the day when that\l"
+	.string "dreadful BOOM lit up my old\l"
+	.string "eardrums!\p"
+	.string "Come back and see me later ok\n"
+	.string "dearie? I should be open then.$"
+	
 @ CUTSCENE WITH CHARLIE AND DAWN - RECIEVE POKEDEX - ALLOWS PROGRESSION NORTHWARD
 
 SouthernDocks_EventScript_PostBasementCutscene::
@@ -653,7 +689,7 @@ SouthernDocks_Text_CharlieDawnPostBasement4::
 	.string "Charlie: It was nice to meet you\n"
 	.string "{PLAYER}! We're supposed to be\l"
 	.string "staying at the Observatory to the\l"
-	.string "northeast of MYREIGON.\p"
+	.string "northwest of MYREIGON.\p"
 	.string "Dawn: I apologize that our meeting\n"
 	.string "was a bit haphazard. Next time we\l"
 	.string "will be a bit more relaxed - I hope!\p"
@@ -916,3 +952,32 @@ SouthernDocks_Text_DawnPostDocksIntroText::
 	.string "Hopefully all this business can\n"
 	.string "get sorted out soon. There's a\l"
 	.string "lot I want to see in MYREGION.$"
+
+@DOCKS MARKET SCRIPT
+
+SouthernDocks_EventScript_Pokemart::
+	lock
+	faceplayer
+	msgbox SouthernDocks_Text_PokemartOldLadyGreeting, MSGBOX_DEFAULT
+	waitmessage
+	pokemart SouthernDocks__Pokemart
+	msgbox SouthernDocks_Text_PokemartOldLadyFarewell, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+SouthernDocks__Pokemart:
+	.2byte ITEM_POKE_BALL
+	.2byte 
+	pokemartlistend
+
+SouthernDocks_Text_PokemartOldLadyGreeting::
+	.string "Hello dearie!\l"
+	.string "I run a meager shop here on the\n"
+	.string "docks. I see you are a trainer?\p"
+	.string "Would you care to purchase any of\n"
+	.string "my wares? You may find them\l"
+	.string "useful if you are going far away!$"
+
+SouthernDocks_Text_PokemartOldLadyFarewell::
+	.string "You go and have fun now, ok?$"

@@ -29,6 +29,16 @@
       "dest_warp_id": "2"
     }
   ],
-  "coord_events": [],
+  "coord_events": [
+    {
+      "type": "trigger",
+      "x": 31,
+      "y": 11,
+      "elevation": 0,
+      "var": "VAR_ICEMOUNTAIN_EVENTS",
+      "var_value": "1",
+      "script": "IceMountainTown_EventScript_JennyConversationFindKristine"
+    }
+  ],
   "bg_events": []
 }

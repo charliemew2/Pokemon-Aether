@@ -1,6 +1,11 @@
 IceMountainPath_MapScripts::
 	.byte 0
 
+@VAR_ICE_MOUNTAIN_EVENTS LISTING
+	@0 - Triggers the first Sayo Fight on F3
+	@1 - Unblocks the Avalanche in ICYTOWN to allow passage up the mountain
+	@2 - Allows the Grunt to attack the player on the path
+	@3 - Kristine defeated - activates Jenny and her make up Cutscene - FINAL VARIABLE
 
 IceMountainPath_EventScript_Grunt1Ambush::
 	lock
@@ -20,7 +25,7 @@ IceMountainPath_EventScript_Grunt1Ambush::
 	removeobject LOCAL_ID_GRUNT1
 	delay 5
 	fadedefaultbgm
-	addvar VAR_STARTER_CUTSCENE, 1	
+	addvar VAR_ICEMOUNTAIN_EVENTS, 1	
 	release
 	end
 

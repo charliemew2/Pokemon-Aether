@@ -66,8 +66,8 @@ StartingTown_EventScript_YouMustGetStarter::
 	msgbox StartingTown_Text_YouShallNotPassTillYouHaveStarter, MSGBOX_DEFAULT
 	closemessage
 	getplayerxy VAR_TEMP_3, VAR_TEMP_4
-	call_if_eq VAR_TEMP_4, 15, StartingTown_EventScript_KickPlayerbackLeft
-	call_if_eq VAR_TEMP_4, 16, StartingTown_EventScript_KickPlayerbackUp
+	call_if_eq VAR_TEMP_4, 21, StartingTown_EventScript_KickPlayerbackLeft
+	call_if_eq VAR_TEMP_4, 22, StartingTown_EventScript_KickPlayerbackUp
 	release
 	end
 
@@ -100,15 +100,15 @@ StartingTown_EventScript_JohnAmbush1::
 	applymovement LOCAL_ID_JOHN_STARTINGTOWN_RIVAL1, StartingTown_Movement_JohnApproachesFirstRivalBattle
 	waitmovement 0
 	getplayerxy VAR_TEMP_3, VAR_TEMP_4
-	call_if_eq VAR_TEMP_4, 13, StartingTown_EventScript_JohnAlignPlayer
+	call_if_eq VAR_TEMP_4, 19, StartingTown_EventScript_JohnAlignPlayer
 	msgbox StartingTown_Text_JohnFirstRivalBattleIntro, MSGBOX_DEFAULT
 	trainerbattle_no_intro TRAINER_RIVAL_JOHN_1, StartingTown_Text_JohnFirstRivalBattleDefeat
 	msgbox StartingTown_Text_JohnFirstRivalBattlePostBattle, MSGBOX_DEFAULT
 	closemessage
 	getplayerxy VAR_TEMP_3, VAR_TEMP_4
-	call_if_eq VAR_TEMP_4, 13, StartingTown_EventScript_JohnLeavesAfterRival1TopTile
+	call_if_eq VAR_TEMP_4, 19, StartingTown_EventScript_JohnLeavesAfterRival1TopTile
 	getplayerxy VAR_TEMP_3, VAR_TEMP_4
-	call_if_eq VAR_TEMP_4, 14, StartingTown_EventScript_JohnLeavesAfterRival1BottomTile
+	call_if_eq VAR_TEMP_4, 20, StartingTown_EventScript_JohnLeavesAfterRival1BottomTile
 	applymovement LOCAL_ID_JOHN_STARTINGTOWN_RIVAL1, StartingTown_Movement_JohnLeavesAfterRival1
 	waitmovement 0
 	removeobject LOCAL_ID_JOHN_STARTINGTOWN_RIVAL1
@@ -155,6 +155,7 @@ StartingTown_Text_JohnFirstRivalBattlePostBattle::
 	.string "Farewell.$"
 
 StartingTown_Movement_JohnApproachesFirstRivalBattle::
+	walk_up
 	walk_up
 	walk_up
 	walk_up
@@ -237,9 +238,9 @@ StartingTown_EventScript_EveMeetsPlayerForBattle1::
 	waitmovement 0
 	delay 32
 	getplayerxy VAR_TEMP_3, VAR_TEMP_4
-	call_if_eq VAR_TEMP_4, 27, StartingTown_EventScript_EveWalksToPlayerTopTile
+	call_if_eq VAR_TEMP_4, 33, StartingTown_EventScript_EveWalksToPlayerTopTile
 	getplayerxy VAR_TEMP_3, VAR_TEMP_4
-	call_if_eq VAR_TEMP_4, 28, StartingTown_EventScript_EveWalksToPlayerBottomTile
+	call_if_eq VAR_TEMP_4, 34, StartingTown_EventScript_EveWalksToPlayerBottomTile
 	msgbox StartingTown_Text_EvePreBattle1, MSGBOX_DEFAULT
 	switch VAR_STARTER_MON
 	case 0, StartingTown_EventScript_BattleEveDratini
@@ -354,7 +355,7 @@ StartingTown_EventScript_KickPlayerTillDocks::
 	msgbox StartingTown_Text_YouShallNotPassTillFinishDocks, MSGBOX_DEFAULT
 	closemessage
 	getplayerxy VAR_TEMP_3, VAR_TEMP_4
-	call_if_eq VAR_TEMP_4, 26, StartingTown_EventScript_KickPlayerbackDown
+	call_if_eq VAR_TEMP_4, 32, StartingTown_EventScript_KickPlayerbackDown
 	call_if_eq VAR_TEMP_3, 27, StartingTown_EventScript_KickPlayerbackLeft
 	release
 	end

@@ -15,7 +15,7 @@
   "connections": [
     {
       "map": "MAP_STARTING_TOWN",
-      "offset": 16,
+      "offset": 10,
       "direction": "right"
     }
   ],
