@@ -63,14 +63,14 @@ Route102_EventScript_Rick::
 	msgbox Route102_Text_RickPostBattle, MSGBOX_AUTOCLOSE
 	end
 
-Route102_EventScript_Tiana::
-	trainerbattle_single TRAINER_TIANA, Route102_Text_TianaIntro, Route102_Text_TianaDefeated
-	msgbox Route102_Text_TianaPostBattle, MSGBOX_AUTOCLOSE
+Route102_EventScript_BENSON::
+	trainerbattle_single TRAINER_BENSON, Route1_text_BensonIntro, Route1_text_BensonDefeated
+	msgbox Route1_text_BensonPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route102_EventScript_Allen::
-	trainerbattle_single TRAINER_ALLEN, Route102_Text_AllenIntro, Route102_Text_AllenDefeated
-	msgbox Route102_Text_AllenPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_DAVID, Route1_text_DavidIntro, Route1_text_DavidDefeated
+	msgbox Route1_text_DavidPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route102_Text_WatchMeCatchPokemon:

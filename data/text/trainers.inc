@@ -40,17 +40,20 @@ Route102_Text_CalvinRematchPostBattle:
 	.string "If you're going to get stronger,\n"
 	.string "I'll get stronger, too.$"
 
-Route102_Text_AllenIntro:
-	.string "Did you just become a TRAINER?\n"
-	.string "We're both beginners!$"
+Route1_text_DavidIntro:
+	.string "I just started the hike up this\n"
+	.string "mountain!\p"
+	.string "It's apparently the tallest in\n"
+	.string "the region!\p"
+	.string "You're just another obstacle!$"
 
-Route102_Text_AllenDefeated:
-	.string "I called you because I thought\n"
-	.string "I could beat you…$"
+Route1_text_DavidDefeated:
+	.string "Wait...Time out! I'm out of breath!$"
 
-Route102_Text_AllenPostBattle:
-	.string "I haven't won once yet…\n"
-	.string "I wish I would win soon…$"
+Route1_text_DavidPostBattle:
+	.string "Battling is just as exhausting as\n"
+	.string "climbing...\p"
+	.string "I want to go home!$"
 
 Route102_Text_RickIntro:
 	.string "Hahah! Our eyes met!\n"
@@ -63,17 +66,22 @@ Route102_Text_RickPostBattle:
 	.string "If you lock eyes with a TRAINER,\n"
 	.string "you have to challenge! It's a rule!$"
 
-Route102_Text_TianaIntro:
-	.string "I'm going to keep winning and aim\n"
-	.string "to be the best TRAINER.\p"
-	.string "Help me further my career!$"
+Route1_text_BensonIntro:
+	.string "Camping is fun! Its especially fun\n"
+	.string "when you can battle all your\l"
+	.string "friends with your Pokémon!$"
 
-Route102_Text_TianaDefeated:
-	.string "I ended up furthering your career…$"
+Route1_text_BensonDefeated:
+	.string "This isn't as fun when I'm battling\n"
+	.string "a stranger...$"
 
-Route102_Text_TianaPostBattle:
-	.string "To keep winning my way up, I see that\n"
-	.string "I have to catch more POKéMON.$"
+Route1_text_BensonPostBattle:
+	.string "You're strong! You should join my\n"
+	.string "camping troupe!\p"
+	.string "Where are they?\l"
+	.string "Uh...well I may have gotten lost\n"
+	.string "earlier. It's fine though! I'll find\l"
+	.string "my way back!$"
 
 Route103_Text_DaisyIntro:
 	.string "Did you feel the tug of our\n"
@@ -351,16 +359,24 @@ Route104_Text_HaleyPostRematch:
 	.string "I can accept this loss with grace.\p"
 	.string "I am still upset about losing!$"
 
-Route104_Text_WinstonIntro:
-	.string "Oh, sure, I'll accept your challenge.\n"
-	.string "I have a lot of money.$"
+Route1_Text_YodelIntro:
+	.string "YODELAYHEEHOO!\l"
+	.string "They say yodeling is an ancient\n"
+	.string "art form.\p"
+	.string "If you yodel loud enough, you'll\n"
+	.string "never get lost because everyone\l"
+	.string "will know where you are!$"
 
-Route104_Text_WinstonDefeat:
-	.string "Why couldn't I win?$"
+Route1_Text_YodelDefeat:
+	.string "The noise didn't help me win...$"
 
-Route104_Text_WinstonPostBattle:
-	.string "There are some things money can't buy.\n"
-	.string "That's POKéMON…$"
+Route1_Text_YodelPostBattle:
+	.string "Maybe I should consider bringing\n"
+	.string "some stronger Pokémon to help me\l"
+	.string "climb through the valleys.\p"
+	.string "It's probably a better idea than\n"
+	.string "yelling and yodelin, and then\l"
+	.string "waiting for help.$"
 
 Route104_Text_WinstonRegister1:
 	.string "Hm?\n"

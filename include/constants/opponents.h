@@ -139,7 +139,7 @@
 #define TRAINER_JESSICA_3                   133
 #define TRAINER_JESSICA_4                   134
 #define TRAINER_JESSICA_5                   135
-#define TRAINER_WINSTON_1                   136
+#define TRAINER_YODEL                       136 //Ive commented out Winston's ability to ask for a registration in the Pokenav. Will ask about best practice for trainers with rematches. This is Winston_1 in vanilla
 #define TRAINER_MOLLIE                      137
 #define TRAINER_GARRET                      138
 #define TRAINER_WINSTON_2                   139
@@ -322,7 +322,7 @@
 #define TRAINER_SHELBY_4                    316
 #define TRAINER_SHELBY_5                    317
 #define TRAINER_SAYO_1                      318
-#define TRAINER_GRUNT_1                     319
+#define TRAINER_GRUNT_1                     319 //bit out of order - this is formerly youngster Billy
 #define TRAINER_JOSH                        320
 #define TRAINER_TOMMY                       321
 #define TRAINER_JOEY                        322
@@ -336,7 +336,7 @@
 #define TRAINER_CALVIN_4                    330
 #define TRAINER_CALVIN_5                    331
 #define TRAINER_EDDIE                       332
-#define TRAINER_ALLEN                       333
+#define TRAINER_CAMPERDAVID                 333
 #define TRAINER_TIMMY                       334
 #define TRAINER_WALLACE                     335
 #define TRAINER_ANDREW                      336
@@ -606,7 +606,7 @@
 #define TRAINER_MAY_RUSTBORO_MUDKIP         600
 #define TRAINER_MAXIE_MAGMA_HIDEOUT         601
 #define TRAINER_MAXIE_MT_CHIMNEY            602
-#define TRAINER_TIANA                       603
+#define TRAINER_BENSON                       603
 #define TRAINER_HALEY_1                     604
 #define TRAINER_JANICE                      605
 #define TRAINER_VIVI                        606

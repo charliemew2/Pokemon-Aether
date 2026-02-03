@@ -2517,19 +2517,43 @@ IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 - Glare
 - Crunch
 
-=== TRAINER_WINSTON_1 ===
-Name: WINSTON
-Class: Rich Boy
-Pic: Rich Boy
+=== TRAINER_YODEL ===
+Name: Yodel
+Class: Hiker
+Pic: Hiker
 Gender: Male
-Music: Rich
-Items: Full Restore
+Music: Hiker
+Items: None
 Double Battle: No
 AI: Check Bad Move
 
-Zigzagoon @ Nugget
+Rolycoly @ Passho Berry
+Ability: Steam Engine
 Level: 7
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Nature: Adamant
+-Temper Flare
+-Rock Blast
+-Iron Head
+
+Roggenrola @ Weakness Policy
+Ability: Sturdy
+Level: 8
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Nature: Jolly
+-Rock Slide
+-Rock Polish
+-Body Press
+
+Larvitar @ Flame Orb
+Ability: Guts
+Level: 8
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Nature: Adamant
+-Dragon Dance
+-Rock Throw
+-Stomping Tantrum
+-Protect
 
 === TRAINER_MOLLIE ===
 Name: MOLLIE
@@ -6297,22 +6321,38 @@ Zigzagoon
 Level: 16
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_ALLEN ===
-Name: ALLEN
-Class: Youngster
-Pic: Youngster
+=== TRAINER_CAMPERDAVID ===
+Name: David
+Class: Camper
+Pic: Camper
 Gender: Male
 Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Zigzagoon
-Level: 4
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Yungoos @ Oran Berry
+Level: 6
+Ability: Strong Jaw
+Nature: Jolly
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+-Bite
+-Super Fang
 
-Taillow
-Level: 3
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Shinx @ Oran Berry
+Level: 6
+Ability: Intimidate
+Nature: Jolly
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+-Spark
+-Charge
+-Roar
+
+Bonsly @ Oran Berry
+Level: 7
+Ability: Sturdy
+Nature: Jolly
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+-Rollout
 
 === TRAINER_TIMMY ===
 Name: TIMMY
@@ -11135,22 +11175,41 @@ Camerupt
 Level: 25
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
-=== TRAINER_TIANA ===
-Name: TIANA
-Class: Lass
-Pic: Lass
-Gender: Female
-Music: Female
+=== TRAINER_BENSON ===
+Name: Benson
+Class: Camper
+Pic: Camper
+Gender: Male
+Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Zigzagoon
-Level: 4
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Teddiursa @ Toxic Orb
+Level: 7
+Ability: Quick Feet
+Nature: Jolly
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+-Fury Cutter
+-Fury Swipes
+-Metal Claw
 
-Shroomish
-Level: 4
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Wattrel @ Oran Berry
+Level: 7
+Ability: Competitive
+Nature: Naive
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+-Pluck
+-Electro Ball
+-Agility
+
+Exeggcute @ Oran Berry
+Level: 8
+Ability: Harvest
+Nature: Modest
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+-Psybeam
+-Stun Spore
+-Mega Drain
 
 === TRAINER_HALEY_1 ===
 Name: HALEY
