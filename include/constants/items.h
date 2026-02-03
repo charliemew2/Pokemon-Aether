@@ -1021,8 +1021,9 @@
 #define ITEM_DRAMPANITE 853
 #define ITEM_FALINKSITE 854
 #define ITEM_REPELLENT 855
+#define ITEM_SUPER_CANDY 856
 
-#define ITEMS_COUNT 856
+#define ITEMS_COUNT 857
 #define ITEM_FIELD_ARROW ITEMS_COUNT
 
 // A special item id associated with "Cancel"/"Exit" etc. in a list of items or decorations
@@ -1074,6 +1075,7 @@
 #define EXP_3000  3
 #define EXP_10000 4
 #define EXP_30000 5
+#define LEVEL_CAP 6
 
 // Item type IDs (used to determine the exit callback)
 #define ITEM_USE_MAIL             0
