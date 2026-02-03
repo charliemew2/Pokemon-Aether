@@ -26,7 +26,8 @@ IceMountain3F_EventScript_SayoAmbush::
 	delay 5
 	fadedefaultbgm
 	setflag FLAG_DOCKS_EVENTS_FINISHED_GET_POKEDEX
-	addvar VAR_ICEMOUNTAIN_EVENTS, 1	
+	addvar VAR_ICEMOUNTAIN_EVENTS, 1
+	setflag	FLAG_DEFEATED_SAYO
 	release
 	end
 
