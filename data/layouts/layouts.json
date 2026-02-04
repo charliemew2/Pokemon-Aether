@@ -4524,8 +4524,8 @@
     {
       "id": "LAYOUT_ICE_MOUNTAIN_TOWN",
       "name": "IceMountainTown_Layout",
-      "width": 42,
-      "height": 30,
+      "width": 50,
+      "height": 35,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Lavaridge",
       "border_filepath": "data/layouts/IceMountainTown/border.bin",

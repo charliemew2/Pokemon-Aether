@@ -15,7 +15,7 @@
   "connections": [
     {
       "map": "MAP_ICE_MOUNTAIN_TOWN",
-      "offset": 6,
+      "offset": 2,
       "direction": "down"
     },
     {
