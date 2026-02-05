@@ -1235,8 +1235,8 @@
 #define FLAG_DOCKS_BASEMENT_CUTSCENE_DONE                           0x49D // CUSTOM FLAG FOR CHANGING NPC LAYOUT AFTER TALKING TO CHARLIE IN THE BASEMENT
 #define FLAG_DOCKS_EVENTS_FINISHED_GET_POKEDEX                      0x49E // CUSTOM FLAG FOR SETTING ALL DOCKS FLAGS TO WHAT THEY SHOULD BE POST TUTORIAL
 #define FLAG_HIDE_SPRING_GUARD                                      0x49F // CUSTOM FLAG FOR HIDING THE GUY IN FRONT OF MOUNTAIN SPRING
-#define FLAG_UNUSED_0x4A0                                           0x4A0 // Unused Flag
-#define FLAG_UNUSED_0x4A1                                           0x4A1 // Unused Flag
+#define FLAG_AVALANCHE_CLEARED                                      0x4A0 // CUSTOM FLAG FOR MOVING THE NPC WHO TELLS THE PLAYER THE ICE MOUNTAIN PATH IS BLOCKED BY SNOW
+#define FLAG_SPOKETOGRUNTAT_DOCKS                                   0x4A1 // CUSTOM FLAG FOR HAVING SPOKEN TO THE GRUNT BEFORE IN THE DOCKS
 #define FLAG_UNUSED_0x4A2                                           0x4A2 // Unused Flag
 #define FLAG_UNUSED_0x4A3                                           0x4A3 // Unused Flag
 #define FLAG_UNUSED_0x4A4                                           0x4A4 // Unused Flag

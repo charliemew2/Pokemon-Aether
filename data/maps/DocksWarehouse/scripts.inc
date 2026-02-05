@@ -16,6 +16,7 @@ DocksWarehouse_EventScript_PostExplosionConversation::
 	applymovement LOCAL_ID_WAREHOUSE_GRUNT, Common_Movement_FaceDown
 	applymovement LOCAL_ID_WAREHOUSE_WORKER, Common_Movement_FaceUp
 	waitmovement 0
+	setflag FLAG_SPOKETOGRUNTAT_DOCKS
 	release
 	end
 

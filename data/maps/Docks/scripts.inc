@@ -940,7 +940,7 @@ SouthernDocks_EventScript_DawnPostDocksIntroText::
 
 SouthernDocks_Text_DawnPostDocksIntroText::
 	.string "How old are you, {PLAYER}?\l"
-	.string "17? Wow! You know, it's never\n"
+	.string "15? Wow! You know, it's never\n"
 	.string "too late to become a trainer.\p"
 	.string "In Sinnoh, most kids become\n"
 	.string "trainers at only 10 years old.\p"
