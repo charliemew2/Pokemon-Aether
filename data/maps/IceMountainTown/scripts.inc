@@ -285,3 +285,95 @@ IceMountainTown_EventScript_SignClinic::
 
 IceMountainTown_Text_SignClinic::
 	.string "ICETOWN Clinic$"
+
+@NPC DIALOGUE
+
+IceMountainTown_EventScript_IceTownBoyDialogue::
+	lock
+	faceplayer
+	msgbox IceMountainTown_Text_IceTownBoyDialogue, MSGBOX_DEFAULT
+	closemessage
+	release
+	end
+
+IceMountainTown_Text_IceTownBoyDialogue::
+	.string "I really like living here. It's very\n"
+	.string "quaint and quiet.\p"
+	.string "The cold is a problem for some \n"
+	.string "people, but most of us folks who\l"
+	.string "live here are used to it.$"
+
+IceMountainTown_EventScript_IceTownGirlDialogue::
+	lock
+	faceplayer
+	msgbox IceMountainTown_Text_IceTownGirlDialogue, MSGBOX_DEFAULT
+	closemessage
+	release
+	end
+
+IceMountainTown_Text_IceTownGirlDialogue::
+	.string "Kristine is the only trainer who\n"
+	.string "lives here.\p"
+	.string "Her parents were really against\n"
+	.string "her becoming a trainer at first,\l"
+	.string "but she convinced them.\p"
+	.string "She's tough for sure, but I often\n"
+	.string "wonder if life here isn't enough\l"
+	.string "to satisfy her.\p"
+	.string "She's really adventurous.$"
+
+IceMountainTown_EventScript_IceTownHikerDialogue::
+	lock
+	faceplayer
+	msgbox IceMountainTown_Text_IceTownHikerDialogue, MSGBOX_DEFAULT
+	closemessage
+	release
+	end
+
+IceMountainTown_Text_IceTownHikerDialogue::
+	.string "I'm visiting this town from SECOND\n"
+	.string "CITY. But with the chairlift being\l"
+	.string "closed, it's going to take me a lot\l"
+	.string "longer to get home.\p"
+	.string "At least it's cozy here, if you're\n"
+	.string "used to camping in the cold!$"
+
+@GET NEVERMELTICE FROM LITTLE GIRL 
+
+IceMountainTown_EventScript_IceTownLittleGirlDialogue::
+	lock
+	faceplayer
+	goto_if_set FLAG_ITEM_LITTLE_GIRL_GIVES_NEVER_MELT_ICE, IceMountainTown_EventScript_IceTownLittleGirlDialogueGaveNeverMeltIce
+	msgbox IceMountainTown_Text_IceTownLittleGirlDialogue, MSGBOX_DEFAULT
+	call IceMountainTown_giveitem_NeverMeltIce
+	setflag FLAG_ITEM_LITTLE_GIRL_GIVES_NEVER_MELT_ICE
+	msgbox IceMountainTown_Text_IceTownLittleGirlDialogueGaveNeverMeltIce, MSGBOX_DEFAULT
+	closemessage
+	release
+	end
+
+IceMountainTown_Text_IceTownLittleGirlDialogue::
+	.string "Icicles always form on the roof\n"
+	.string "my house, and on the trees!\p"
+	.string "Sometimes I snap them off and lick\n"
+	.string "them like popsicles! They're cold!\p"
+	.string "Here, I just found this next to my\n"
+	.string "snowman! You can have it!$"
+
+IceMountainTown_giveitem_NeverMeltIce::
+	giveitem ITEM_NEVERMELTICE
+	return
+
+IceMountainTown_EventScript_IceTownLittleGirlDialogueGaveNeverMeltIce::
+	lock
+	faceplayer
+	msgbox IceMountainTown_Text_IceTownLittleGirlDialogueGaveNeverMeltIce, MSGBOX_DEFAULT
+	closemessage
+	release
+	end
+
+IceMountainTown_Text_IceTownLittleGirlDialogueGaveNeverMeltIce::
+	.string "That's a NeverMeltIce!\l"
+	.string	"It makes Ice type moves stronger!\l"
+	.string	"It doesn't taste as good as a\n"
+	.string	"popsicle, so I don't want it!$"
