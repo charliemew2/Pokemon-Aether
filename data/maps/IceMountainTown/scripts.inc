@@ -23,6 +23,7 @@ IceMountainTown_EventScript_JennyConversationFindKristine::
 	closemessage
 	addvar VAR_ICEMOUNTAIN_EVENTS, 1
 	setflag FLAG_AVALANCHE_CLEARED
+	clearflag FLAG_SPOKETOJENNY
 	release
 	end
 
@@ -172,6 +173,43 @@ IceMountainTown_Text_AvalancheCleanupGuy::
 	.string "We're almost done clearing it.\l"
 	.string "Just be a little patient and enjoy\n"
 	.string "the sights in our little town!$"
+
+IceMountainTown_EventScript_AvalancheCleanupGuyPostAvalanche::
+	lock
+	faceplayer
+	goto_if_set FLAG_DEFEATED_KRISTINE, IceMountainTown_Text_AvalancheCleanupGuyPostAvalanchePostKristine
+	goto_if_unset FLAG_DEFEATED_KRISTINE, IceMountainTown_EventScript_AvalancheCleanupGuyPostAvalanchePreKristine
+	release
+	end
+
+IceMountainTown_EventScript_AvalancheCleanupGuyPostAvalanchePreKristine::
+	msgbox IceMountainTown_Text_AvalancheCleanupGuyPostAvalanchePreKristine, MSGBOX_DEFAULT
+	closemessage
+	return
+
+IceMountainTown_Text_AvalancheCleanupGuyPostAvalanchePreKristine::
+	.string "The road gets blocked every so\n"
+	.string "often by stray snow drifts.\p"
+	.string "They do sometimes rarely fall on\n"
+	.string "the town, but they're usually\l"
+	.string "pretty quick to clean up.\p"
+	.string "A few hours of shoveling and we're\n"
+	.string "all good to go!\p"
+	.string "Eh? Jenny is worried about her\n"
+	.string "sister? That's normal\p"
+	.string "Those two are always together.\l"
+	.string "They're quite close!\l"
+	.string "Still I did see them arguing about\n"
+	.string "something earlier. I guess that's\l"
+	.string "just siblings for you!$"
+
+IceMountainTown_EventScript_AvalancheCleanupGuyPostAvalanchePostKristine::
+	msgbox IceMountainTown_Text_AvalancheCleanupGuyPostAvalanchePostKristine, MSGBOX_DEFAULT
+	closemessage
+	return
+
+IceMountainTown_Text_AvalancheCleanupGuyPostAvalanchePostKristine::
+	.string "Thanks for helping Kristine!$"
 
 @ CLOSED CHAIRLIFT
 

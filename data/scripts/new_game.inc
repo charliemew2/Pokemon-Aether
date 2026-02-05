@@ -276,5 +276,6 @@ EventScript_ResetAllMapFlags::
 	setflag FLAG_HIDE_GRUNT1_ICEMOUNTAIN
 	setflag FLAG_JOHN_STARTINGTOWN_RIVAL1
 	setflag FLAG_SYS_B_DASH
+	setflag FLAG_SPOKETOJENNY
 	call EventScript_ResetAllBerries
 	end
