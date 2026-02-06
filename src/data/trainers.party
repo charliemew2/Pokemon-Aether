@@ -13117,48 +13117,109 @@ Zigzagoon @ Nugget
 Level: 8
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_DARIAN ===
-Name: DARIAN
-Class: Fisherman
-Pic: Fisherman
+=== TRAINER_DALLAS ===
+Name: Dallas
+Class: Pkmn Ranger
+Pic: Pokemon Ranger M
 Gender: Male
 Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Magikarp
-Level: 9
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Growlithe @ Salac Berry
+Level: 8
+Nature: Jolly
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Ability: Intimidate
+-Temper Flare
+-Thunder Fang
+-Dig
 
-=== TRAINER_HAILEY ===
-Name: HAILEY
-Class: Tuber F
-Pic: Tuber F
+Machop @ Scope Lens
+Level: 8
+Nature: Adamant
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Ability: Guts
+-Focus Energy
+-Karate Chop
+-Dual Chop
+-Poison Jab
+
+Pikachu @ Steel Gem
+Level: 9
+Nature: Jolly
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Ability: Static
+-Iron Tail
+-Thunder Punch
+-Trailblaze
+
+=== TRAINER_KATRINA ===
+Name: Katrina
+Class: Pkmn Ranger
+Pic: Pokemon Ranger F
 Gender: Female
 Music: Girl
 Double Battle: No
 AI: Check Bad Move
 
-Marill
-Level: 13
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Floette @ Big Root
+Level: 9
+Nature: Timid
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Ability:  Flower Veil
+-Draining Kiss
+-Magical Leaf
+-Chilling Water
 
-=== TRAINER_CHANDLER ===
-Name: CHANDLER
-Class: Tuber M
-Pic: Tuber M
+Skiddo @ Big Root
+Level: 9
+Nature: Adamant
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Ability: Sap Sipper
+-Horn Leech
+-Wild Charge
+-Stomping Tantrum
+
+Vivillon @ Big Root
+Level: 10
+Nature: Timid
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Ability: Compound_Eyes
+-Sleep Powder
+-Air Cutter
+-Giga Drain
+-Draining Kiss
+
+=== TRAINER_DIRK ===
+Name: Dirk
+Class: Fisherman
+Pic: Fisherman
 Gender: Male
-Music: Girl
+Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Tentacool
-Level: 12
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Wishiwashi @ Choice Band
+Level: 10
+Nature: Adamant
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Ability: Schooling
+-Wave Crash
 
-Tentacool
-Level: 12
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Finneon @ Choice Specs
+Level: 10
+Nature: Modest
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Ability: Storm Drain
+-Hydro Pump
+
+Feebas @ Choice Specs
+Level: 11
+Nature: Modest
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Ability: Oblivious
+-Hydro Pump
 
 === TRAINER_KALEB ===
 Name: KALEB

@@ -699,9 +699,9 @@
 #define TRAINER_CHRIS                       693
 #define TRAINER_DAWSON                      694
 #define TRAINER_SARAH                       695
-#define TRAINER_DARIAN                      696
-#define TRAINER_HAILEY                      697
-#define TRAINER_CHANDLER                    698
+#define TRAINER_DALLAS                      696 //REPLACED FISHERMAN DARIEN
+#define TRAINER_KATRINA                     697 //REPLACED TUBER HAILEY
+#define TRAINER_DIRK                        698 //REPLACED TUBER CHANDLER
 #define TRAINER_KALEB                       699
 #define TRAINER_JOSEPH                      700
 #define TRAINER_ALYSSA                      701

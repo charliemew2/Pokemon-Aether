@@ -990,8 +990,8 @@ Route104_EventScript_Mia::
 	end
 
 Route104_EventScript_Darian::
-	trainerbattle_single TRAINER_DARIAN, Route104_Text_DarianIntro, Route104_Text_DarianDefeat
-	msgbox Route104_Text_DarianPostBattle, MSGBOX_AUTOCLOSE
+	trainerbattle_single TRAINER_DALLAS, MountainPath_Text_DallasIntro, MountainPath_Text_DallasDefeat
+	msgbox MountainPath_Text_DallasPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route104_Text_BrineyLivesInSeasideCottage:
