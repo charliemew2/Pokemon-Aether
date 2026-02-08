@@ -283,12 +283,12 @@ Route110_EventScript_Unused::
 	end
 
 Route110_EventScript_Kaleb::
-	trainerbattle_single TRAINER_KALEB, Route110_Text_KalebIntro, Route110_Text_KalebDefeated
+	trainerbattle_single TRAINER_HIKERRILEY, Route110_Text_KalebIntro, Route110_Text_KalebDefeated
 	msgbox Route110_Text_KalebPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route110_EventScript_Joseph::
-	trainerbattle_single TRAINER_JOSEPH, Route110_Text_JosephIntro, Route110_Text_JosephDefeated
+	trainerbattle_single TRAINER_RANGERBRENT, Route110_Text_JosephIntro, Route110_Text_JosephDefeated
 	msgbox Route110_Text_JosephPostBattle, MSGBOX_AUTOCLOSE
 	end
 

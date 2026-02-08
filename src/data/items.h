@@ -2157,6 +2157,26 @@ const struct Item gItemsInfo[] =
         .iconPalette = gItemIconPalette_ExpCandies,
     },
 
+        [ITEM_CANDY_BAG] =
+    {
+        .name = ITEM_NAME("Candy Bag"),
+        .pluralName = ITEM_PLURAL_NAME("Candy Bags"),
+        .price = (I_PRICE >= GEN_7) ? 10000 : 4800,
+        .description = COMPOUND_STRING(
+            "Raises the level\n"
+            "of a Pokémon by\n"
+            "one."),
+        .importance = 1,
+        .pocket = POCKET_KEY_ITEMS,
+        .sortType = ITEM_TYPE_LEVEL_UP_ITEM,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_RareCandy,
+        .effect = gItemEffect_RareCandy,
+        .flingPower = 30,
+        .iconPic = gItemIcon_RareCandy,
+        .iconPalette = gItemIconPalette_RareCandy,
+    },
+
     [ITEM_DYNAMAX_CANDY] =
     {
         .name = ITEM_NAME("Dynamax Candy"),

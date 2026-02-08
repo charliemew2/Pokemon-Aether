@@ -702,8 +702,8 @@
 #define TRAINER_DALLAS                      696 //REPLACED FISHERMAN DARIEN
 #define TRAINER_KATRINA                     697 //REPLACED TUBER HAILEY
 #define TRAINER_DIRK                        698 //REPLACED TUBER CHANDLER
-#define TRAINER_KALEB                       699
-#define TRAINER_JOSEPH                      700
+#define TRAINER_HIKERRILEY                  699 //REPLACED POKEFAN KALEB
+#define TRAINER_RANGERBRENT                 700 //REPLACED GUITARIST JOSEPH
 #define TRAINER_ALYSSA                      701
 #define TRAINER_MARCOS                      702
 #define TRAINER_RHETT                       703

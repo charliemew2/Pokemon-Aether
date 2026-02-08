@@ -1022,8 +1022,9 @@
 #define ITEM_FALINKSITE 854
 #define ITEM_REPELLENT 855
 #define ITEM_SUPER_CANDY 856
+#define ITEM_CANDY_BAG 857
 
-#define ITEMS_COUNT 857
+#define ITEMS_COUNT 858
 #define ITEM_FIELD_ARROW ITEMS_COUNT
 
 // A special item id associated with "Cancel"/"Exit" etc. in a list of items or decorations

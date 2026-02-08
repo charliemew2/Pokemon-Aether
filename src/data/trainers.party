@@ -2191,18 +2191,47 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Tail Whip
 
 === TRAINER_BRIANNA ===
-Name: BRIANNA
-Class: Lady
-Pic: Lady
+Name: Brianna
+Class: Camper
+Pic: Picnicker
 Gender: Female
 Music: Female
-Items: Full Restore
-Double Battle: No
+Items: None
+Double Battle: Yes
 AI: Check Bad Move
 
-Seaking @ Nugget
-Level: 40
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Tandemaus @ Metronome
+Level: 13
+Nature: Modest
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Ability: Own Tempo
+-Echoed Voice
+
+Pachirisu @ Berry Juice
+Level: 11
+Nature: Calm
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Ability: Static
+-Nuzzle
+-Super Fang
+-Spark
+-Follow Me
+
+Poltchageist @ Eviolite
+Level: 11
+Nature: Bold
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Ability: Hospitality
+-Rage Powder
+-Life Dew
+-Mega Drain
+
+Jigglypuff @ Choice Band
+Level: 12
+Nature: Adamant
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Ability: Friend Guard
+-Focus Punch
 
 === TRAINER_NAOMI ===
 Name: NAOMI
@@ -13221,39 +13250,79 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 Ability: Oblivious
 -Hydro Pump
 
-=== TRAINER_KALEB ===
-Name: KALEB
-Class: Pokefan
-Pic: Pokefan M
+=== TRAINER_HIKERRILEY ===
+Name: Riley
+Class: Hiker
+Pic: Hiker
 Gender: Male
-Music: Twins
+Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Minun @ Oran Berry
-Level: 14
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Zubat @ Oran Berry
+Level: 11
+Nature: Timid
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Ability: Inner Focus
+-Nasty Plot
+-Giga Drain
+-Venoshock
+-Air Slash
 
-Plusle @ Oran Berry
-Level: 14
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Woobat @ Scope Lens
+Level: 11
+Nature: Timid
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Ability: Simple
+-Work Up
+-Air Cutter
+-Psycho Cut
 
-=== TRAINER_JOSEPH ===
-Name: JOSEPH
-Class: Guitarist
-Pic: Guitarist
+Noibat @ Weakness Policy
+Level: 12
+Nature: Jolly
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Ability: Infiltrator
+-Screech
+-Wing Attack
+-Breaking Swipe
+
+=== TRAINER_RANGERBRENT ===
+Name: Brent
+Class: Pkmn Ranger
+Pic: Pokemon Ranger M
 Gender: Male
-Music: Intense
+Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Electrike
-Level: 14
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Numel @ Passho Berry
+Level: 12
+Nature: Modest
+IVs: 30 HP / 31 Atk / 31 Def / 30 SpA / 31 SpD / 31 Spe
+Ability: Own Tempo
+-Earth Power
+-Incinerate
+-Hidden Power
 
-Voltorb
-Level: 14
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Stunky @ Petaya Berry
+Level: 12
+Nature: Timid
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Ability: Aftermath
+-Belch
+-Snarl
+-Flame Burst
+
+Aipom @ Wishing Piece
+Level: 13
+Nature: Jolly
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Ability: Technician
+-Double Hit
+-Trailblaze
+-Fling
+-Fake Out
 
 === TRAINER_ALYSSA ===
 Name: ALYSSA
