@@ -268,7 +268,7 @@
 #define TRAINER_PHOEBE                      262
 #define TRAINER_GLACIA                      263
 #define TRAINER_DRAKE                       264
-#define TRAINER_ROXANNE_1                   265
+#define TRAINER_KRISTINEICEMOUNTAIN         265 //REPLACES ROXANNE 1
 #define TRAINER_BRAWLY_1                    266
 #define TRAINER_WATTSON_1                   267
 #define TRAINER_FLANNERY_1                  268
@@ -704,8 +704,8 @@
 #define TRAINER_DIRK                        698 //REPLACED TUBER CHANDLER
 #define TRAINER_HIKERRILEY                  699 //REPLACED POKEFAN KALEB
 #define TRAINER_RANGERBRENT                 700 //REPLACED GUITARIST JOSEPH
-#define TRAINER_ALYSSA                      701
-#define TRAINER_MARCOS                      702
+#define TRAINER_DESMOND                     701 //REPLACED TRIATHALETE ALYSSA
+#define TRAINER_LAYLA                       702 //REPLACED GUITARIST MARCOS
 #define TRAINER_RHETT                       703
 #define TRAINER_TYRON                       704
 #define TRAINER_CELINA                      705

@@ -1,5 +1,22 @@
 IceMountainTown_MapScripts::
+map_script MAP_SCRIPT_ON_FRAME_TABLE, DefeatedKristine_OnFrameTable
 	.byte 0
+
+@AFTER DEFEATING KRISTINE, WALKS HER TO TALK TO JENNY AT THE CABLE CAR
+
+DefeatedKristine_OnFrameTable:
+	map_script_2 VAR_ICEMOUNTAIN_EVENTS, 4, DefeatedKristine_EventScript_GoBackToJenny
+	end
+
+DefeatedKristine_EventScript_GoBackToJenny::
+	msgbox DefeatedKristine_Text_GoBackToJenny, MSGBOX_DEFAULT
+	closemessage
+	addvar VAR_ICEMOUNTAIN_EVENTS, 1
+	release
+	end
+
+DefeatedKristine_Text_GoBackToJenny::
+	.string "I'll run ahead!$"
 
 @MAIN STORY JENNY/KRISTINE TRIGGERS
 

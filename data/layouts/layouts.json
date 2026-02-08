@@ -4544,8 +4544,8 @@
     {
       "id": "LAYOUT_ICE_MOUNTAIN_SUMMIT",
       "name": "IceMountainSummit_Layout",
-      "width": 21,
-      "height": 35,
+      "width": 28,
+      "height": 36,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_NavelRock",
       "border_filepath": "data/layouts/IceMountainSummit/border.bin",

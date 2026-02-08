@@ -20,7 +20,7 @@
     },
     {
       "map": "MAP_ICE_MOUNTAIN_SUMMIT",
-      "offset": 0,
+      "offset": -3,
       "direction": "up"
     }
   ],
