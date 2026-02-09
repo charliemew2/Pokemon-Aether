@@ -2,6 +2,14 @@ IceMountainTown_MapScripts::
 map_script MAP_SCRIPT_ON_FRAME_TABLE, DefeatedKristine_OnFrameTable
 	.byte 0
 
+@VAR_ICE_MOUNTAIN_EVENTS LISTING
+	@0 - Triggers the first Sayo Fight on F3
+	@1 - Unblocks the Avalanche in ICYTOWN to allow passage up the mountain
+	@2 - Allows the Grunt to attack the player on the path
+	@3 - Kristine defeated - activates Jenny and her make up Cutscene
+	@4 - Increment during Kristine Cutscene to prevent crashing after warp to town
+	@5 - Final Variable - Locks out Kristine Cutscenes/Hides all NPC's - FINAL VARIABLE - UNLOCKS CABLE CAR TO ROUTE 2
+
 @AFTER DEFEATING KRISTINE, WALKS HER TO TALK TO JENNY AT THE CABLE CAR
 
 DefeatedKristine_OnFrameTable:

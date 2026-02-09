@@ -139,7 +139,7 @@
 #define TRAINER_JESSICA_3                   133
 #define TRAINER_JESSICA_4                   134
 #define TRAINER_JESSICA_5                   135
-#define TRAINER_YODEL                       136 //Ive commented out Winston's ability to ask for a registration in the Pokenav. Will ask about best practice for trainers with rematches. This is Winston_1 in vanilla
+#define TRAINER_YODEL                       136 //REPLACED WINSTON_01
 #define TRAINER_MOLLIE                      137
 #define TRAINER_GARRET                      138
 #define TRAINER_WINSTON_2                   139
@@ -706,9 +706,9 @@
 #define TRAINER_RANGERBRENT                 700 //REPLACED GUITARIST JOSEPH
 #define TRAINER_DESMOND                     701 //REPLACED TRIATHALETE ALYSSA
 #define TRAINER_LAYLA                       702 //REPLACED GUITARIST MARCOS
-#define TRAINER_RHETT                       703
-#define TRAINER_TYRON                       704
-#define TRAINER_CELINA                      705
+#define TRAINER_TRISTIAN                    703 //REPLACED BLACK BELT RHETT
+#define TRAINER_NICKI                       704 //REPLACED CAMPER TYRON
+#define TRAINER_POODLE                      705 //REPLACED AROMA LADY CELINA
 #define TRAINER_BIANCA                      706
 #define TRAINER_HAYDEN                      707
 #define TRAINER_SOPHIE                      708

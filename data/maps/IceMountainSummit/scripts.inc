@@ -193,7 +193,6 @@ IceMountainSummit_Text_KristineTextPost2::
 	.string "town and talk to my sister.\p"
 	.string "Oh, and um...thanks for the battle.$"
 
-
 @ALL TRAINERS HERE DO NOT HAVE THE RESPECTIVE CLASSES/SPRITES THEY NEED. LAYLA SHOULD BE - MEDIUM AND OLD WOMAN, DESMOND AND JONAH
 @SHOULD BE SKIER CLASS - ALL ARE CUSTOM
 
@@ -203,13 +202,19 @@ IceMountainSummit_EventScript_SkierDesmond::
 	end
 
 IceMountainSummit_Text_DesmondIntro::
-	.string "$"
+	.string "This peak is one of the best spots\n"
+	.string "to ski in the whole region!\p"
+	.string "Lemme show you how I've trained\n"
+	.string "on these slopes!$"
 
 IceMountainSummit_Text_DesmondDefeat::
-	.string "$"
+	.string "Oof! Right into a rock! That'll\n"
+	.string "smart...$"
 
 IceMountainSummit_Text_DesmondPostBattle::
-	.string "$"
+	.string "Huh...guess I'll have to watch for\n"
+	.string "strong trainers in addition to\l"
+	.string "rocks on the way downhill...$"
 
 IceMountainSummit_EventScript_SkierJonah::
 	trainerbattle_single TRAINER_JONAH, IceMountainSummit_Text_JonahIntro, IceMountainSummit_Text_JonahDefeat
@@ -217,13 +222,18 @@ IceMountainSummit_EventScript_SkierJonah::
 	end
 
 IceMountainSummit_Text_JonahIntro::
-	.string "$"
+	.string "Cold winds...sharp ice, and the\n"
+	.string "thrill of a fight!\p"
+	.string "What more could you need on a\n"
+	.string "beautiful day like today?$"
 
 IceMountainSummit_Text_JonahDefeat::
-	.string "$"
+	.string "A nice day...for you I guess.\n"
+	.string "Not a nice day for me to lose...$"
 
 IceMountainSummit_Text_JonahPostBattle::
-	.string "$"
+	.string "Maybe tomorrow we'll have worse\n"
+	.string "weather, and I'll win!$"
 
 IceMountainSummit_EventScript_MediumLayla::
 	trainerbattle_single TRAINER_LAYLA, IceMountainSummit_Text_LaylaIntro, IceMountainSummit_Text_LaylaDefeat
@@ -231,10 +241,17 @@ IceMountainSummit_EventScript_MediumLayla::
 	end
 
 IceMountainSummit_Text_LaylaIntro::
-	.string "$"
+	.string "Some strange man was out here\n"
+	.string "shivering with no warm attire\l"
+	.string "yelling about some 'prototype'!\p"
+	.string "Only the toughest of minds can\n"
+	.string "handle this freezing weather!$"
 
 IceMountainSummit_Text_LaylaDefeat::
-	.string "$"
+	.string "Your mind is much stronger than I\n"
+	.string "had originally expected!$"
 
 IceMountainSummit_Text_LaylaPostBattle::
-	.string "$"
+	.string "Robots, shady men, cold weather...\n"
+	.string "And then some girl stewing ahead...\l"
+	.string "What a day this has been!$"

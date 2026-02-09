@@ -1,12 +1,6 @@
 IceMountainPath_MapScripts::
 	.byte 0
 
-@VAR_ICE_MOUNTAIN_EVENTS LISTING
-	@0 - Triggers the first Sayo Fight on F3
-	@1 - Unblocks the Avalanche in ICYTOWN to allow passage up the mountain
-	@2 - Allows the Grunt to attack the player on the path
-	@3 - Kristine defeated - activates Jenny and her make up Cutscene - FINAL VARIABLE
-
 IceMountainPath_EventScript_Grunt1Ambush::
 	lock
 	addobject LOCAL_ID_GRUNT1
@@ -127,3 +121,89 @@ IceMountainPath_PushPlayer::
 	walk_left
 	face_right
 	step_end
+
+@REGULAR TRAINERS 
+
+IceMountainPath_EventScript_Tristian::
+	trainerbattle_single TRAINER_TRISTIAN, IceMountainPath_Text_TristianIntro, IceMountainPath_Text_TristianDefeat
+	msgbox IceMountainPath_Text_TristianPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+IceMountainPath_Text_TristianIntro::
+	.string "Man! I hiked up here from Route 2\n"
+	.string "and then was stuck here for hours!\p"
+	.string "I'm annoyed...so you're gonna help\n"
+	.string "me vent my frustration!$"
+
+IceMountainPath_Text_TristianDefeat::
+	.string "Hey hey take it easy! I didn't mean\n"
+	.string "to make you so mad!$"
+
+IceMountainPath_Text_TristianPostBattle::
+	.string "The path is finally clear?\l"
+	.string "Thank goodness...when I catch my\n"
+	.string "breath, I can finally hike home...$"
+
+IceMountainPath_EventScript_Nicki::
+	trainerbattle_single TRAINER_NICKI, IceMountainPath_Text_NickiIntro, IceMountainPath_Text_NickiDefeat
+	msgbox IceMountainPath_Text_NickiPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+IceMountainPath_Text_NickiIntro::
+	.string "I perform maintenance on the\n"
+	.string "power lines up here.\p"
+	.string "What, you think the town down\n"
+	.string "south just magically has that?$"
+
+IceMountainPath_Text_NickiDefeat::
+	.string "Power down!$"
+
+IceMountainPath_Text_NickiPostBattle::
+	.string "I have to travel up here every\n"
+	.string "month! I should consider moving\l"
+	.string "here at this point!$"
+
+IceMountainPath_EventScript_Poodle::
+	trainerbattle_single TRAINER_POODLE, IceMountainPath_Text_PoodleIntro, IceMountainPath_Text_PoodleDefeat
+	msgbox IceMountainPath_Text_PoodlePostBattle, MSGBOX_AUTOCLOSE
+	end
+
+IceMountainPath_Text_PoodleIntro::
+	.string "Oh...I came for a walk but got a\n"
+	.string "little bit lost...\p"
+	.string "Mind if I let my puppies off their\n"
+	.string "leashes for a bit?$"
+
+IceMountainPath_Text_PoodleDefeat::
+	.string "Oh no! I was all bark no bite!$"
+
+IceMountainPath_Text_PoodlePostBattle::
+	.string "The walk home will be quite the\n"
+	.string "trip for my poor little guys...\p"
+	.string "Thank goodness for the clinic\n"
+	.string "in ICYTOWN!$"
+
+@SIGNS
+
+IceMountainPath_EventScript_Sign1::
+	msgbox IceMountainPath_Text_Sign1, MSGBOX_SIGN
+	end
+
+IceMountainPath_Text_Sign1::
+	.string "Be wary of snow drifts!\l"
+	.string "On windy days, stick to the middle\n"
+	.string "of the path$"
+
+IceMountainPath_EventScript_Sign2::
+	msgbox IceMountainPath_Text_Sign2, MSGBOX_SIGN
+	end
+
+IceMountainPath_Text_Sign2::
+	.string "{UP_ARROW} Summit ahead."
+
+IceMountainPath_EventScript_Sign3::
+	msgbox IceMountainPath_Text_Sign3, MSGBOX_SIGN
+	end
+
+IceMountainPath_Text_Sign3::
+	.string "{DOWN_ARROW} ICETOWN."
