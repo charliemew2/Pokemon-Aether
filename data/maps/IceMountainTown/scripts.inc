@@ -6,17 +6,45 @@ map_script MAP_SCRIPT_ON_FRAME_TABLE, DefeatedKristine_OnFrameTable
 
 DefeatedKristine_OnFrameTable:
 	map_script_2 VAR_ICEMOUNTAIN_EVENTS, 4, DefeatedKristine_EventScript_GoBackToJenny
-	end
+	.2byte 0
 
 DefeatedKristine_EventScript_GoBackToJenny::
+	lockall
+	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_FaceRight
+	applymovement LOCAL_ID_KRISTINE_POSTFIGHTWALKSAWAY, Common_Movement_FaceLeft
+	waitmovement 0
 	msgbox DefeatedKristine_Text_GoBackToJenny, MSGBOX_DEFAULT
 	closemessage
+	applymovement LOCAL_ID_KRISTINE_POSTFIGHTWALKSAWAY, DefeatedKristine_Movement_GobacktoJenny
+	waitmovement 0
+	removeobject LOCAL_ID_KRISTINE_POSTFIGHTWALKSAWAY
 	addvar VAR_ICEMOUNTAIN_EVENTS, 1
-	release
+	setflag FLAG_HIDE_KRISTINE_ESCORT
+	setflag	FLAG_DEFEATED_KRISTINE
+	clearflag FLAG_HIDE_KRISTINE_JENNY_LIFT_CONVO
+	releaseall
 	end
 
 DefeatedKristine_Text_GoBackToJenny::
-	.string "I'll run ahead!$"
+	.string "Phew, the hike down was a lot\n"
+	.string "easier than the hike up.\p"
+	.string "I honestly didn't even know that\n"
+	.string "a snowdrift had blocked the path!\p"
+	.string "Um...when I get mad, I kind of stew\n"
+	.string "for a while, so I didn't even know\l"
+	.string "I was gone for that long...\p"
+	.string "Anyways...I'll see you by the east\n"
+	.string "cable car! Mkay.\p"
+	.string "Come over when you are ready!$"
+
+DefeatedKristine_Movement_GobacktoJenny::
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	step_end
 
 @MAIN STORY JENNY/KRISTINE TRIGGERS
 
@@ -153,6 +181,260 @@ IceMountainTown_Text_JennyAfterSheAskedToFindKristine::
 	.string "though given the avalanche.\p"
 	.string "Friend of yours?$"
 
+@KRISTINE AND JENNY CONVERSATION  
+
+IceMountainTown_EventScript_KristineJennyMakeUp::
+	lock
+	msgbox IceMountainTown_Text_KristineJennyMakeUp1, MSGBOX_DEFAULT
+	closemessage
+	applymovement LOCAL_ID_KRISTINE_JENNY_CONVO, Common_Movement_FaceDown
+	applymovement LOCAL_ID_JENNY_KRISTINE_CONVO, Common_Movement_FaceDown
+	waitmovement 0
+	msgbox IceMountainTown_Text_KristineJennyMakeUp2, MSGBOX_DEFAULT
+	closemessage
+	applymovement LOCAL_ID_KRISTINE_JENNY_CONVO, Common_Movement_FaceRight
+	applymovement LOCAL_ID_JENNY_KRISTINE_CONVO, Common_Movement_FaceLeft
+	waitmovement 0
+	msgbox IceMountainTown_Text_KristineJennyMakeUp3, MSGBOX_DEFAULT
+	closemessage
+	applymovement LOCAL_ID_KRISTINE_JENNY_CONVO, Common_Movement_FaceDown
+	applymovement LOCAL_ID_JENNY_KRISTINE_CONVO, Common_Movement_FaceDown
+	waitmovement 0
+	msgbox IceMountainTown_Text_KristineJennyMakeUp4, MSGBOX_DEFAULT
+	closemessage
+	applymovement LOCAL_ID_JENNY_KRISTINE_CONVO, IceMountainTown_Movement_JennyGoesBackToWork
+	applymovement LOCAL_ID_KRISTINE_JENNY_CONVO, IceMountainTown_Movement_KristineWatchesJennyGoesBackToWork
+	waitmovement LOCAL_ID_JENNY_KRISTINE_CONVO
+	removeobject LOCAL_ID_JENNY_KRISTINE_CONVO
+	playse SE_EXIT
+	waitse
+	delay 16
+	getplayerxy VAR_TEMP_3, VAR_TEMP_4
+	call_if_eq VAR_TEMP_3, 41, IceMountainTown_EventScript_AlignKristine
+	delay 4
+	applymovement LOCAL_ID_KRISTINE_JENNY_CONVO, Common_Movement_FaceDown
+	waitmovement 0
+	msgbox IceMountainTown_Text_KristineJennyMakeUp5, MSGBOX_DEFAULT
+	closemessage
+	call IceMountainTown_giveitem_TM02
+	msgbox IceMountainTown_Text_KristineJennyMakeUp6, MSGBOX_DEFAULT
+	closemessage	
+	delay 8
+	getplayerxy VAR_TEMP_3, VAR_TEMP_4
+	call_if_eq VAR_TEMP_3, 40, IceMountainTown_EventScript_KristineLeaveLeft
+	getplayerxy VAR_TEMP_3, VAR_TEMP_4
+	call_if_eq VAR_TEMP_3, 41, IceMountainTown_EventScript_KristineLeaveRight
+	removeobject LOCAL_ID_KRISTINE_JENNY_CONVO
+	setflag FLAG_HIDE_KRISTINE_JENNY_LIFT_CONVO
+	release
+	end
+
+IceMountainTown_Text_KristineJennyMakeUp1::
+	.string "Jenny: I'm so glad you aren't hurt!\l"
+	.string "Kristine: I can't believe that some\n"
+	.string "shady guy was right around me!\p"
+	.string "Thank Arceus I never saw him...\l"
+	.string "Jenny: Well uh...it's in the past\n"
+	.string "now. I'm sorry we argued.\p"
+	.string "I've just been worried about\n"
+	.string "being here alone...\p"
+	.string "Kristine: I know..\n"
+	.string "I feel guilty. \p"
+	.string "But...uh...so I met this trainer.\n"
+	.string "Oh!$"
+
+IceMountainTown_Text_KristineJennyMakeUp2::
+	.string "Kristine: Hi {PLAYER}!\l"
+	.string "Jenny: Oh! Its you! That trainer!\l"
+	.string "Thank you so much for bringing\n"
+	.string "Kristine back...\p"
+	.string "Kristine: So. I've decided...um.\l"
+	.string "I'm going to leave this mountain\n"
+	.string "after all.\p"
+	.string "Jenny: I'm the younger sibling and\n"
+	.string "well, Kristine always has been\l"
+	.string "around and protected me.\p"
+	.string "But, she's always wanted to see\n"
+	.string "what laid beyond out there.\p"
+	.string "Kristine: Of course, Jenny and I\n"
+	.string "have talked about this a lot more\l"
+	.string "recently.\p"
+	.string "But...After the avalanche, I saw...\l"
+	.string "I saw it! I knew I saw it!\l"
+	.string "Mew!\l"
+	.string "The Legendary Pokémon...some even\n"
+	.string "call it the parent of all Pokémon!\p"
+	.string "It was a sign...the way it glanced\n"
+	.string "back at me. \p"
+	.string "Almost like it was inviting me to\n"
+	.string "join it on an adventure.\p"
+	.string "So I sat on it for a few days. I\n"
+	.string "mean, maybe I was just seeing\l"
+	.string "things...\p"
+	.string "Jenny: But I know my sister. She\n"
+	.string "knew what she saw.\p"
+	.string "And when she's sure, there's no\n"
+	.string "stopping her.\p"
+	.string "So um, when she told me she wanted\n"
+	.string "to leave...\p"
+	.string "Even I thought it was ridiculous!\l"
+	.string "So we argued and she got mad and\n"
+	.string "well, you know the rest.\p"
+	.string "Kristine: You trounced me in a fair\n"
+	.string "fight. I have a lot to learn, and\l"
+	.string "I'm not going to learn it here.$"
+
+IceMountainTown_Movement_JennyGoesBackToWork::
+	walk_up
+	walk_up
+	walk_up
+	walk_up
+	step_end
+
+IceMountainTown_Movement_KristineWatchesJennyGoesBackToWork::
+	face_right
+	delay_8
+	face_up
+	step_end
+
+IceMountainTown_EventScript_AlignKristine::
+	applymovement LOCAL_ID_KRISTINE_JENNY_CONVO, IceMountainTown_Movement_AlignKristine
+	waitmovement 0
+	return
+
+IceMountainTown_Movement_AlignKristine::
+	walk_right
+	step_end
+
+IceMountainTown_Text_KristineJennyMakeUp3::
+	.string "Jenny: ...You're going to leave huh?\l"
+	.string "...\l"
+	.string "Haha! Well... I shouldn't stop you.\l"
+	.string "You're the older sibling anyways.\p"
+	.string "But when you're done seeing the\n"
+	.string "world, you best come back here\l"
+	.string "and tell me lots of cool stories.\p"
+	.string "Kristine: Jenny...!\l"
+	.string "Jenny: It's not fair for either of\n"
+	.string "us to be glued here, staying in\l"
+	.string "one place just 'because it's what\l"
+	.string "we know'.\p"
+	.string "I've...I've known this.\l"
+	.string "It's just so BORING here!\l"
+	.string "But. It'll be ok. You know what?\l"
+	.string "I think I'll take up Pokémon\n"
+	.string "training myself!\p"
+	.string "So when you get back, I can leave\n"
+	.string "and then have my own adventure!$"
+
+IceMountainTown_Text_KristineJennyMakeUp4::
+	.string "Trainer! Wait no! Your name is\n"
+	.string "{PLAYER} right?\p"
+	.string "Sorry we got you involved in our\n"
+	.string "petty sibling disagreement.\p"
+	.string "I think we both knew we were\n"
+	.string "being stubborn. \p"
+	.string "I found my key while you were out\n"
+	.string "searching for Kristine, so I can\l"
+	.string "get the cable car running again!\p"
+	.string "You get free admission for life!$"
+
+IceMountainTown_Text_KristineJennyMakeUp5::
+	.string "Phew...that went so much better\n"
+	.string "than I expected.\p"
+	.string "I'm a bit salty that I lost to you,\n"
+	.string "I won't lie...\p"
+	.string "But maybe sometime we can battle\n"
+	.string "again?\p"
+	.string "...\l"
+	.string "Huh? Mew?\l"
+	.string "You...You saw it too?\l"
+	.string "So you believe me...!\l"
+	.string "{PLAYER}, I have no interest in\n"
+	.string "searching for a living legend.\p"
+	.string "I just want to experience all the\n"
+	.string "world has to offer!\p"
+	.string "Thank you for validating me.\l"
+	.string "I have a gift for you.$"
+
+IceMountainTown_Text_KristineJennyMakeUp6::
+	.string "That TM contains the move Icy\n"
+	.string "Wind. It's one of my favorites!\p"
+	.string "...Oh? A person in a pink shirt?\l"
+	.string "I'm sorry...I was on the peak for\n"
+	.string "the last few hours remember?\p"
+	.string "If they came through, I wouldn't\n"
+	.string "have seen them.\p"
+	.string "But they couldn't have gone\n"
+	.string "anywhere with the lifts down\l"
+	.string "no? Unless they climbed the\l"
+	.string "mountain barehanded...\p"
+	.string "Nobody is that reckless right?\l"
+	.string "Maybe Jenny knows?\l"
+	.string "I'm sorry I can't be more helpful...\n"
+	.string "If I spot them sometime, I'll tell\l"
+	.string "them you're looking for them!\p"
+	.string "Ok. I've taken more than enough\n"
+	.string "of your time. I should go get my\l"
+	.string "bag packed...\p"
+	.string "{PLAYER}! Let's meet again on\n"
+	.string "the road someday!\p"
+	.string "...Maybe\l"
+	.string "Um...bye!$"
+
+IceMountainTown_EventScript_KristineLeaveLeft::
+	applymovement LOCAL_ID_KRISTINE_JENNY_CONVO, IceMountainTown_Movement_KristineLeaveLeft
+	delay 16
+	delay 16
+	delay 16
+	delay 16
+	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_FaceLeft
+	waitmovement LOCAL_ID_KRISTINE_JENNY_CONVO
+	return
+
+IceMountainTown_Movement_KristineLeaveLeft::
+	walk_right
+	walk_down
+	walk_down
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	step_end
+
+IceMountainTown_EventScript_KristineLeaveRight::
+	applymovement LOCAL_ID_KRISTINE_JENNY_CONVO, IceMountainTown_Movement_KristineLeaveRight
+	delay 16
+	delay 16
+	delay 16
+	delay 16
+	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_FaceLeft
+	waitmovement LOCAL_ID_KRISTINE_JENNY_CONVO
+	return
+
+IceMountainTown_Movement_KristineLeaveRight::
+	walk_left
+	walk_down
+	walk_down
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	step_end
+
+IceMountainTown_giveitem_TM02::
+	giveitem ITEM_TM02
+	return
+
 @AVALANCHE BLOCK GUY
 
 IceMountainTown_EventScript_AvalancheCleanup::
@@ -194,7 +476,7 @@ IceMountainTown_Text_AvalancheCleanupGuy::
 IceMountainTown_EventScript_AvalancheCleanupGuyPostAvalanche::
 	lock
 	faceplayer
-	goto_if_set FLAG_DEFEATED_KRISTINE, IceMountainTown_Text_AvalancheCleanupGuyPostAvalanchePostKristine
+	goto_if_set FLAG_DEFEATED_KRISTINE, IceMountainTown_EventScript_AvalancheCleanupGuyPostAvalanchePostKristine
 	goto_if_unset FLAG_DEFEATED_KRISTINE, IceMountainTown_EventScript_AvalancheCleanupGuyPostAvalanchePreKristine
 	release
 	end
@@ -394,6 +676,7 @@ IceMountainTown_Text_IceTownHikerDialogue::
 	.string "used to camping in the cold!$"
 
 @GET NEVERMELTICE FROM LITTLE GIRL 
+
 
 IceMountainTown_EventScript_IceTownLittleGirlDialogue::
 	lock

@@ -3,7 +3,7 @@
 
 #define FOREACH_TM(F) \
     F(FOCUS_PUNCH) \
-    F(DRAGON_CLAW) \
+    F(ICY_WIND) \
     F(WATER_PULSE) \
     F(CALM_MIND) \
     F(ROAR) \

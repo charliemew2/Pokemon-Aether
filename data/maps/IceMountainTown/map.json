@@ -159,6 +159,48 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "IceMountainTown_EventScript_AvalancheCleanupGuyPostAvalanche",
       "flag": "FLAG_SPOKETOJENNY"
+    },
+    {
+      "local_id": "LOCAL_ID_KRISTINE_POSTFIGHTWALKSAWAY",
+      "graphics_id": "OBJ_EVENT_GFX_GLACIA",
+      "x": 13,
+      "y": 5,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "FLAG_HIDE_KRISTINE_ESCORT"
+    },
+    {
+      "local_id": "LOCAL_ID_KRISTINE_JENNY_CONVO",
+      "graphics_id": "OBJ_EVENT_GFX_GLACIA",
+      "x": 40,
+      "y": 17,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "IceMountainTown_EventScript_KristineJennyMakeUp",
+      "flag": "FLAG_HIDE_KRISTINE_JENNY_LIFT_CONVO"
+    },
+    {
+      "local_id": "LOCAL_ID_JENNY_KRISTINE_CONVO",
+      "graphics_id": "OBJ_EVENT_GFX_GRETA",
+      "x": 41,
+      "y": 17,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "IceMountainTown_EventScript_KristineJennyMakeUp",
+      "flag": "FLAG_HIDE_KRISTINE_JENNY_LIFT_CONVO"
     }
   ],
   "warp_events": [

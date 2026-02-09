@@ -1238,8 +1238,8 @@
 #define FLAG_AVALANCHE_CLEARED                                      0x4A0 // CUSTOM FLAG FOR MOVING THE NPC WHO TELLS THE PLAYER THE ICE MOUNTAIN PATH IS BLOCKED BY SNOW
 #define FLAG_SPOKETOGRUNTAT_DOCKS                                   0x4A1 // CUSTOM FLAG FOR HAVING SPOKEN TO THE GRUNT BEFORE IN THE DOCKS
 #define FLAG_SPOKETOJENNY                                           0x4A2 // CUSTOM FLAG FOR HAVING SPOKEN TO JENNY
-#define FLAG_UNUSED_0x4A3                                           0x4A3 // Unused Flag
-#define FLAG_UNUSED_0x4A4                                           0x4A4 // Unused Flag
+#define FLAG_HIDE_KRISTINE_ESCORT                                   0x4A3 // CUSTOM FLAG FOR HIDING KRISTINE'S SPRITE IN THE CUTSCENE WHEN SHE RETURNS YOU TO TOWN
+#define FLAG_HIDE_KRISTINE_JENNY_LIFT_CONVO                         0x4A4 // CUSTOM FLAG FOR HIDING KRISTINE AND JENNY AFTER THEY MAKE UP
 #define FLAG_UNUSED_0x4A5                                           0x4A5 // Unused Flag
 #define FLAG_UNUSED_0x4A6                                           0x4A6 // Unused Flag
 #define FLAG_UNUSED_0x4A7                                           0x4A7 // Unused Flag

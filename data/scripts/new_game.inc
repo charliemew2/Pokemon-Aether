@@ -277,5 +277,7 @@ EventScript_ResetAllMapFlags::
 	setflag FLAG_JOHN_STARTINGTOWN_RIVAL1
 	setflag FLAG_SYS_B_DASH
 	setflag FLAG_SPOKETOJENNY
+	setflag FLAG_HIDE_KRISTINE_ESCORT
+	setflag	FLAG_HIDE_KRISTINE_JENNY_LIFT_CONVO
 	call EventScript_ResetAllBerries
 	end

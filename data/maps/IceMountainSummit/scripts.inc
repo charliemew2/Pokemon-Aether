@@ -77,8 +77,8 @@ IceMountainSummit_EventScript_KristineBossFight::
 	delay 8
 	msgbox IceMountainSummit_Text_KristineTextPost2, MSGBOX_DEFAULT
 	closemessage
+	clearflag FLAG_HIDE_KRISTINE_ESCORT
 	warp MAP_ICE_MOUNTAIN_TOWN, 12, 5
-	setflag FLAG_DEFEATED_KRISTINE
 	release
 	end
 
