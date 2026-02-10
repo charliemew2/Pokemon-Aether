@@ -77,7 +77,7 @@
       "flag": "FLAG_DEFEATED_KRISTINE"
     },
     {
-      "local_id": "LOCAL_ID_ICETOWN_NURSE",
+      "local_id": "LOCAL_ID_SNOWCOT_NURSE",
       "graphics_id": "OBJ_EVENT_GFX_NURSE",
       "x": 20,
       "y": 11,
@@ -91,7 +91,7 @@
       "flag": "0"
     },
     {
-      "local_id": "LOCAL_ID_ICETOWNGIRL",
+      "local_id": "LOCAL_ID_SNOWCOTGIRL",
       "graphics_id": "OBJ_EVENT_GFX_GIRL_3",
       "x": 28,
       "y": 11,
@@ -101,11 +101,11 @@
       "movement_range_y": 2,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "IceMountainTown_EventScript_IceTownGirlDialogue",
+      "script": "IceMountainTown_EventScript_SnowCotGirlDialogue",
       "flag": "0"
     },
     {
-      "local_id": "LOCAL_ID_ICETOWNBOY",
+      "local_id": "LOCAL_ID_SNOWCOTBOY",
       "graphics_id": "OBJ_EVENT_GFX_BOY_1",
       "x": 30,
       "y": 26,
@@ -115,11 +115,11 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "IceMountainTown_EventScript_IceTownBoyDialogue",
+      "script": "IceMountainTown_EventScript_SnowCotBoyDialogue",
       "flag": "0"
     },
     {
-      "local_id": "LOCAL_ID_ICETOWNGUY",
+      "local_id": "LOCAL_ID_SNOWCOTGUY",
       "graphics_id": "OBJ_EVENT_GFX_HIKER",
       "x": 18,
       "y": 16,
@@ -129,11 +129,11 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "IceMountainTown_EventScript_IceTownHikerDialogue",
+      "script": "IceMountainTown_EventScript_SnowCotHikerDialogue",
       "flag": "0"
     },
     {
-      "local_id": "LOCAL_ID_ICETOWNLITTLEGIRL",
+      "local_id": "LOCAL_ID_SNOWCOTLITTLEGIRL",
       "graphics_id": "OBJ_EVENT_GFX_TWIN",
       "x": 24,
       "y": 18,
@@ -143,7 +143,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "IceMountainTown_EventScript_IceTownLittleGirlDialogue",
+      "script": "IceMountainTown_EventScript_SnowCotLittleGirlDialogue",
       "flag": "0"
     },
     {
@@ -252,7 +252,7 @@
       "y": 27,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "IceMountainTown_EventScript_SignIceTownEntrance"
+      "script": "IceMountainTown_EventScript_SignSnowCotEntrance"
     },
     {
       "type": "sign",

@@ -584,15 +584,15 @@ IceMountainTown_Text_ByeByeNurse::
 
 @SIGNS IN TOWN
 
-IceMountainTown_EventScript_SignIceTownEntrance::
+IceMountainTown_EventScript_SignSnowCotEntrance::
 	lock
-	msgbox IceMountainTown_Text_SignIceTownEntrance, MSGBOX_DEFAULT
+	msgbox IceMountainTown_Text_SignSnowCotEntrance, MSGBOX_DEFAULT
 	closemessage
 	release
 	end
 
-IceMountainTown_Text_SignIceTownEntrance::
-	.string "ICETOWN - The little town cradled\n"
+IceMountainTown_Text_SignSnowCotEntrance::
+	.string "SnowCot - The little town cradled\n"
 	.string "in the snow of the peaks.$"
 
 IceMountainTown_EventScript_SignKristineHouse::
@@ -630,34 +630,34 @@ IceMountainTown_EventScript_SignClinic::
 	end
 
 IceMountainTown_Text_SignClinic::
-	.string "ICETOWN Clinic$"
+	.string "SnowCot Clinic$"
 
 @NPC DIALOGUE
 
-IceMountainTown_EventScript_IceTownBoyDialogue::
+IceMountainTown_EventScript_SnowCotBoyDialogue::
 	lock
 	faceplayer
-	msgbox IceMountainTown_Text_IceTownBoyDialogue, MSGBOX_DEFAULT
+	msgbox IceMountainTown_Text_SnowCotBoyDialogue, MSGBOX_DEFAULT
 	closemessage
 	release
 	end
 
-IceMountainTown_Text_IceTownBoyDialogue::
+IceMountainTown_Text_SnowCotBoyDialogue::
 	.string "I really like living here. It's very\n"
 	.string "quaint and quiet.\p"
 	.string "The cold is a problem for some \n"
 	.string "people, but most of us folks who\l"
 	.string "live here are used to it.$"
 
-IceMountainTown_EventScript_IceTownGirlDialogue::
+IceMountainTown_EventScript_SnowCotGirlDialogue::
 	lock
 	faceplayer
-	msgbox IceMountainTown_Text_IceTownGirlDialogue, MSGBOX_DEFAULT
+	msgbox IceMountainTown_Text_SnowCotGirlDialogue, MSGBOX_DEFAULT
 	closemessage
 	release
 	end
 
-IceMountainTown_Text_IceTownGirlDialogue::
+IceMountainTown_Text_SnowCotGirlDialogue::
 	.string "Kristine is the only trainer who\n"
 	.string "lives here.\p"
 	.string "Her parents were really against\n"
@@ -668,15 +668,15 @@ IceMountainTown_Text_IceTownGirlDialogue::
 	.string "to satisfy her.\p"
 	.string "She's really adventurous.$"
 
-IceMountainTown_EventScript_IceTownHikerDialogue::
+IceMountainTown_EventScript_SnowCotHikerDialogue::
 	lock
 	faceplayer
-	msgbox IceMountainTown_Text_IceTownHikerDialogue, MSGBOX_DEFAULT
+	msgbox IceMountainTown_Text_SnowCotHikerDialogue, MSGBOX_DEFAULT
 	closemessage
 	release
 	end
 
-IceMountainTown_Text_IceTownHikerDialogue::
+IceMountainTown_Text_SnowCotHikerDialogue::
 	.string "I'm visiting this town from SECOND\n"
 	.string "CITY. But with the chairlift being\l"
 	.string "closed, it's going to take me a lot\l"
@@ -687,19 +687,19 @@ IceMountainTown_Text_IceTownHikerDialogue::
 @GET NEVERMELTICE FROM LITTLE GIRL 
 
 
-IceMountainTown_EventScript_IceTownLittleGirlDialogue::
+IceMountainTown_EventScript_SnowCotLittleGirlDialogue::
 	lock
 	faceplayer
-	goto_if_set FLAG_ITEM_LITTLE_GIRL_GIVES_NEVER_MELT_ICE, IceMountainTown_EventScript_IceTownLittleGirlDialogueGaveNeverMeltIce
-	msgbox IceMountainTown_Text_IceTownLittleGirlDialogue, MSGBOX_DEFAULT
+	goto_if_set FLAG_ITEM_LITTLE_GIRL_GIVES_NEVER_MELT_ICE, IceMountainTown_EventScript_SnowCotLittleGirlDialogueGaveNeverMeltIce
+	msgbox IceMountainTown_Text_SnowCotLittleGirlDialogue, MSGBOX_DEFAULT
 	call IceMountainTown_giveitem_NeverMeltIce
 	setflag FLAG_ITEM_LITTLE_GIRL_GIVES_NEVER_MELT_ICE
-	msgbox IceMountainTown_Text_IceTownLittleGirlDialogueGaveNeverMeltIce, MSGBOX_DEFAULT
+	msgbox IceMountainTown_Text_SnowCotLittleGirlDialogueGaveNeverMeltIce, MSGBOX_DEFAULT
 	closemessage
 	release
 	end
 
-IceMountainTown_Text_IceTownLittleGirlDialogue::
+IceMountainTown_Text_SnowCotLittleGirlDialogue::
 	.string "Icicles always form on the roof\n"
 	.string "my house, and on the trees!\p"
 	.string "Sometimes I snap them off and lick\n"
@@ -711,15 +711,15 @@ IceMountainTown_giveitem_NeverMeltIce::
 	giveitem ITEM_NEVERMELTICE
 	return
 
-IceMountainTown_EventScript_IceTownLittleGirlDialogueGaveNeverMeltIce::
+IceMountainTown_EventScript_SnowCotLittleGirlDialogueGaveNeverMeltIce::
 	lock
 	faceplayer
-	msgbox IceMountainTown_Text_IceTownLittleGirlDialogueGaveNeverMeltIce, MSGBOX_DEFAULT
+	msgbox IceMountainTown_Text_SnowCotLittleGirlDialogueGaveNeverMeltIce, MSGBOX_DEFAULT
 	closemessage
 	release
 	end
 
-IceMountainTown_Text_IceTownLittleGirlDialogueGaveNeverMeltIce::
+IceMountainTown_Text_SnowCotLittleGirlDialogueGaveNeverMeltIce::
 	.string "That's a NeverMeltIce!\l"
 	.string	"It makes Ice type moves stronger!\l"
 	.string	"It doesn't taste as good as a\n"

@@ -206,4 +206,4 @@ IceMountainPath_EventScript_Sign3::
 	end
 
 IceMountainPath_Text_Sign3::
-	.string "{DOWN_ARROW} ICETOWN."
+	.string "{DOWN_ARROW} SnowCot Town."
