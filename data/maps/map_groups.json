@@ -1,5 +1,9 @@
 {
   "group_order": [
+    "gMapGroup_KushoRegion",
+    "gMapGroup_IndoorSouthernDocks",
+    "gMapGroup_IndoorIceMountainTown",
+    "gMapGroup_IndoorIceMountain",
     "gMapGroup_TownsAndRoutes",
     "gMapGroup_IndoorLittleroot",
     "gMapGroup_IndoorOldale",
@@ -34,6 +38,32 @@
     "gMapGroup_IndoorRoute123",
     "gMapGroup_IndoorRoute119",
     "gMapGroup_IndoorRoute124"
+  ],
+  "gMapGroup_KushoRegion": [
+    "StartingTown",
+    "ForestShrine",
+    "Docks",
+    "Route1",
+    "MountainPath",
+    "IceMountainTown",
+    "IceMountainPath",
+    "IceMountainSummit",
+    "Route2"
+  ],
+  "gMapGroup_IndoorSouthernDocks": [
+    "DocksWarehouse",
+    "DocksWarehouseBasement"
+  ],
+  "gMapGroup_IndoorIceMountainTown": [
+    "IceMountainTown_Kristine_JennyHouse",
+    "IceMountainTown_Kristine_JennyHouse_2F",
+    "IceMountainTown_House1"
+  ],
+  "gMapGroup_IndoorIceMountain": [
+    "IceMountain1F",
+    "IceMountain2F",
+    "IceMountain3F",
+    "MountainSpring"
   ],
   "gMapGroup_TownsAndRoutes": [
     "PetalburgCity",
@@ -92,22 +122,7 @@
     "Underwater_Route128",
     "Underwater_Route129",
     "Underwater_Route105",
-    "Underwater_Route125",
-    "StartingTown",
-    "Docks",
-    "DocksWarehouse",
-    "DocksWarehouseBasement",
-    "IceMountain1F",
-    "IceMountain2F",
-    "IceMountain3F",
-    "IceMountainPath",
-    "IceMountainSummit",
-    "IceMountainTown",
-    "MountainSpring",
-    "MountainPath",
-    "Route1",
-    "ForestShrine",
-    "Route2"
+    "Underwater_Route125"
   ],
   "gMapGroup_IndoorLittleroot": [
     "LittlerootTown_BrendansHouse_1F",

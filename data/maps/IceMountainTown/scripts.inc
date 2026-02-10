@@ -4,7 +4,7 @@ map_script MAP_SCRIPT_ON_FRAME_TABLE, DefeatedKristine_OnFrameTable
 
 @VAR_ICE_MOUNTAIN_EVENTS LISTING
 	@0 - Triggers the first Sayo Fight on F3
-	@1 - Unblocks the Avalanche in ICYTOWN to allow passage up the mountain
+	@1 - Unblocks the Avalanche in SnowCot to allow passage up the mountain
 	@2 - Allows the Grunt to attack the player on the path
 	@3 - Kristine defeated - activates Jenny and her make up Cutscene
 	@4 - Increment during Kristine Cutscene to prevent crashing after warp to town
@@ -234,6 +234,7 @@ IceMountainTown_EventScript_KristineJennyMakeUp::
 	call_if_eq VAR_TEMP_3, 41, IceMountainTown_EventScript_KristineLeaveRight
 	removeobject LOCAL_ID_KRISTINE_JENNY_CONVO
 	setflag FLAG_HIDE_KRISTINE_JENNY_LIFT_CONVO
+	clearflag FLAG_HIDE_KRISTINE_AT_HOME
 	release
 	end
 

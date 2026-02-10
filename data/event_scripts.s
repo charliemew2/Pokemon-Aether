@@ -1180,3 +1180,9 @@ EventScript_VsSeekerChargingDone::
 	.include "data/scripts/dexnav.inc"
 	.include "data/scripts/battle_frontier.inc"
 	.include "data/scripts/apricorn_tree.inc"
+
+	.include "data/maps/IceMountainTown_Kristine_JennyHouse_2F/scripts.inc"
+
+	.include "data/maps/IceMountainTown_Kristine_JennyHouse/scripts.inc"
+
+	.include "data/maps/IceMountainTown_House1/scripts.inc"

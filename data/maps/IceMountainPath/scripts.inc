@@ -181,7 +181,7 @@ IceMountainPath_Text_PoodlePostBattle::
 	.string "The walk home will be quite the\n"
 	.string "trip for my poor little guys...\p"
 	.string "Thank goodness for the clinic\n"
-	.string "in ICYTOWN!$"
+	.string "in SnowCot!$"
 
 @SIGNS
 

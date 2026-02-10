@@ -47,6 +47,19 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "ForestShrine_EventScript_ShrineMewNPCStartGame",
       "flag": "FLAG_MEWEVENT_SHRINE1"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+      "x": 19,
+      "y": 6,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "ITEM_ENERGY_ROOT",
+      "script": "Common_EventScript_FindItem",
+      "flag": "FLAG_ITEM_FORESTSHRINE_ENERGY_ROOT"
     }
   ],
   "warp_events": [],

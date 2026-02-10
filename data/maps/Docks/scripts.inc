@@ -917,7 +917,7 @@ SouthernDocks_Text_CharliePostDocksIntroText::
 	.string "to get some help finding our\l"
 	.string "lost cargo.\p"
 	.string "Your friend said something about\n"
-	.string "going towards ICYTOWN.\p"
+	.string "going towards SnowCot.\p"
 	.string "Its north of here according\n"
 	.string "to the map.\p"
 	.string "Hey my advice? Enjoy your early\n"
