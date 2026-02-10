@@ -306,7 +306,7 @@ StartingTown_Text_EvePostBattle::
 	.string "You know, I saw a boat come in at\n"
 	.string "the docks down south earlier!\p"
 	.string "Rumor has it some really strong\n"
-	.string "trainers have come to MYREGION!\p"
+	.string "trainers have come to Kusho!\p"
 	.string "Why don't we go see them?\n"
 	.string "It'll be fun! Come on!\p"
 	.string "I'll race you there!$"

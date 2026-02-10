@@ -73,7 +73,7 @@ DocksWarehouseBasement_Text_CharlieConversation3::
 	.string "and I were here for a delivery and\l"
 	.string "well...the cargo isn't here anymore.\p"
 	.string "We were bringing it from a mutual\n"
-	.string "associate of ours to MYREGION to\l"
+	.string "associate of ours to Kusho to\l"
 	.string "bring to Professor Hazel.\p"
 	.string "Someone must have tried to steal\n"
 	.string "it by causing a power surge but...\p"

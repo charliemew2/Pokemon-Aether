@@ -433,7 +433,7 @@ SouthernDocks_EventScript_Sailor1NPCExplosion::
 SouthernDocks_Text_Sailor1NPCExplosion::
 	.string "When the power goes down here, it\n"
 	.string "makes our work really difficult!\p"
-	.string "MYREGION is really far away from\n"
+	.string "Kusho is really far away from\n"
 	.string "other regions.\p"
 	.string "Shipping cargo is really important\n"
 	.string "for the people's lives here.$"
@@ -718,7 +718,7 @@ SouthernDocks_Text_DocksLassNPCDialogue::
 	.string "Have you been to SECONDCITY?\l"
 	.string "There's a ferry there that runs\n"
 	.string "to this port every so often.\p"
-	.string "MYREGION is an archipelago, so it\n"
+	.string "Kusho is an archipelago, so it\n"
 	.string "has a large dependance on boats.\p"
 	.string "SECONDCITY is home to Vandelay\n"
 	.string "Industries! It's a tech company\l"
@@ -735,7 +735,7 @@ SouthernDocks_EventScript_DocksArtistNPCDialogue::
 	end
 
 SouthernDocks_Text_DocksArtistNPCDialogue::
-	.string "MYREGION has only three major\n"
+	.string "Kusho has only three major\n"
 	.string "cities throughout.\p"
 	.string "CITYONE, CITYTWO, and CITYTHREE.\l"
 	.string "Most settlements are small but\n"
@@ -753,14 +753,14 @@ SouthernDocks_EventScript_DocksManNPCDialogue::
 	end
 
 SouthernDocks_Text_DocksManNPCDialogue::
-	.string "The biggest city in MYREGION\n"
+	.string "The biggest city in Kusho\n"
 	.string "is called CITYONE.\p"
 	.string "There's a highway east of the\n"
 	.string "warehouse that trucks come to\l"
 	.string "haul cargo to and from this port.\p"
 	.string "This southernmost dock is the\n"
 	.string "primary transport point for most\l"
-	.string "international travel in MYREGION.$"
+	.string "international travel in Kusho.$"
 
 SouthernDocks_EventScript_DocksSailorWarehouseNPCDialogue::
 	lock
@@ -839,7 +839,7 @@ SouthernDocks_giveitem_SuperRod::
 SouthernDocks_Text_FishermanGiveSuperRod2::
 	.string "That right there is the Super Rod!\l"
 	.string "It can catch any fish in the seas\n"
-	.string "of MYREGION!\p"
+	.string "of Kusho!\p"
 	.string "Just stand in front of water, and\n"
 	.string "toss your line, and relax!\p"
 	.string "If you get a bite, it won't be\n"
@@ -852,7 +852,7 @@ SouthernDocks_Text_FishermanGaveSuperRodAlready::
 	.string "They're a mythical Pokémon that\n"
 	.string "are followers of the Prince of\l"
 	.string "Sea - Manaphy.\p"
-	.string "MYREGION is directly in the path\n"
+	.string "Kusho is directly in the path\n"
 	.string "of the ocean currents that they\l"
 	.string "drift down throughout the year.\p"
 	.string "If you get lucky you may see one!\l"
@@ -952,7 +952,7 @@ SouthernDocks_Text_DawnPostDocksIntroText::
 	.string "can have a battle.\p"
 	.string "Hopefully all this business can\n"
 	.string "get sorted out soon. There's a\l"
-	.string "lot I want to see in MYREGION.$"
+	.string "lot I want to see in Kusho.$"
 
 @DOCKS MARKET SCRIPT
 

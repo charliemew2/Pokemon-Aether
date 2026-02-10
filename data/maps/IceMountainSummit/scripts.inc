@@ -141,7 +141,7 @@ IceMountainSummit_Text_KristineText3::
 	.string "We both have done everything\n"
 	.string "together, always. But...I want to\l"
 	.string "see the world. There's so much of\l"
-	.string "MYREGION I want to see...\p"
+	.string "Kusho I want to see...\p"
 	.string "But, she's worried I can't handle\n"
 	.string "myself. She's wrong!\p"
 	.string "What is your er...name?\l"
