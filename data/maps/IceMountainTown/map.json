@@ -238,6 +238,20 @@
       "elevation": 0,
       "dest_map": "MAP_ICE_MOUNTAIN_TOWN_HOUSE3",
       "dest_warp_id": "0"
+    },
+    {
+      "x": 40,
+      "y": 13,
+      "elevation": 0,
+      "dest_map": "MAP_CABLE_CAR_SNOW_COT_STATION",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 41,
+      "y": 13,
+      "elevation": 0,
+      "dest_map": "MAP_CABLE_CAR_SNOW_COT_STATION",
+      "dest_warp_id": "0"
     }
   ],
   "coord_events": [

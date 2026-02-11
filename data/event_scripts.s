@@ -1192,3 +1192,7 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/IceMountainTown_House3/scripts.inc"
 
 	.include "data/maps/PlayersHouse/scripts.inc"
+
+	.include "data/maps/CableCarSnowCotStation/scripts.inc"
+
+	.include "data/maps/CableCarRoute2Station/scripts.inc"

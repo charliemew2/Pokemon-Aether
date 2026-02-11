@@ -53,7 +53,9 @@
   "gMapGroup_KushoInteriorsBuildings": [
     "PlayersHouse",
     "DocksWarehouse",
-    "DocksWarehouseBasement"
+    "DocksWarehouseBasement",
+    "CableCarSnowCotStation",
+    "CableCarRoute2Station"
   ],
   "gMapGroup_IndoorIceMountainTown": [
     "IceMountainTown_Kristine_JennyHouse",

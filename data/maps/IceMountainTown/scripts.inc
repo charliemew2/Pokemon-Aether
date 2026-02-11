@@ -235,6 +235,7 @@ IceMountainTown_EventScript_KristineJennyMakeUp::
 	removeobject LOCAL_ID_KRISTINE_JENNY_CONVO
 	setflag FLAG_HIDE_KRISTINE_JENNY_LIFT_CONVO
 	clearflag FLAG_HIDE_KRISTINE_AT_HOME
+	clearflag FLAG_JENNY_NOT_AT_POST
 	release
 	end
 

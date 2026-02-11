@@ -199,11 +199,11 @@ IceMountainPath_EventScript_Sign2::
 	end
 
 IceMountainPath_Text_Sign2::
-	.string "{UP_ARROW} Summit ahead."
+	.string "{UP_ARROW} Summit ahead.$"
 
 IceMountainPath_EventScript_Sign3::
 	msgbox IceMountainPath_Text_Sign3, MSGBOX_SIGN
 	end
 
 IceMountainPath_Text_Sign3::
-	.string "{DOWN_ARROW} SnowCot Town."
+	.string "{DOWN_ARROW} SnowCot Town.$"

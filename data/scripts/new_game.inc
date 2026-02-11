@@ -280,5 +280,6 @@ EventScript_ResetAllMapFlags::
 	setflag FLAG_HIDE_KRISTINE_ESCORT
 	setflag	FLAG_HIDE_KRISTINE_JENNY_LIFT_CONVO
 	setflag FLAG_HIDE_KRISTINE_AT_HOME
+	setflag FLAG_JENNY_NOT_AT_POST
 	call EventScript_ResetAllBerries
 	end
