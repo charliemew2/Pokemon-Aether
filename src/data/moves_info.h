@@ -21295,6 +21295,24 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .battleAnimScript = gBattleAnimMove_MalignantChain,
     },
 
+        [MOVE_SERPENT_SNAP] =
+    {
+        .name = COMPOUND_STRING("Serpent Snap"),
+        .description = COMPOUND_STRING(
+            "A quick bite attack from\n"
+            "a dragon's jaw."),
+        .effect = EFFECT_HIT,
+        .power = 50,
+        .type = TYPE_DRAGON,
+        .accuracy = 100,
+        .pp = 35,
+        .target = MOVE_TARGET_SELECTED,
+        .priority = 0,
+        .category = DAMAGE_CATEGORY_PHYSICAL,
+        .makesContact = TRUE,
+        .battleAnimScript = gBattleAnimMove_SerpentSnap,
+    },
+
     // Z-Moves
     [MOVE_BREAKNECK_BLITZ] =
     {

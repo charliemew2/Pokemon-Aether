@@ -1241,7 +1241,7 @@
 #define FLAG_HIDE_KRISTINE_ESCORT                                   0x4A3 // CUSTOM FLAG FOR HIDING KRISTINE'S SPRITE IN THE CUTSCENE WHEN SHE RETURNS YOU TO TOWN
 #define FLAG_HIDE_KRISTINE_JENNY_LIFT_CONVO                         0x4A4 // CUSTOM FLAG FOR HIDING KRISTINE AND JENNY AFTER THEY MAKE UP
 #define FLAG_HIDE_KRISTINE_AT_HOME                                  0x4A5 // CUSTOM FLAG FOR HIDING KRISTINE AT HOME
-#define FLAG_FLAG_JENNY_NOT_AT_POST                                 0x4A6 // CUSTOM FLAG FOR HIDING JENNY BEFORE SHE IS BACK AT WORK
+#define FLAG_JENNY_NOT_AT_POST                                      0x4A6 // CUSTOM FLAG FOR HIDING JENNY BEFORE SHE IS BACK AT WORK
 #define FLAG_UNUSED_0x4A7                                           0x4A7 // Unused Flag
 #define FLAG_UNUSED_0x4A8                                           0x4A8 // Unused Flag
 #define FLAG_UNUSED_0x4A9                                           0x4A9 // Unused Flag
