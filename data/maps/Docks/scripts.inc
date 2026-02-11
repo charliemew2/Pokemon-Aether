@@ -715,12 +715,12 @@ SouthernDocks_EventScript_DocksLassNPCDialogue::
 	end
 
 SouthernDocks_Text_DocksLassNPCDialogue::
-	.string "Have you been to SECONDCITY?\l"
+	.string "Have you been to Savvie City?\l"
 	.string "There's a ferry there that runs\n"
 	.string "to this port every so often.\p"
 	.string "Kusho is an archipelago, so it\n"
 	.string "has a large dependance on boats.\p"
-	.string "SECONDCITY is home to Vandelay\n"
+	.string "Savvie City is home to Vandelay\n"
 	.string "Industries! It's a tech company\l"
 	.string "run by a...motley crew.\p"
 	.string "They ship their goods through\n"
@@ -737,7 +737,8 @@ SouthernDocks_EventScript_DocksArtistNPCDialogue::
 SouthernDocks_Text_DocksArtistNPCDialogue::
 	.string "Kusho has only three major\n"
 	.string "cities throughout.\p"
-	.string "CITYONE, CITYTWO, and CITYTHREE.\l"
+	.string "CITYONE, Savvie City, and\n"
+	.string "CITYTHREE.\p"
 	.string "Most settlements are small but\n"
 	.string "dense and full of people.\p"
 	.string "It's beautiful here. Inspiring\n"

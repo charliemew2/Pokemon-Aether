@@ -28,6 +28,13 @@
       "elevation": 0,
       "dest_map": "MAP_ICE_MOUNTAIN_TOWN_KRISTINE_JENNY_HOUSE_2F",
       "dest_warp_id": "0"
+    },
+    {
+      "x": 9,
+      "y": 8,
+      "elevation": 0,
+      "dest_map": "MAP_ICE_MOUNTAIN_TOWN",
+      "dest_warp_id": "1"
     }
   ],
   "coord_events": [],

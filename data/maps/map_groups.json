@@ -1,9 +1,9 @@
 {
   "group_order": [
     "gMapGroup_KushoRegion",
-    "gMapGroup_IndoorSouthernDocks",
+    "gMapGroup_KushoInteriorsBuildings",
     "gMapGroup_IndoorIceMountainTown",
-    "gMapGroup_IndoorIceMountain",
+    "gMapGroup_KushoDungeons",
     "gMapGroup_TownsAndRoutes",
     "gMapGroup_IndoorLittleroot",
     "gMapGroup_IndoorOldale",
@@ -50,16 +50,19 @@
     "IceMountainSummit",
     "Route2"
   ],
-  "gMapGroup_IndoorSouthernDocks": [
+  "gMapGroup_KushoInteriorsBuildings": [
+    "PlayersHouse",
     "DocksWarehouse",
     "DocksWarehouseBasement"
   ],
   "gMapGroup_IndoorIceMountainTown": [
     "IceMountainTown_Kristine_JennyHouse",
     "IceMountainTown_Kristine_JennyHouse_2F",
-    "IceMountainTown_House1"
+    "IceMountainTown_House1",
+    "IceMountainTown_House2",
+    "IceMountainTown_House3"
   ],
-  "gMapGroup_IndoorIceMountain": [
+  "gMapGroup_KushoDungeons": [
     "IceMountain1F",
     "IceMountain2F",
     "IceMountain3F",

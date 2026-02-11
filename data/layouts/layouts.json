@@ -4590,6 +4590,36 @@
       "secondary_tileset": "gTileset_GenericBuilding",
       "border_filepath": "data/layouts/IceMountainTown_House1/border.bin",
       "blockdata_filepath": "data/layouts/IceMountainTown_House1/map.bin"
+    },
+    {
+      "id": "LAYOUT_ICE_MOUNTAIN_TOWN_HOUSE2",
+      "name": "IceMountainTown_House2_Layout",
+      "width": 10,
+      "height": 9,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_GenericBuilding",
+      "border_filepath": "data/layouts/IceMountainTown_House2/border.bin",
+      "blockdata_filepath": "data/layouts/IceMountainTown_House2/map.bin"
+    },
+    {
+      "id": "LAYOUT_ICE_MOUNTAIN_TOWN_HOUSE3",
+      "name": "IceMountainTown_House3_Layout",
+      "width": 10,
+      "height": 9,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_GenericBuilding",
+      "border_filepath": "data/layouts/IceMountainTown_House3/border.bin",
+      "blockdata_filepath": "data/layouts/IceMountainTown_House3/map.bin"
+    },
+    {
+      "id": "LAYOUT_PLAYERS_HOUSE",
+      "name": "PlayersHouse_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Petalburg",
+      "border_filepath": "data/layouts/PlayersHouse/border.bin",
+      "blockdata_filepath": "data/layouts/PlayersHouse/map.bin"
     }
   ]
 }

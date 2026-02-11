@@ -1186,3 +1186,9 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/IceMountainTown_Kristine_JennyHouse/scripts.inc"
 
 	.include "data/maps/IceMountainTown_House1/scripts.inc"
+
+	.include "data/maps/IceMountainTown_House2/scripts.inc"
+
+	.include "data/maps/IceMountainTown_House3/scripts.inc"
+
+	.include "data/maps/PlayersHouse/scripts.inc"
