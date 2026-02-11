@@ -4614,10 +4614,10 @@
     {
       "id": "LAYOUT_PLAYERS_HOUSE",
       "name": "PlayersHouse_Layout",
-      "width": 20,
-      "height": 20,
-      "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Petalburg",
+      "width": 9,
+      "height": 8,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_BrendansMaysHouse",
       "border_filepath": "data/layouts/PlayersHouse/border.bin",
       "blockdata_filepath": "data/layouts/PlayersHouse/map.bin"
     }

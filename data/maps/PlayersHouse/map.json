@@ -1,0 +1,69 @@
+{
+  "id": "MAP_PLAYERS_HOUSE",
+  "name": "PlayersHouse",
+  "layout": "LAYOUT_PLAYERS_HOUSE",
+  "music": "MUS_FORTREE",
+  "region_map_section": "MAPSEC_LITTLEROOT_TOWN",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_INDOOR",
+  "allow_cycling": false,
+  "allow_escaping": false,
+  "allow_running": false,
+  "show_map_name": false,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": null,
+  "object_events": [
+    {
+      "local_id": "LOCAL_ID_PLAYERSSTUFF",
+      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+      "x": 6,
+      "y": 2,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "PlayersHouse_EventScript_GrabCandyAndPortaPC",
+      "flag": "FLAG_GOTCANDIESANDPORTAPC"
+    }
+  ],
+  "warp_events": [
+    {
+      "x": 5,
+      "y": 7,
+      "elevation": 0,
+      "dest_map": "MAP_STARTING_TOWN",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 6,
+      "y": 7,
+      "elevation": 0,
+      "dest_map": "MAP_STARTING_TOWN",
+      "dest_warp_id": "0"
+    }
+  ],
+  "coord_events": [
+    {
+      "type": "trigger",
+      "x": 5,
+      "y": 7,
+      "elevation": 0,
+      "var": "VAR_STARTER_CUTSCENE",
+      "var_value": "0",
+      "script": "PlayersHouse_EventScript_DoesPlayerHaveStuff"
+    },
+    {
+      "type": "trigger",
+      "x": 6,
+      "y": 7,
+      "elevation": 0,
+      "var": "VAR_STARTER_CUTSCENE",
+      "var_value": "0",
+      "script": "PlayersHouse_EventScript_DoesPlayerHaveStuff"
+    }
+  ],
+  "bg_events": []
+}

@@ -91,7 +91,7 @@
       "x": 9,
       "y": 16,
       "elevation": 0,
-      "dest_map": "MAP_STARTING_TOWN",
+      "dest_map": "MAP_PLAYERS_HOUSE",
       "dest_warp_id": "0"
     }
   ],
