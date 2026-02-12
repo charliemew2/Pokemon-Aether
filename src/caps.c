@@ -11,7 +11,7 @@ u32 GetCurrentLevelCap(void)
     {
         {FLAG_DEFEATED_SAYO, 14},
         {FLAG_DEFEATED_KRISTINE, 19},
-        {FLAG_BADGE02_GET, 25},
+        {FLAG_BADGE02_GET, 24},
         {FLAG_BADGE03_GET, 27},
         {FLAG_BADGE04_GET, 29},
         {FLAG_BADGE05_GET, 31},
