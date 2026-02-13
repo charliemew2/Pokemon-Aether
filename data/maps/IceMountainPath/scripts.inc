@@ -3,6 +3,8 @@ IceMountainPath_MapScripts::
 
 IceMountainPath_EventScript_Grunt1Ambush::
 	lock
+	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_FaceUp
+	waitmovement 0
 	addobject LOCAL_ID_GRUNT1
 	playbgm MUS_ENCOUNTER_AQUA, TRUE
 	applymovement LOCAL_ID_GRUNT1, IceMountainPath_Grunt1Moves

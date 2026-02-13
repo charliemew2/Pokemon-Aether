@@ -1,0 +1,31 @@
+{
+  "id": "MAP_BLOSSOMWOOD_TOWN",
+  "name": "BlossomwoodTown",
+  "layout": "LAYOUT_BLOSSOMWOOD_TOWN",
+  "music": "MUS_PETALBURG",
+  "region_map_section": "MAPSEC_PETALBURG_CITY",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_TOWN",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [
+    {
+      "map": "MAP_ROUTE2",
+      "offset": 12,
+      "direction": "left"
+    },
+    {
+      "map": "MAP_ROUTE3",
+      "offset": -24,
+      "direction": "left"
+    }
+  ],
+  "object_events": [],
+  "warp_events": [],
+  "coord_events": [],
+  "bg_events": []
+}

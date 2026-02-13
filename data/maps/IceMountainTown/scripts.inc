@@ -624,7 +624,7 @@ IceMountainTown_EventScript_SignSummitAhead::
 	end
 
 IceMountainTown_Text_SignSummitAhead::
-	.string "{UP_ARROW} ICEMOUNTAIN Summit$"
+	.string "{UP_ARROW} Mt.Aeon Lower Summit$"
 
 IceMountainTown_EventScript_SignClinic::
 	msgbox IceMountainTown_Text_SignClinic, MSGBOX_SIGN

@@ -1196,3 +1196,7 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/CableCarSnowCotStation/scripts.inc"
 
 	.include "data/maps/CableCarRoute2Station/scripts.inc"
+
+	.include "data/maps/Route3/scripts.inc"
+
+	.include "data/maps/BlossomwoodTown/scripts.inc"

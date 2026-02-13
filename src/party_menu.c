@@ -5747,8 +5747,9 @@ void ItemUseCB_RareCandy(u8 taskId, TaskFunc task)
     u8 holdEffectParam = GetItemHoldEffectParam(*itemPtr);
 
     sInitialLevel = GetMonData(mon, MON_DATA_LEVEL);
+    bool32 isSpecialCandy = (gSpecialVar_ItemId == ITEM_SUPER_CANDY || gSpecialVar_ItemId == ITEM_CANDY_BAG);
 
-    if (gSpecialVar_ItemId == ITEM_SUPER_CANDY && sInitialLevel == GetCurrentLevelCap())
+    if (isSpecialCandy && sInitialLevel == GetCurrentLevelCap())
     {
         cannotUseEffect = TRUE;
     }

@@ -48,7 +48,9 @@
     "IceMountainTown",
     "IceMountainPath",
     "IceMountainSummit",
-    "Route2"
+    "Route2",
+    "BlossomwoodTown",
+    "Route3"
   ],
   "gMapGroup_KushoInteriorsBuildings": [
     "PlayersHouse",
