@@ -2201,7 +2201,7 @@ Double Battle: Yes
 AI: Check Bad Move
 
 Tandemaus @ Metronome
-Level: 13
+Level: 12
 Nature: Modest
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 Ability: Own Tempo
@@ -2216,15 +2216,6 @@ Ability: Static
 -Super Fang
 -Spark
 -Follow Me
-
-Poltchageist @ Eviolite
-Level: 11
-Nature: Bold
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-Ability: Hospitality
--Rage Powder
--Life Dew
--Mega Drain
 
 Jigglypuff @ Choice Band
 Level: 12
@@ -6035,38 +6026,47 @@ Name: Sayo
 Class: Rival
 Pic: Leaf
 Gender: Female
-Double Battle: Yes
+Double Battle: No
 AI: Basic Trainer
 Mugshot: Pink
 
-Litten @ Fire Gem
-Level: 13
+Gible @ Eviolite
+Level: 12
+Ability: Rough Skin
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Nature: Jolly
+-Stealth Rock
+-Bulldoze
+-Metal Claw
+-Dragon Breath
+
+Litten @ Charcoal
+Level: 14
+Ability: Intimidate
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Nature: Adamant
 -Flame Charge
+-Fire Fang
 -Bite
--Fake Out
--Will-O-Wisp
+-Trailblaze
 
-Roselia @ Eviolite
-Level: 12
+Corvisquire @ Mirror Herb
+Level: 11
+Ability: Unnerve
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
--Toxic
--Venoshock
--Mega Drain
-
-Gligar @ Yache Berry
-Level: 12
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
--Acrobatics
--Breaking Swipe
--Sludge Bomb
+Nature: Jolly
+-Pluck
+-Swagger
+-Power Trip
 
 Kubfu @ Salac Berry
-Level: 14
+Level: 11
+Ability: Inner Focus
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Nature: Jolly
 -Reversal
--Rock Smash
--Metal Claw
+-Counter
+-Focus Energy
 
 === TRAINER_GRUNT_1 ===
 Name: Grunt

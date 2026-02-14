@@ -20,7 +20,10 @@ IceMountainTown_EventScript_YoungerBrother::
 	faceplayer
 	goto_if_set FLAG_ITEM_LITTLE_BOY_GIVES_FIRE_STONE, IceMountainTown_EventScript_SnowCotYoungerBrotherGaveFireStone
 	msgbox IceMountainTown_Text_SnowCotLittleBoyDialogue, MSGBOX_DEFAULT
-	special	ChoosePartyMon
+	closemessage
+	checkspecies SPECIES_CAPSAKID
+	goto_if_eq VAR_RESULT, FALSE, IceMountainTown_EventScript_SnowCotYoungerBrotherNoCapsakid
+	msgbox IceMountainTown_Text_YoungerBrotherOhCapsakid, MSGBOX_DEFAULT
 	call IceMountainTown_giveitem_FireStone
 	setflag FLAG_ITEM_LITTLE_BOY_GIVES_FIRE_STONE
 	msgbox IceMountainTown_Text_YoungerBrotherGaveFireStone, MSGBOX_DEFAULT
@@ -28,15 +31,30 @@ IceMountainTown_EventScript_YoungerBrother::
 	release
 	end
 
+IceMountainTown_EventScript_SnowCotYoungerBrotherNoCapsakid::
+	msgbox IceMountainTown_Text_SnowCotLittleBoyDialogueNoCapsakid, MSGBOX_DEFAULT
+	closemessage
+	release
+	end
+
 IceMountainTown_Text_SnowCotLittleBoyDialogue::
 	.string "Hey! Have you seen the Pokémon\n"
-	.string "Capsakid?\p"
-	.string "It's so cool! It's a grass type\n"
-	.string "that evolves into a fire type!\p"
-	.string "I'm too young to be a trainer, but\n"
-	.string "I found this Fire Stone that could\l"
-	.string "evolve one.\p"
-	.string "You can have it!$"
+	.string "Capsakid? It's a grass type that\l"
+	.string "evolves into a fire type!\p"
+	.string "They live around this mountain...\l"
+	.string "If you showed me one I could give\n"
+	.string "you something cool for it!$"
+
+IceMountainTown_Text_SnowCotLittleBoyDialogueNoCapsakid::
+	.string "Oh...you don't look like you have\n"
+	.string "a Capsakid in your party?\p"
+	.string "Well if you catch one, let me know!!$"
+
+IceMountainTown_Text_YoungerBrotherOhCapsakid::
+	.string "Oh! That's a Capsakid in your\n"
+	.string "party right?\p"
+	.string "Well a promise is a promise!\n"
+	.string "Take this!$"
 
 IceMountainTown_giveitem_FireStone::
 	giveitem ITEM_FIRE_STONE
@@ -51,8 +69,9 @@ IceMountainTown_EventScript_SnowCotYoungerBrotherGaveFireStone::
 	end
 
 IceMountainTown_Text_YoungerBrotherGaveFireStone::
-	.string "We're from Savvie City! It's warm\n"
-	.string "there, and the mountain over it\l"
-	.string "never has snow...\p"
-	.string "I love coming here! It's cold but\n"
-	.string "always really fun!$"
+	.string "Capsakid only evolves with a Fire\n"
+	.string "Stone! I'm not a trainer so it isn't\l"
+	.string "useful to me to hold onto this.\p"
+	.string "When I become a trainer one day, I\n"
+	.string "want to get a Pokémon with a cool\l"
+	.string "type!$"
