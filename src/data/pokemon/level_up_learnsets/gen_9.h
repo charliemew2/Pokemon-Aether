@@ -4857,7 +4857,7 @@ static const struct LevelUpMove sFeraligatrLevelUpLearnset[] = {
 #if P_FAMILY_SENTRET
 static const struct LevelUpMove sSentretLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_SCRATCH),
-    LEVEL_UP_MOVE( 4, MOVE_DEFENSE_CURL),
+    LEVEL_UP_MOVE( 4, MOVE_FAKE_OUT),
     LEVEL_UP_MOVE( 7, MOVE_QUICK_ATTACK),
     LEVEL_UP_MOVE(13, MOVE_FURY_SWIPES),
     LEVEL_UP_MOVE(16, MOVE_HELPING_HAND),
@@ -4876,7 +4876,7 @@ static const struct LevelUpMove sFurretLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 0, MOVE_IRON_TAIL),
     LEVEL_UP_MOVE( 1, MOVE_SCRATCH),
     LEVEL_UP_MOVE( 1, MOVE_QUICK_ATTACK),
-    LEVEL_UP_MOVE( 1, MOVE_DEFENSE_CURL),
+    LEVEL_UP_MOVE( 1, MOVE_FAKE_OUT),
     LEVEL_UP_MOVE(13, MOVE_FURY_SWIPES),
     LEVEL_UP_MOVE(16, MOVE_HELPING_HAND),
     LEVEL_UP_MOVE(20, MOVE_CHARM),
