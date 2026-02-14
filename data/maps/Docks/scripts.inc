@@ -507,7 +507,7 @@ SouthernDocks_Text_GuybyBoxesPostCutscene::
 SouthernDocks_EventScript_BeautyVendorNPCSeesBoom::
 	lock
 	faceplayer
-	msgbox SouthernDocks_Text_BeautyVendorNPCSeesBoom, MSGBOX_DEFAULT
+	msgbox SouthernDocks_Text_BeautyVendorNPCPostBoomPreShopGiveBerries, MSGBOX_DEFAULT
 	closemessage
 	applymovement LOCAL_ID_SOUTHERNDOCKSBEAUTYVENDORNPCCUTSCENE, Common_Movement_FaceDown
 	waitmovement 0
@@ -515,26 +515,56 @@ SouthernDocks_EventScript_BeautyVendorNPCSeesBoom::
 	end
 
 SouthernDocks_Text_BeautyVendorNPCSeesBoom::
-	.string "I sell flowers here on the dock\n"
-	.string "every single day.\p"
+	.string "I come here to sell flowers from \n"
+	.string "Blossomwood Town every day!\p"
 	.string "This kind of thing is rare, but\n"
 	.string "its a fright when it happens!$"
 
 SouthernDocks_EventScript_BeautyVendorNPCPostBoomPreShop::
 	lock
 	faceplayer
-	msgbox SouthernDocks_Text_BeautyVendorNPCPostBoomPreShop, MSGBOX_DEFAULT
+	goto_if_set FLAG_FLOWER_GIRL_DOCKS_SHOP, SouthernDocks_EventScript_BeautyVendorNPCSettingUpShop
+	msgbox SouthernDocks_Text_BeautyVendorNPCPostBoomPreShopGiveBerries, MSGBOX_DEFAULT
+	call Docks_giveitem_Berries
+	closemessage 
+	msgbox SouthernDocks_Text_BeautyVendorNPCPostBoomPreShopPostBerries, MSGBOX_DEFAULT
+	closemessage
+	setflag FLAG_FLOWER_GIRL_DOCKS_SHOP
+	release
+	end
+
+SouthernDocks_EventScript_BeautyVendorNPCSettingUpShop::
+	msgbox SouthernDocks_Text_BeautyVendorNPCPostBoomPreShopPostBerries, MSGBOX_DEFAULT
 	closemessage
 	release
 	end
 
-SouthernDocks_Text_BeautyVendorNPCPostBoomPreShop::
+SouthernDocks_Text_BeautyVendorNPCPostBoomPreShopGiveBerries::
 	.string "That big accident was more than\n"
 	.string "enough excitement for me today!\p"
 	.string "Ah! Would you like to buy any\n"
 	.string "flowers?\p"
 	.string "Is what I would say, but I'm still\n"
 	.string "getting my stall set up.\p"
+	.string "Oh! You look like a trainer.\l"
+	.string "It's berry season in Blossomwood\n" 
+	.string "Town where I'm from. I picked some\l"
+	.string "fresh today.\p"
+	.string "You can have some!$"
+
+Docks_giveitem_Berries::
+	giveitem ITEM_ORAN_BERRY, 40
+	giveitem ITEM_CHERI_BERRY, 5
+	giveitem ITEM_PECHA_BERRY, 5
+	giveitem ITEM_CHESTO_BERRY, 2
+	giveitem ITEM_PERSIM_BERRY, 1
+	return
+
+SouthernDocks_Text_BeautyVendorNPCPostBoomPreShopPostBerries::
+	.string "I'm still setting up shop for the\n"
+	.string "day, so take those as an apology\l"
+	.string "for the delay.\p"
+	.string "I should be set up later!\l"
 	.string "Come by again some other time!$"
 
 SouthernDocks_EventScript_OldWomenNPCSeesBoom::

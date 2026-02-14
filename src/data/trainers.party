@@ -4857,38 +4857,38 @@ Ability: Ice Body
 Level: 19
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 Nature: Timid
--Extrasensory
+-Disable
 -Icy Wind
 -Confuse Ray
--Protect
+-Dazzling Gleam
 
-Sneasel @ Charti Berry
+Sneasel_Hisui @ Payapa Berry
 Ability: Inner Focus
-Level: 19
+Level: 17
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 Nature: Adamant
 -Thief
--Ice Shard
--Poison Jab
+-Low Sweep
+-Poison Tail
 -Trailblaze
 
-Stufful @ Assault Vest
-Ability: Fluffy
+Pumpkaboo_Super @ Berry Juice
+Ability: Heatproof
 Level: 18
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-Nature: Adamant
--Ice Punch
--Retaliate
--Rock Tomb
--Force Palm
+Nature: Brave
+-Leech Seed
+-Fire Spin
+-Hypnosis
+-Razor Leaf
 
-Phione @ Berry Juice
+Phione @ Lum Berry
 Ability: Hydration
-Level: 18
+Level: 17
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-Nature: Hardy
+Nature: Modest
+-Water Pulse
 -Flip Turn
--Whirlpool
 -Grass Knot
 -Secret Power
 
@@ -4910,6 +4910,7 @@ Nature: Timid
 -Acrobatics
 -Infestation
 -Powder Snow
+-Fairy Wind
 
 === TRAINER_BRAWLY_1 ===
 Name: BRAWLY

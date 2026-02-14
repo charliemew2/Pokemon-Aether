@@ -1161,7 +1161,7 @@
 #define FLAG_ITEM_ROUTE_120_NEST_BALL                               0x454
 #define FLAG_ITEM_ROUTE_123_ELIXIR                                  0x455
 #define FLAG_ITEM_NEW_MAUVILLE_THUNDER_STONE                        0x456
-#define FLAG_ITEM_FIERY_PATH_FIRE_STONE                             0x457
+#define FLAG_ITEM_LITTLE_BOY_GIVES_FIRE_STONE                       0x457 //RENAMED FROM PICKING UP FIRE STONE IN FIERY PATH
 #define FLAG_ITEM_SHOAL_CAVE_ICE_ROOM_TM_HAIL                       0x458
 #define FLAG_ITEM_LITTLE_GIRL_GIVES_NEVER_MELT_ICE                  0x459 //RENAMED FROM SHOAL CAVE NEVER MELT ICE TO LITTLE GIRL GIVES NEVERMELTICE
 #define FLAG_ITEM_ROUTE_103_GUARD_SPEC                              0x45A
@@ -1186,7 +1186,7 @@
 #define FLAG_ITEM_MOSSDEEP_STEVENS_HOUSE_HM08                       0x46D // Unused Flag, leftover from R/S. HM08 is given to the player directly in Emerald
 #define FLAG_ITEM_ROUTE_119_NUGGET                                  0x46E
 #define FLAG_ITEM_ROUTE_104_POTION                                  0x46F
-#define FLAG_UNUSED_0x470                                           0x470 // Unused Flag
+#define FLAG_FLOWER_GIRL_DOCKS_SHOP                                 0x470 // FLOWER SHOP GIRL
 #define FLAG_ITEM_ROUTE_103_PP_UP                                   0x471
 #define FLAG_UNUSED_0x472                                           0x472 // Unused Flag
 #define FLAG_ITEM_ROUTE_108_STAR_PIECE                              0x473
