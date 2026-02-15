@@ -2218,7 +2218,7 @@ Ability: Static
 -Follow Me
 
 Jigglypuff @ Choice Band
-Level: 12
+Level: 13
 Nature: Adamant
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 Ability: Friend Guard
@@ -6027,16 +6027,16 @@ Class: Rival
 Pic: Leaf
 Gender: Female
 Double Battle: No
-AI: Basic Trainer
+AI: Omniscient
 Mugshot: Pink
 
 Gible @ Eviolite
-Level: 12
+Level: 13
 Ability: Rough Skin
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 Nature: Jolly
 -Stealth Rock
--Bulldoze
+-Mud Slap
 -Metal Claw
 -Dragon Breath
 
@@ -6045,13 +6045,12 @@ Level: 14
 Ability: Intimidate
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 Nature: Adamant
--Flame Charge
 -Fire Fang
 -Bite
 -Trailblaze
 
 Corvisquire @ Mirror Herb
-Level: 11
+Level: 12
 Ability: Unnerve
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 Nature: Jolly
@@ -6060,7 +6059,7 @@ Nature: Jolly
 -Power Trip
 
 Kubfu @ Salac Berry
-Level: 11
+Level: 12
 Ability: Inner Focus
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 Nature: Jolly
@@ -6096,7 +6095,7 @@ Nature: Naive
 -Air Cutter
 -U-Turn
 
-Corsola_Galar @ Leftovers
+Corsola_Galar @ Weakness Policy
 Level: 15
 Ability: Weak Armor
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
@@ -6375,7 +6374,6 @@ Nature: Jolly
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 -Spark
 -Charge
--Roar
 
 Bonsly @ Oran Berry
 Level: 7
@@ -13179,7 +13177,7 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Growlithe @ Salac Berry
+Growlithe @ Muscle Band
 Level: 8
 Nature: Jolly
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
@@ -13196,7 +13194,6 @@ Ability: Guts
 -Focus Energy
 -Karate Chop
 -Dual Chop
--Poison Jab
 
 Pikachu @ Steel Gem
 Level: 9
@@ -13205,7 +13202,7 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 Ability: Static
 -Iron Tail
 -Thunder Punch
--Trailblaze
+-Upper Hand
 
 === TRAINER_KATRINA ===
 Name: Katrina
@@ -13216,23 +13213,23 @@ Music: Girl
 Double Battle: No
 AI: Check Bad Move
 
-Floette @ Big Root
-Level: 9
-Nature: Timid
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-Ability:  Flower Veil
--Draining Kiss
--Magical Leaf
--Chilling Water
-
 Skiddo @ Big Root
-Level: 9
+Level: 8
 Nature: Adamant
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 Ability: Sap Sipper
 -Horn Leech
 -Wild Charge
 -Stomping Tantrum
+
+Flabebe_Orange @ Big Root
+Level: 8
+Nature: Timid
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Ability:  Flower Veil
+-Draining Kiss
+-Magical Leaf
+-Chilling Water
 
 Vivillon @ Big Root
 Level: 10
@@ -13241,7 +13238,6 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 Ability: Compound_Eyes
 -Sleep Powder
 -Air Cutter
--Giga Drain
 -Draining Kiss
 
 === TRAINER_DIRK ===
@@ -13254,21 +13250,21 @@ Double Battle: No
 AI: Check Bad Move
 
 Wishiwashi @ Choice Band
-Level: 10
+Level: 9
 Nature: Adamant
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 Ability: Schooling
 -Wave Crash
 
 Finneon @ Choice Specs
-Level: 10
+Level: 9
 Nature: Modest
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 Ability: Storm Drain
 -Hydro Pump
 
 Feebas @ Choice Specs
-Level: 11
+Level: 9
 Nature: Modest
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 Ability: Oblivious
@@ -13339,7 +13335,7 @@ Ability: Aftermath
 -Flame Burst
 
 Aipom @ Wishing Piece
-Level: 13
+Level: 12
 Nature: Jolly
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 Ability: Technician
@@ -13397,7 +13393,7 @@ AI: Check Bad Move
 
 Mightyena @ Black Glasses
 Level: 18
-Nature: Hasty
+Nature: Naive
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 Ability: Intimidate
 - Snarl
@@ -13413,16 +13409,6 @@ Ability: Illusion
 - Bitter Malice
 - Swift
 - Knock Off
-
-Sneasel-Hisui @ Lum Berry
-Level: 15
-Nature: Jolly
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-Ability: Inner Focus
-- Rock Smash
-- Hone Claws
-- Aerial Ace
-- Poison Tail
 
 Froslass @ Wide Lens
 Level: 16
@@ -13486,7 +13472,7 @@ Nature: Adamant
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 Ability: Clear Body
 - Gear Grind
-- Shift Gear
+- Autotomize 
 
 Varoom @ Shuca Berry
 Level: 14

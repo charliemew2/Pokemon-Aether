@@ -12643,7 +12643,7 @@
           "map": "MAP_ROUTE1",
           "base_label": "gRoute1",
           "land_mons": {
-            "encounter_rate": 10,
+            "encounter_rate": 20,
             "mons": [
               {
                 "min_level": 5,
@@ -12707,7 +12707,7 @@
           "map": "MAP_MOUNTAIN_PATH",
           "base_label": "gMountainPath",
           "land_mons": {
-            "encounter_rate": 10,
+            "encounter_rate": 20,
             "mons": [
               {
                 "min_level": 5,

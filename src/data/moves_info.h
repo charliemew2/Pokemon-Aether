@@ -5602,7 +5602,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .effect = EFFECT_SWAGGER,
         .power = 0,
         .type = TYPE_NORMAL,
-        .accuracy = B_UPDATED_MOVE_DATA >= GEN_7 ? 85 : 90,
+        .accuracy = B_UPDATED_MOVE_DATA >= GEN_7 ? 100 : 90,
         .pp = 15,
         .target = MOVE_TARGET_SELECTED,
         .priority = 0,
