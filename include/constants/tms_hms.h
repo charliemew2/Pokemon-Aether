@@ -2,7 +2,7 @@
 #define GUARD_CONSTANTS_TMS_HMS_H
 
 #define FOREACH_TM(F) \
-    F(FOCUS_PUNCH) \
+    F(SMACK_DOWN) \
     F(ICY_WIND) \
     F(WATER_PULSE) \
     F(CALM_MIND) \
