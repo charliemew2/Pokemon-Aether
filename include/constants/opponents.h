@@ -709,11 +709,11 @@
 #define TRAINER_TRISTIAN                    703 //REPLACED BLACK BELT RHETT
 #define TRAINER_NICKI                       704 //REPLACED CAMPER TYRON
 #define TRAINER_POODLE                      705 //REPLACED AROMA LADY CELINA
-#define TRAINER_BIANCA                      706
-#define TRAINER_HAYDEN                      707
-#define TRAINER_SOPHIE                      708
-#define TRAINER_COBY                        709
-#define TRAINER_LAWRENCE                    710
+#define TRAINER_WORKER_MARTY                706 //REPLACED BIANCA
+#define TRAINER_AROMALADY_DELIAH            707 //REPLACED HAYDEN
+#define TRAINER_BEAUTY_LAURIE               708 //REPLACED PICNICKER SOPHIE
+#define TRAINER_LASS_DALIA                  709 //REPLACED BIRD KEEPER COBY
+#define TRAINER_FISHERMAN_TIMOTHY           710 //REPLACED CAMPER LAWRENCE
 #define TRAINER_WYATT                       711
 #define TRAINER_ANGELINA                    712
 #define TRAINER_KAI                         713

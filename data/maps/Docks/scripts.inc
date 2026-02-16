@@ -507,7 +507,7 @@ SouthernDocks_Text_GuybyBoxesPostCutscene::
 SouthernDocks_EventScript_BeautyVendorNPCSeesBoom::
 	lock
 	faceplayer
-	msgbox SouthernDocks_Text_BeautyVendorNPCPostBoomPreShopGiveBerries, MSGBOX_DEFAULT
+	msgbox SouthernDocks_Text_BeautyVendorNPCSeesBoom, MSGBOX_DEFAULT
 	closemessage
 	applymovement LOCAL_ID_SOUTHERNDOCKSBEAUTYVENDORNPCCUTSCENE, Common_Movement_FaceDown
 	waitmovement 0

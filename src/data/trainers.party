@@ -4869,7 +4869,7 @@ Level: 18
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 Nature: Brave
 -Leech Seed
--Fire Spin
+-Mystical Fire
 -Hypnosis
 -Razor Leaf
 
@@ -4896,12 +4896,12 @@ Nature: Adamant
 Frosmoth @ Flying Gem
 Ability: Ice Scales
 Level: 18
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+IVs: 31 HP / 31 Atk / 31 Def / 30 SpA / 31 SpD / 31 Spe
 Nature: Timid
 -Acrobatics
 -Infestation
 -Powder Snow
--Fairy Wind
+-Hidden Power
 
 === TRAINER_BRAWLY_1 ===
 Name: BRAWLY
@@ -13537,82 +13537,219 @@ Ability: Stakeout
 - Fire Fang
 - Bite
 
-=== TRAINER_BIANCA ===
-Name: BIANCA
-Class: Picnicker
-Pic: Picnicker
-Gender: Female
-Music: Girl
-Double Battle: No
-AI: Check Bad Move
-
-Shroomish
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_HAYDEN ===
-Name: HAYDEN
-Class: Kindler
-Pic: Kindler
-Gender: Male
-Music: Hiker
-Double Battle: No
-AI: Check Bad Move
-
-Numel
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_SOPHIE ===
-Name: SOPHIE
-Class: Picnicker
-Pic: Picnicker
-Gender: Female
-Music: Girl
-Double Battle: No
-AI: Check Bad Move
-
-Marill
-Level: 17
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Lombre
-Level: 19
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_COBY ===
-Name: COBY
-Class: Bird Keeper
-Pic: Bird Keeper
-Gender: Male
-Music: Cool
-Double Battle: No
-AI: Check Bad Move
-
-Skarmory
-Level: 17
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Swellow
-Level: 19
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_LAWRENCE ===
-Name: LAWRENCE
-Class: Camper
-Pic: Camper
+=== TRAINER_WORKER_MARTY ===
+Name: Marty
+Class: Pokefan
+Pic: Pokefan M
 Gender: Male
 Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Baltoy
+Gurdurr @ Flame Orb
 Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Nature: Adamant
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Ability: Guts
+- Facade
+- Mach Punch
+- Ice Punch
+- Protect
 
-Sandshrew
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Carkol @ Passho Berry
+Level: 19
+Nature: Modest
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Ability: Steam Engine
+- Endure
+- Body Press
+- Ancient Power
+- Scorching Sands
+
+Tinkatuff @ Eviolite
+Level: 20
+Nature: Jolly
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Ability: Mold Breaker
+- Work Up
+- Play Rough
+- Flash Cannon
+- Ice Hammer
+
+=== TRAINER_AROMALADY_DELIAH ===
+Name: Deliah
+Class: Aroma Lady
+Pic: Aroma Lady
+Gender: Female
+Music: Female
+Double Battle: No
+AI: Check Bad Move
+
+Venomoth @ Grass Gem
+Level: 19
+Nature: Timid
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Ability: Tinted Lens
+- Toxic Spikes
+- Endeavor
+- Giga Drain
+- Psychic Noise
+
+Eldegoss @ Red Card
+Level: 20
+Nature: Modest
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Ability: Cotton Down
+- Synthesis
+- Leaf Tornado
+- Pollen Puff
+- Substitute
+
+Vespiquen @ Lum Berry
+Level: 20
+Nature: Quiet
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Ability: Unnerve
+- Power Gem
+- Aerial Ace
+- Hex
+- Bug Bite
+
+Girafarig @ Miracle Seed
+Level: 20
+Nature: Jolly
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Ability: Inner Focus
+- Grass Knot
+- Trailblaze
+- Zen Headbutt
+- Stomp
+
+=== TRAINER_BEAUTY_LAURIE ===
+Name: Laurie
+Class: Beauty
+Pic: Beauty
+Gender: Female
+Music: Girl
+Double Battle: No
+AI: Check Bad Move
+
+Chatot @ Throat Spray
+Level: 20
+Nature: Naive
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Ability: Big Pecks
+- Chatter
+- Sing
+- Steel Wing
+- Heat Wave
+
+Audino @ Throat Spray
+Level: 21
+Nature: Timid
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Ability: Healer
+- Hyper Voice
+- Alluring Voice
+- Attract
+- Pain Split
+
+Meowstic-F @ Lum Berry
+Level: 21
+Nature: Timid
+Ability: Competitive
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Magical Leaf
+- Charge Beam
+- Fake Tears
+- Alluring Voice
+
+=== TRAINER_LASS_DALIA ===
+Name: Dalia
+Class: Lass
+Pic: Lass
+Gender: Female
+Music: Female
+Double Battle: No
+AI: Check Bad Move
+
+Monferno @ Focus Sash
+Level: 21
+Nature: Naive
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Ability: Iron Fist
+- Fake Out
+- Thunder Punch
+- Fire Punch
+- Brick Break
+
+Grotle @ White Herb
+Level: 21
+Nature: Adamant
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Ability: Overgrow
+- Seed Bomb
+- Smack Down
+- Superpower
+- Shell Smash
+
+Prinplup @ Expert Belt
+Level: 21
+Nature: Hasty
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Ability: Competitive
+- Brine
+- Roost
+- Drill Peck
+- Ice Beam
+
+=== TRAINER_FISHERMAN_TIMOTHY ===
+Name: Timothy
+Class: Fisherman
+Pic: Fisherman
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move
+
+Slowpoke-Galar @ Eviolite
+Level: 21
+Nature: Relaxed
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Ability: Own Tempo
+- Surf
+- Avalanche
+- Shadow Ball
+- Psyshock
+
+Spidops @ Lum Berry
+Level: 21
+Nature: Adamant
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Ability: Technician
+- Rock Tomb
+- Pounce
+- Knock Off
+
+Cramorant @ Wacan Berry
+Level: 21
+Nature: Naive
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Ability: Gulp Missile
+- Dive
+- Belch
+- Icy Wind
+- Air Cutter
+
+Veluza @ Lum Berry
+Level: 22
+Nature: Lonely
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Ability: Mold Breaker
+- Agility
+- Aqua Cutter
+- Pluck
+- Stored Power
 
 === TRAINER_WYATT ===
 Name: WYATT

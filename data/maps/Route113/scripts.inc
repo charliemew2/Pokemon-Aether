@@ -114,17 +114,17 @@ Route113_EventScript_Tia::
 	end
 
 Route113_EventScript_Sophie::
-	trainerbattle_single TRAINER_SOPHIE, Route113_Text_SophieIntro, Route113_Text_SophieDefeat
+	trainerbattle_single TRAINER_BEAUTY_LAURIE, Route113_Text_SophieIntro, Route113_Text_SophieDefeat
 	msgbox Route113_Text_SophiePostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route113_EventScript_Coby::
-	trainerbattle_single TRAINER_COBY, Route113_Text_CobyIntro, Route113_Text_CobyDefeat
+	trainerbattle_single TRAINER_LASS_DALIA, Route113_Text_CobyIntro, Route113_Text_CobyDefeat
 	msgbox Route113_Text_CobyPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route113_EventScript_Lawrence::
-	trainerbattle_single TRAINER_LAWRENCE, Route113_Text_LawrenceIntro, Route113_Text_LawrenceDefeat
+	trainerbattle_single TRAINER_FISHERMAN_TIMOTHY, Route113_Text_LawrenceIntro, Route113_Text_LawrenceDefeat
 	msgbox Route113_Text_LawrencePostBattle, MSGBOX_AUTOCLOSE
 	end
 
