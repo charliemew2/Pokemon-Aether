@@ -11128,35 +11128,35 @@ Music: Magma
 Double Battle: No
 AI: Basic Trainer
 
-Araquanid @ Lum Berry
-Level: 22
-Nature: Lonely
+Shuckle @ Smooth Rock
+Level: 23
+Nature: Impish
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-Ability: Water Bubble
+Ability: Contrary
 - Sticky Web
-- Bubble Beam
-- Icy Wind
-- Skitter Smack
+- Sandstorm
+- Toxic
+- Knock Off
 
-Tangela @ Twisted Spoon
-Level: 21
-Nature: Bold
+Klang @ Lum Berry
+Level: 22
+Nature: Hasty
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-Ability: Regenerator
-- Ancient Power
-- Sleep Powder
-- Confusion
-- Energy Ball
+Ability: Clear Body
+- Gear Grind
+- Power Gem
+- Discharge
+- Screech
 
-Vigoroth @ Salac Berry
-Level: 21
-Nature: Jolly
+Toedscruel @ Yache Berry
+Level: 23
+Nature: Hasty
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-Ability: Vital Spirit
-- Endure
-- Reversal
-- Fire Punch
-- Slash
+Ability: Storm Drain
+- Spore
+- Growth
+- Seed Bomb
+- Earth Power
 
 Morgrem @ Black Glasses
 Level: 24
@@ -11169,7 +11169,7 @@ Ability: Prankster
 - Thunder Wave
 
 Klawf @ Lum Berry
-Level: 23
+Level: 22
 Nature: Adamant
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 Ability: Anger Shell
