@@ -234,15 +234,48 @@ BlossomwoodTown_EventScript_GaiaBossFight::
 	getplayerxy VAR_TEMP_3, VAR_TEMP_4
 	call_if_eq VAR_TEMP_4, 5, BlossomwoodTown_EventScript_AlignPlayer
 	delay 16
+	applymovement LOCAL_ID_ADMIN_GAIA_BLOSSOMTOWN, Common_Movement_WalkInPlaceRight
+	waitmovement 0
 	msgbox BlossomwoodTown_Text_GaiaBossFight1, MSGBOX_DEFAULT
+	closemessage
+	delay 16
+	applymovement LOCAL_ID_GRUNT1M, Common_Movement_FaceRight
+	waitmovement 0
+	playbgm MUS_ENCOUNTER_AQUA, TRUE
+	playse SE_PIN
+	applymovement LOCAL_ID_GRUNT1M, Common_Movement_ExclamationMark
+	delay 16
+	delay 16
+	msgbox BlossomwoodTown_Text_GaiaBossFight2, MSGBOX_DEFAULT
+	closemessage
+	applymovement LOCAL_ID_GRUNT1F, Common_Movement_FaceRight
+	applymovement LOCAL_ID_GRUNT2F, Common_Movement_FaceRight
+	applymovement LOCAL_ID_GRUNT2M, Common_Movement_FaceRight
+	waitmovement 0
+	delay 16
+	msgbox BlossomwoodTown_Text_GaiaBossFight3, MSGBOX_DEFAULT
 	closemessage
 	applymovement LOCAL_ID_GRUNT1M, BlossomwoodTown_Movement_GruntsMoveOutOfWay
 	applymovement LOCAL_ID_GRUNT1F, BlossomwoodTown_Movement_GruntsMoveOutOfWay
+	applymovement LOCAL_ID_GRUNT2M, Common_Movement_FaceUp
+	applymovement LOCAL_ID_GRUNT2F, Common_Movement_FaceUp
 	waitmovement 0
 	delay 16
 	applymovement LOCAL_ID_ADMIN_GAIA_BLOSSOMTOWN, BlossomwoodTown_Movement_GaiaApproachesPlayer
 	waitmovement 0
+	msgbox BlossomwoodTown_Text_GaiaBossFight4, MSGBOX_DEFAULT
+	closemessage
 	trainerbattle_no_intro TRAINER_ADMIN_GAIA_BLOSSOMTOWN, BlossomwoodTown_Text_GaiaBossFightDefeat
+	msgbox BlossomwoodTown_Text_GaiaBossFight5, MSGBOX_DEFAULT
+	closemessage
+	applymovement LOCAL_ID_ADMIN_GAIA_BLOSSOMTOWN, BlossomwoodTown_Movement_GaiaRetreat
+	waitmovement 0
+	delay 16
+	applymovement LOCAL_ID_GRUNT1M, BlossomwoodTown_Movement_EvilTeamRetreat
+	applymovement LOCAL_ID_GRUNT1F, BlossomwoodTown_Movement_EvilTeamRetreat
+	applymovement LOCAL_ID_GRUNT2M, BlossomwoodTown_Movement_EvilTeamRetreat
+	applymovement LOCAL_ID_GRUNT2F, BlossomwoodTown_Movement_EvilTeamRetreat
+	waitmovement 0
 	removeobject LOCAL_ID_GRUNT1M
 	removeobject LOCAL_ID_GRUNT1F
 	removeobject LOCAL_ID_GRUNT2M
@@ -251,6 +284,7 @@ BlossomwoodTown_EventScript_GaiaBossFight::
 	setflag FLAG_GAIA_GRUNTS_BLOCK_BLOSSOMWOODTOWN
 	setflag FLAG_DEFEATED_GAIA
 	addvar VAR_BLOSSOMTOWN_EVENTS, 1
+	fadedefaultbgm
 	release
 	end
 
@@ -262,7 +296,43 @@ BlossomwoodTown_EventScript_AlignPlayer::
 	return
 
 BlossomwoodTown_Text_GaiaBossFight1::
-	.string "Test$"
+	.string "Gaia: So. In front of me, I see four\n"
+	.string "very sorry looking grunts.\p"
+	.string "...And no Gracedia?\l"
+	.string "Shady Woman 1: Admin Gaia... We're\n"
+	.string "so sorry! They said they didn't\l"
+	.string "have the seeds, and we were gonna\l"
+	.string "case the place but...\p"
+	.string "Shady Man 1: Some kids showed up\n"
+	.string "and took us out!\p"
+	.string "Gaia: Hmmm...? Children? You lost to\n"
+	.string "children?\p"
+	.string "...\l"
+	.string "It seems, speaking of children,\n"
+	.string "that we have one in our midst.$"
+
+BlossomwoodTown_Text_GaiaBossFight2::
+	.string "Shady Man 1: YOU AGAIN!? Don't you\n"
+	.string "ever quit?$"
+
+BlossomwoodTown_Text_GaiaBossFight3::
+	.string "Shady Woman 1: And he's all alone?\l"
+	.string "Well this makes it easier! Let's\n"
+	.string "get em by force this time!\p"
+	.string "Gaia: Halt. Are you daft?\l"
+	.string "This is a peaceful town and you're\n"
+	.string "going to make a scene in broad\l"
+	.string "daylight?\p"
+	.string "You are all already in hot water\n"
+	.string "for the stunt you just pulled.\p"
+	.string "What if the CITYONE police had\n"
+	.string "been patrolling here and ran\l"
+	.string "across you all in the middle of the\l"
+	.string "hold up?\p"
+	.string "Then we'd be down four, admittedly\n"
+	.string "useless men and women, AND have\l"
+	.string "police on our backs.\p"
+	.string "Move.$"
 
 BlossomwoodTown_Movement_GruntsMoveOutOfWay::
 	walk_up
@@ -274,5 +344,120 @@ BlossomwoodTown_Movement_GaiaApproachesPlayer::
 	walk_right
 	step_end
 
+BlossomwoodTown_Text_GaiaBossFight4::
+	.string "Gaia: Forgive my rather brutish\n"
+	.string "underlings for their rather unjust\l"
+	.string "methodology of disposing of\l"
+	.string "pests in our operation.\p"
+	.string "My name is Gaia. You have willingly\n"
+	.string "involved yourself in the affairs\l"
+	.string "of EVILTEAM, so I am doing you a\l"
+	.string "courtesy of introducing myself.\p"
+	.string "I'll be blunt. We are not a group of\n"
+	.string "thugs, despite what the people\l"
+	.string "surrounding me may lead you to\l"
+	.string "believe.\p"
+	.string "This is a failing on my part as the\n"
+	.string "administrator responsible for\l"
+	.string "this branch.\p"
+	.string "For this, you have my apologies.\l"
+	.string "However...\l"
+	.string "You have proven yourself already\n"
+	.string "to be obstructing our work, and\l"
+	.string "for this, you will need to be dealt\l"
+	.string "with accordingly.\p"
+	.string "In broad daylight, a Pokémon\n"
+	.string "battle is a quite normal sight for\l"
+	.string "people yes?\p"
+	.string "Far more than the rather heinous\n"
+	.string "idea of physically beating you in\l"
+	.string "the middle of public I would say!\p"
+	.string "Then, we shall partake in such an\n"
+	.string "affair right now.\p"
+	.string "But be warned. I shall beat your\n"
+	.string "team to within an inch of its life.\p"
+	.string "After such a defeat, you will know\n"
+	.string "why you should not cross us!\p"
+	.string "This is the consequence for\n"
+	.string "interfering with our affairs.\p"
+	.string "Whether you are a child or not...\n"
+	.string "You will pay the price!$"
+
 BlossomwoodTown_Text_GaiaBossFightDefeat::
-	.string "Unreal...!$"
+	.string "Inconceivable!\l"
+	.string "That a child could be so strong...\n"
+	.string "It defies all logical belief!$"
+
+BlossomwoodTown_Text_GaiaBossFight5::
+	.string "Shady Woman 1: No...no way...!\l"
+	.string "Shady Woman 2: That kid actually\n"
+	.string "beat Admin Gaia!?\p"
+	.string "Gaia: ...\l"
+	.string "Shady Man 2: This isn't possible...\l"
+	.string "Shady Man 1: Um... So... are we off\n"
+	.string "the hook for losing now?\p"
+	.string "Gaia: You...Child.\l"
+	.string "Tell me your name.\l"
+	.string "No?\l"
+	.string "A shame. You would be very useful\n"
+	.string "if you were to join us.\p"
+	.string "We have already had quite the\n"
+	.string "number of interruptions in our\l"
+	.string "plans the last few days.\p"
+	.string "Hmm...Didn't you all tell me that\n"
+	.string "there were children, plural, who\l"
+	.string "meddled earlier?\p"
+	.string "Shady Man 1: The other one ain't\n"
+	.string "anywhere to be found! We didn't\l"
+	.string "see em leave town!\p"
+	.string "Gaia: Child who will not share their\n"
+	.string "name, I am going to tell you this\l"
+	.string "one time.\p"
+	.string "I respect your strength, and this\n"
+	.string "is why I am offering you peace.\p"
+	.string "Stay out of our way.\l"
+	.string "What happened today was a stroke\n"
+	.string "of luck, and it will not happen\l"
+	.string "again.\p"
+	.string "If we meet in a place where nobody\n"
+	.string "could lift a finger to save you,\l"
+	.string "the mercy I showed you today will\l"
+	.string "not be repeated.\p"
+	.string "You are digging into affairs that\n"
+	.string "no child should be anywhere near.\p"
+	.string "Consider this your only warning.\l"
+	.string "My cohort Loch is not anywhere\n"
+	.string "near as generous as myself.\p"
+	.string "If you meet her, my advice is to\n"
+	.string "run far away.\p"
+	.string "But you will not meet her, because\n"
+	.string "you will heed my warning.\p"
+	.string "I hope your friend heeds it too.\l"
+	.string "Farewell.\l"
+	.string "Men, Women, follow. We are leaving.\l"
+	.string "The other branch is likely at work\n"
+	.string "as we speak.\p"
+	.string "Grunts: SIR YES SIR!$"
+
+BlossomwoodTown_Movement_GaiaRetreat::
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	step_end
+
+BlossomwoodTown_Movement_EvilTeamRetreat::
+	walk_fast_left
+	walk_fast_left
+	walk_fast_left
+	walk_fast_left
+	walk_fast_left
+	walk_fast_left
+	walk_fast_left
+	walk_fast_left
+	walk_fast_left
+	step_end
