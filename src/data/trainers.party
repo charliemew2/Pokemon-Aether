@@ -381,7 +381,36 @@ Carvanha
 Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_GRUNT_MUSEUM_1 ===
+=== TRAINER_FLOWER_SHOP_GRUNT_1 ===
+Name: Grunt
+Class: Team Aqua
+Pic: Aqua Grunt F
+Gender: Female
+Music: Aqua
+Double Battle: No
+AI: Check Bad Move
+
+Honedge @ Iron Ball
+Level: 21
+Nature: Brave
+IVs: 31 HP / 31 Atk / 31 Def / 30 SpA / 31 SpD / 31 Spe
+Ability: No Guard
+- Gyro Ball
+- Shadow Sneak
+- Swords Dance
+- Brick Break
+
+Bombirdier @ Lum Berry
+Level: 22
+Nature: Hasty
+IVs: 31 HP / 31 Atk / 31 Def / 30 SpA / 31 SpD / 31 Spe
+Ability: Rocky Payload
+- Air Slash
+- Nasty Plot
+- Knock Off
+- Power Gem
+
+=== TRAINER_FLOWER_SHOP_GRUNT_2 ===
 Name: GRUNT
 Class: Team Aqua
 Pic: Aqua Grunt M
@@ -390,26 +419,34 @@ Music: Aqua
 Double Battle: No
 AI: Check Bad Move
 
-Carvanha
-Level: 15
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Trapinch @ Lum Berry
+Level: 21
+Nature: Adamant
+IVs: 31 HP / 31 Atk / 31 Def / 30 SpA / 31 SpD / 31 Spe
+Ability: Arena Trap
+- Rock Tomb
+- Bug Bite
+- Bulldoze
 
-=== TRAINER_GRUNT_MUSEUM_2 ===
-Name: GRUNT
-Class: Team Aqua
-Pic: Aqua Grunt M
-Gender: Male
-Music: Aqua
-Double Battle: No
-AI: Check Bad Move
+Arbok @ Muscle Band
+Level: 22
+Nature: Jolly
+IVs: 31 HP / 31 Atk / 31 Def / 30 SpA / 31 SpD / 31 Spe
+Ability: Intimidate
+- Glare
+- Seed Bomb
+- Poison Jab
+- Ice Fang
 
-Zubat
-Level: 14
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Carvanha
-Level: 14
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Ariados @ Scope Lens
+Level: 22
+Nature: Naughty
+IVs: 31 HP / 31 Atk / 31 Def / 30 SpA / 31 SpD / 31 Spe
+Ability: Sniper
+- Shadow Sneak
+- Sludge Bomb
+- Pounce
+- Smart Strike
 
 === TRAINER_GRUNT_SPACE_CENTER_1 ===
 Name: GRUNT
@@ -11082,8 +11119,8 @@ Poochyena
 Level: 27
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_TABITHA_MT_CHIMNEY ===
-Name: TABITHA
+=== TRAINER_ADMIN_GAIA_BLOSSOMTOWN ===
+Name: Gaia
 Class: Magma Admin
 Pic: Magma Admin
 Gender: Male
@@ -11091,21 +11128,55 @@ Music: Magma
 Double Battle: No
 AI: Basic Trainer
 
-Numel
-Level: 18
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-
-Poochyena
-Level: 20
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
-
-Numel
+Araquanid @ Lum Berry
 Level: 22
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Nature: Lonely
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Ability: Water Bubble
+- Sticky Web
+- Bubble Beam
+- Icy Wind
+- Skitter Smack
 
-Zubat
-Level: 22
-IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+Tangela @ Twisted Spoon
+Level: 21
+Nature: Bold
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Ability: Regenerator
+- Ancient Power
+- Sleep Powder
+- Confusion
+- Energy Ball
+
+Vigoroth @ Salac Berry
+Level: 21
+Nature: Jolly
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Ability: Vital Spirit
+- Endure
+- Reversal
+- Fire Punch
+- Slash
+
+Morgrem @ Black Glasses
+Level: 24
+Nature: Lonely
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Ability: Prankster
+- False Surrender
+- Play Rough
+- Sucker Punch
+- Thunder Wave
+
+Klawf @ Lum Berry
+Level: 23
+Nature: Adamant
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Ability: Anger Shell
+- Stomping Tantrum
+- Metal Claw
+- Rock Slide
+- Trailblaze
 
 === TRAINER_JONATHAN ===
 Name: JONATHAN

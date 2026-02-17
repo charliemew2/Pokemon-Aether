@@ -93,6 +93,9 @@ IceMountainPath_Text_Grunt1PostBattle::
 	.string "This is your fault! I'll remember\n"
 	.string "your face! EVILTEAM has big plans\l"
 	.string "in the works.\p"
+	.string "That cable car better be fixed by\n"
+	.string "now or...GRRR...\p"
+	.string "You!\l"
 	.string "Stay out of our way!$"
 
 IceMountainPath_Grunt1Moves::

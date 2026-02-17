@@ -24,8 +24,166 @@
       "direction": "left"
     }
   ],
-  "object_events": [],
-  "warp_events": [],
-  "coord_events": [],
+  "object_events": [
+    {
+      "local_id": "LOCAL_ID_EVE_BLOSSOMWOODTOWNCUTSCENESTARTER",
+      "graphics_id": "OBJ_EVENT_GFX_BRENDAN_NORMAL",
+      "x": 20,
+      "y": 15,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "FLAG_EVE_GOES_TO_WAIT_AT_SHOP"
+    },
+    {
+      "local_id": "LOCAL_ID_EVE_OUTSIDETHESHOP",
+      "graphics_id": "OBJ_EVENT_GFX_BRENDAN_NORMAL",
+      "x": 25,
+      "y": 8,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN_LEFT_AND_RIGHT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "BlossomwoodTown_EventScript_EveWarnsPlayer",
+      "flag": "FLAG_EVESTANDSOUTSIDESHOP"
+    },
+    {
+      "local_id": "LOCAL_ID_EVE_POST_FLOWERSHOP",
+      "graphics_id": "OBJ_EVENT_GFX_BRENDAN_NORMAL",
+      "x": 26,
+      "y": 7,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "FLAG_EVE_EXITS_FLOWERSHOP"
+    },
+    {
+      "local_id": "LOCAL_ID_ADMIN_GAIA_BLOSSOMTOWN",
+      "graphics_id": "OBJ_EVENT_GFX_MAXIE",
+      "x": 0,
+      "y": 4,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "FLAG_GAIA_GRUNTS_BLOCK_BLOSSOMWOODTOWN"
+    },
+    {
+      "local_id": "LOCAL_ID_GRUNT1F",
+      "graphics_id": "OBJ_EVENT_GFX_AQUA_MEMBER_F",
+      "x": 1,
+      "y": 4,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "FLAG_GAIA_GRUNTS_BLOCK_BLOSSOMWOODTOWN"
+    },
+    {
+      "local_id": "LOCAL_ID_GRUNT2F",
+      "graphics_id": "OBJ_EVENT_GFX_AQUA_MEMBER_F",
+      "x": 2,
+      "y": 5,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "FLAG_GAIA_GRUNTS_BLOCK_BLOSSOMWOODTOWN"
+    },
+    {
+      "local_id": "LOCAL_ID_GRUNT1M",
+      "graphics_id": "OBJ_EVENT_GFX_AQUA_MEMBER_M",
+      "x": 2,
+      "y": 4,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "FLAG_GAIA_GRUNTS_BLOCK_BLOSSOMWOODTOWN"
+    },
+    {
+      "local_id": "LOCAL_ID_GRUNT2M",
+      "graphics_id": "OBJ_EVENT_GFX_AQUA_MEMBER_M",
+      "x": 1,
+      "y": 5,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "FLAG_GAIA_GRUNTS_BLOCK_BLOSSOMWOODTOWN"
+    }
+  ],
+  "warp_events": [
+    {
+      "x": 26,
+      "y": 7,
+      "elevation": 0,
+      "dest_map": "MAP_BLOSSOMWOOD_TOWN_FLOWER_SHOP",
+      "dest_warp_id": "0"
+    }
+  ],
+  "coord_events": [
+    {
+      "type": "trigger",
+      "x": 20,
+      "y": 17,
+      "elevation": 0,
+      "var": "VAR_BLOSSOMTOWN_EVENTS",
+      "var_value": "0",
+      "script": "BlossomwoodTown_EventScript_MeetingEveAgain"
+    },
+    {
+      "type": "trigger",
+      "x": 21,
+      "y": 17,
+      "elevation": 0,
+      "var": "VAR_BLOSSOMTOWN_EVENTS",
+      "var_value": "0",
+      "script": "BlossomwoodTown_EventScript_MeetingEveAgain"
+    },
+    {
+      "type": "trigger",
+      "x": 3,
+      "y": 5,
+      "elevation": 0,
+      "var": "VAR_BLOSSOMTOWN_EVENTS",
+      "var_value": "3",
+      "script": "BlossomwoodTown_EventScript_GaiaBossFight"
+    },
+    {
+      "type": "trigger",
+      "x": 3,
+      "y": 4,
+      "elevation": 0,
+      "var": "VAR_BLOSSOMTOWN_EVENTS",
+      "var_value": "3",
+      "script": "BlossomwoodTown_EventScript_GaiaBossFight"
+    }
+  ],
   "bg_events": []
 }

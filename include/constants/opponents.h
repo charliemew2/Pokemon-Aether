@@ -23,8 +23,8 @@
 #define TRAINER_GRUNT_WEATHER_INST_1         17
 #define TRAINER_GRUNT_WEATHER_INST_2         18
 #define TRAINER_GRUNT_WEATHER_INST_3         19
-#define TRAINER_GRUNT_MUSEUM_1               20
-#define TRAINER_GRUNT_MUSEUM_2               21
+#define TRAINER_FLOWER_SHOP_GRUNT_1               20
+#define TRAINER_FLOWER_SHOP_GRUNT_2               21
 #define TRAINER_GRUNT_SPACE_CENTER_1         22
 #define TRAINER_GRUNT_MT_PYRE_1              23
 #define TRAINER_GRUNT_MT_PYRE_2              24
@@ -600,7 +600,7 @@
 #define TRAINER_PAXTON                      594
 #define TRAINER_ISABELLA                    595
 #define TRAINER_GRUNT_WEATHER_INST_5        596
-#define TRAINER_TABITHA_MT_CHIMNEY          597
+#define TRAINER_ADMIN_GAIA_BLOSSOMTOWN          597
 #define TRAINER_JONATHAN                    598
 #define TRAINER_BRENDAN_RUSTBORO_TORCHIC    599
 #define TRAINER_MAY_RUSTBORO_MUDKIP         600

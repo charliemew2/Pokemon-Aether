@@ -31,6 +31,7 @@ SnowCotStation_EventScript_ExitCableCar::
 SnowCotStation_EventScript_Attendant::
 	lock
 	faceplayer
+	goto_if_eq VAR_ICEMOUNTAIN_EVENTS, 5, SnowCotStation_Eventscript_JennyExplainsShadyGuy
 	msgbox SnowCotStation_Text_CableCarReadyGetOn, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, YES, SnowCotStation_EventScript_RideCableCar
 	goto_if_eq VAR_RESULT, NO, SnowCotStation_EventScript_DeclineRide
@@ -83,6 +84,33 @@ SnowCotStation_Movement_ExitCableCar:
 	walk_down
 	delay_16
 	step_end
+
+SnowCotStation_Eventscript_JennyExplainsShadyGuy:
+	msgbox SnowCotStation_Text_JennyExplainsShadyGuy, MSGBOX_DEFAULT
+	closemessage
+	addvar VAR_ICEMOUNTAIN_EVENTS, 1
+	msgbox SnowCotStation_Text_CableCarReadyGetOnFirst, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, YES, SnowCotStation_EventScript_RideCableCar
+	goto_if_eq VAR_RESULT, NO, SnowCotStation_EventScript_DeclineRide
+	end
+
+SnowCotStation_Text_JennyExplainsShadyGuy:
+	.string "Oh heya {PLAYER}! Good to see you!\l"
+	.string "Guess what!? That shady guy was\n"
+	.string "here waiting for the cable car to\l"
+	.string "come back in service!\p"
+	.string "I was so freaked out but he just\n"
+	.string "asked me under his breath to send\l"
+	.string "him down to Route 2 and didn't\l"
+	.string "cause any trouble.\p"
+	.string "I guess I overreacted before and\n"
+	.string "nothing was wrong after all!\p"
+	.string "Probs was just having a bad day!\n"
+	.string "ANYWAYS!$"
+
+SnowCotStation_Text_CableCarReadyGetOnFirst:
+	.string "Want me to get you down to Route\l"
+	.string "2? I'll getcha going in a jiffy!$"
 
 SnowCotStation_Text_CableCarReadyGetOn:
 	.string "Oh heya {PLAYER}! Good to see you!\n"

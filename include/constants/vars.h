@@ -108,7 +108,7 @@
 #define VAR_SLATEPORT_CITY_STATE                         0x4058
 #define VAR_MOVE_GUY_ROUTE_1                             0x4059 // CUSTOM VARIABLE RENAMED FROM MAUVILLE_STATE. USED FOR REMOVING GUY ON ROUTE 1 FROM MOUNTAIN SPRING ENTRANCE
 #define VAR_RUSTBORO_CITY_STATE                          0x405A
-#define VAR_FORTREE_CITY_STATE                           0x405B // Unused Var
+#define VAR_BLOSSOMTOWN_EVENTS                           0x405B // CUSTOM VARIABLE RENAMED FROM FORTREE_STATE. USED FOR ALL BLOSSOM TOWN EVIL TEAM CUTSCENES
 #define VAR_LILYCOVE_CITY_STATE                          0x405C // Unused Var
 #define VAR_MOSSDEEP_CITY_STATE                          0x405D
 #define VAR_SOOTOPOLIS_CITY_STATE                        0x405E

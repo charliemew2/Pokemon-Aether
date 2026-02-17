@@ -1242,13 +1242,13 @@
 #define FLAG_HIDE_KRISTINE_JENNY_LIFT_CONVO                         0x4A4 // CUSTOM FLAG FOR HIDING KRISTINE AND JENNY AFTER THEY MAKE UP
 #define FLAG_HIDE_KRISTINE_AT_HOME                                  0x4A5 // CUSTOM FLAG FOR HIDING KRISTINE AT HOME
 #define FLAG_JENNY_NOT_AT_POST                                      0x4A6 // CUSTOM FLAG FOR HIDING JENNY BEFORE SHE IS BACK AT WORK
-#define FLAG_UNUSED_0x4A7                                           0x4A7 // Unused Flag
-#define FLAG_UNUSED_0x4A8                                           0x4A8 // Unused Flag
-#define FLAG_UNUSED_0x4A9                                           0x4A9 // Unused Flag
-#define FLAG_UNUSED_0x4AA                                           0x4AA // Unused Flag
-#define FLAG_UNUSED_0x4AB                                           0x4AB // Unused Flag
-#define FLAG_UNUSED_0x4AC                                           0x4AC // Unused Flag
-#define FLAG_UNUSED_0x4AD                                           0x4AD // Unused Flag
+#define FLAG_EVE_GOES_TO_WAIT_AT_SHOP                               0x4A7 // CUSTOM FLAG FOR HAVING EVE RUN TO THE FLOWER SHOP
+#define FLAG_EVESTANDSOUTSIDESHOP                                   0x4A8 // CUSTOM FLAG FOR HAVING EVE STAND OUTSIDE THE FLOWER SHOP
+#define FLAG_HIDE_AT_CUTSCENE_START_FLOWERSHOP                      0x4A9 // CUSTOM FLAG THAT CAN BE USED FOR HIDING SPAWNED NPCS AT THE START OF A CUTSCENE BLOSSOMTOWN
+#define FLAG_GRUNTS_LEAVE_FLOWERSHOP                                0x4AA // CUSTOM FLAG THAT HIDES ALL THE GRUNTS IN THE FLOWER SHOP AFTER B2B
+#define FLAG_SAVED_FLOWERSHOP                                       0x4AB // CUSTOM FLAG THAT RESETS THE FLOWER SHOP
+#define FLAG_EVE_EXITS_FLOWERSHOP                                   0x4AC // CUSTOM FLAG FOR EVE EXITING FLOWER SHOP
+#define FLAG_GAIA_GRUNTS_BLOCK_BLOSSOMWOODTOWN                      0x4AD // CUSTOM FLAG HIDING EVIL TEAM ADMIN FIGHT BEFORE FLOWER SHOP
 #define FLAG_UNUSED_0x4AE                                           0x4AE // Unused Flag
 #define FLAG_UNUSED_0x4AF                                           0x4AF // Unused Flag
 #define FLAG_UNUSED_0x4B0                                           0x4B0 // Unused Flag
@@ -1507,9 +1507,9 @@
 
 #define FLAG_RECEIVED_POKEDEX_FROM_BIRCH            (SYSTEM_FLAGS + 0x84)
 
-#define FLAG_DEFEATED_SAYO                          (SYSTEM_FLAGS + 0x85) // UNUSED FLAG CHANGED TO SAYO LEVEL CAP
-#define FLAG_DEFEATED_KRISTINE                      (SYSTEM_FLAGS + 0x86) // UNUSED FLAG CHANGED TO KRISTINE LEVEL CAP
-#define FLAG_UNUSED_0x8E7                           (SYSTEM_FLAGS + 0x87) // Unused Flag
+#define FLAG_DEFEATED_SAYO                          (SYSTEM_FLAGS + 0x85) // UNUSED FLAG CHANGED TO SAYO LEVEL CAP > KRISTINE
+#define FLAG_DEFEATED_KRISTINE                      (SYSTEM_FLAGS + 0x86) // UNUSED FLAG CHANGED TO KRISTINE LEVEL CAP > GAIA
+#define FLAG_DEFEATED_GAIA                          (SYSTEM_FLAGS + 0x87) // UNUSED FLAG CHANGED TO GAIA LEVEL CAP > DIANCIE
 #define FLAG_UNUSED_0x8E8                           (SYSTEM_FLAGS + 0x88) // Unused Flag
 #define FLAG_UNUSED_0x8E9                           (SYSTEM_FLAGS + 0x89) // Unused Flag
 #define FLAG_UNUSED_0x8EA                           (SYSTEM_FLAGS + 0x8A) // Unused Flag
