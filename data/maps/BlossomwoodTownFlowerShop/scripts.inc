@@ -373,3 +373,90 @@ BlossomwoodTownFlowerShop_Movement_EvePlayerLeave::
 	walk_down
 	walk_down
 	step_end
+
+@NPCS AND SHOP AFTER SAVING THE FLOWER SHOP
+
+BlossomwoodTownFlowerShop_EventScript_EmployeeGirl1::
+	lock
+	faceplayer
+	msgbox BlossomwoodTownFlowerShop_Text_EmployeeGirl1, MSGBOX_DEFAULT
+	closemessage
+	release
+	end
+
+BlossomwoodTownFlowerShop_Text_EmployeeGirl1::
+	.string "Well look at this! Our hero came\n"
+	.string "back to pay our lil shop a visit!\p"
+	.string "...Though right now our stock's a\n"
+	.string "bit run down admittedly.\p"
+	.string "My sister's and I all started this\n"
+	.string "shop as a way to spread the joy\l"
+	.string "of flowers to travelers!\p"
+	.string "If we had a Gracedia in stock, we\n"
+	.string "would have gladly given it to you.\p"
+	.string "Although if we did, maybe we would\n"
+	.string "not have been in trouble to begin\l"
+	.string "with... \p"
+	.string "Come visit us any time!$"
+
+BlossomwoodTownFlowerShop_EventScript_EmployeeGirl2::
+	lock
+	faceplayer
+	msgbox BlossomwoodTownFlowerShop_Text_EmployeeGirl2, MSGBOX_DEFAULT
+	closemessage
+	release
+	end
+
+BlossomwoodTownFlowerShop_Text_EmployeeGirl2::
+	.string "Kusho is an archipelago, but some\n"
+	.string "of the Islands are connected by\l"
+	.string "thin strands of land\p"
+	.string "This Island is known as Shiro\n"
+	.string "Island, likely because of Mt. Aeon\l"
+	.string "being covered in white snow.\p"
+	.string "Because of it's size, this is the\n"
+	.string "largest Island in Kusho, which\l"
+	.string "also has a predominant abundance\l"
+	.string "of plant life!\p"
+	.string "I'm grateful every day for the life\n"
+	.string "we all live!\p"
+	.string "The gratitude Pokémon Shaymin is\n"
+	.string "the one that is said to have given\l"
+	.string "life to plants in this region.\p"
+	.string "Isn't that lovely?$"
+
+BlossomwoodTownFlowerShop_EventScript_CashierSales::
+	lock
+	faceplayer
+	msgbox BlossomwoodTownFlowerShop_Text_CashierSales, MSGBOX_DEFAULT
+	waitmessage
+	pokemart BlossomwoodTown__Pokemart
+	msgbox BlossomwoodTownFlowerShop_Text_CashierSalesFarewell, MSGBOX_DEFAULT
+	release
+	end
+
+BlossomwoodTownFlowerShop_Text_CashierSales::
+	.string "Oh hello there! You're welcome to\n"
+	.string "shop here anytime!\p"
+	.string "Some of our stock will only be here\n"
+	.string "for a limited time, and we only sell\l"
+	.string "some of it at a limit per customer.\p"
+	.string "As a thanks for saving us, we can\n"
+	.string "offer you freshly picked berries\l"
+	.string "for an extreme discount!\p"
+	.string "Have a look at our merchandise!$"
+
+	.align 2
+BlossomwoodTown__Pokemart:
+	.2byte ITEM_ORAN_BERRY
+	.2byte ITEM_CHERI_BERRY
+	.2byte ITEM_RAWST_BERRY
+	.2byte ITEM_CHESTO_BERRY
+	.2byte ITEM_PECHA_BERRY
+	.2byte ITEM_LAX_MINT
+	.2byte ITEM_GENTLE_MINT
+	.2byte 
+	pokemartlistend
+
+BlossomwoodTownFlowerShop_Text_CashierSalesFarewell::
+	.string "Please come again anytime!$"

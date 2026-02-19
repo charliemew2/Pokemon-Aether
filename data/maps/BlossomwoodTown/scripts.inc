@@ -40,6 +40,7 @@ SavedFlowerShop_EventScript_TalkWithEve::
 	waitmovement 0
 	removeobject LOCAL_ID_EVE_POST_FLOWERSHOP
 	setflag FLAG_EVE_EXITS_FLOWERSHOP
+	clearflag FLAG_FLOWERSHOP_NORMAL_STATE
 	clearflag FLAG_GAIA_GRUNTS_BLOCK_BLOSSOMWOODTOWN
 	addvar VAR_BLOSSOMTOWN_EVENTS, 1
 	release
@@ -461,3 +462,241 @@ BlossomwoodTown_Movement_EvilTeamRetreat::
 	walk_fast_left
 	walk_fast_left
 	step_end
+
+BlossomwoodTown_EventScript_KeepPlayerFromLeaving::
+	msgbox BlossomwoodTown_Text_KeepPlayerFromLeaving, MSGBOX_DEFAULT
+	closemessage
+	getplayerxy VAR_TEMP_3, VAR_TEMP_4
+	call_if_eq VAR_TEMP_3, 2, BlossomwoodTown_EventScript_KeepPlayerFromLeavingMovement
+	release
+	end
+
+BlossomwoodTown_Text_KeepPlayerFromLeaving::
+	.string "Eve is waiting for you at the shop!\n"
+	.string "Don't keep them waiting!$"
+
+BlossomwoodTown_EventScript_KeepPlayerFromLeavingMovement::
+	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkRight
+	waitmovement 0
+	return
+
+@NPCS AROUND TOWN
+
+BlossomWoodTown_EventScript_HoneyGirl::
+	lock
+	faceplayer
+	msgbox BlossomWoodTown_Text_HoneyGirl, MSGBOX_DEFAULT
+	closemessage
+	applymovement LOCAL_ID_HONEYGIRL_BLOSSOMWOOD, Common_Movement_FaceRight
+	waitmovement 0
+	release
+	end
+
+BlossomWoodTown_Text_HoneyGirl::
+	.string "My Combee harvests fresh honey\n"
+	.string "occasionally.\p"
+	.string "It's a bit dangerous, sometimes\n"
+	.string "wild Ursaring will try to surprise\l"
+	.string "us for it!\p"
+	.string "Ursaring that eat enough Honey\n"
+	.string "can evolve into Ursaluna.\p"
+	.string "I heard though that there is a\n"
+	.string "rare stone that can evolve it into\l"
+	.string "a different form...\p"
+	.string "Pokémon are so mysterious!\l"
+	.string "Combee and I will stick to our\n"
+	.string "casual gathering of Honey.\p"
+	.string "My sister sells flowers at the\n"
+	.string "Southern Docks, sometimes she\l"
+	.string "sells my honey too!$"
+
+BlossomWoodTown_EventScript_Combee::
+	lock
+	faceplayer
+	playmoncry SPECIES_COMBEE, CRY_MODE_NORMAL
+	msgbox BlossomWoodTown_Text_Combee, MSGBOX_DEFAULT
+	waitmoncry
+	closemessage
+	applymovement LOCAL_ID_COMBEE_BLOSSOMWOOD, Common_Movement_FaceLeft
+	waitmovement 0
+	release
+	end
+
+BlossomWoodTown_Text_Combee::
+	.string "Com! Bee!$"
+
+BlossomWoodTown_EventScript_Runner::
+	lock
+	faceplayer
+	msgbox BlossomWoodTown_Text_Runner, MSGBOX_DEFAULT
+	closemessage
+	release
+	end
+
+BlossomWoodTown_Text_Runner::
+	.string "I swear, the fresh air of this town\n"
+	.string "is so invigorating!\p"
+	.string "Blossomwood being right on the\n"
+	.string "ocean is so fortunate.\p"
+	.string "It's lovely weather for most of\n"
+	.string "the year. Makes me feel so alive!$"
+
+BlossomWoodTown_EventScript_OldLadyWatering::
+	lock
+	faceplayer
+	msgbox BlossomWoodTown_Text_OldLadyWatering, MSGBOX_DEFAULT
+	closemessage
+	release
+	end
+
+BlossomWoodTown_Text_OldLadyWatering::
+	.string "Our town is famous for its flowers.\l"
+	.string "Its a community effort that we\n"
+	.string "keep Blossomwood as vibrant as it\l"
+	.string "is throughout the year.\p"
+	.string "Have you heard of the Flower\n"
+	.string "Paradise?\p"
+	.string "It's to the west of Mt. Aeon and\n"
+	.string "we can take the lifts through\l"
+	.string "SnowCot to get to it.\p"
+	.string "Most of our flowers germinated\n"
+	.string "from seeds the people who founded\l"
+	.string "this town brought from there!$"
+
+BlossomWoodTown_EventScript_LadyInGrass::
+	lock
+	faceplayer
+	goto_if_set FLAG_RECEIVED_MIRACLE_SEED, BlossomWoodTown_EventScript_LadyInGrassAfterMiracleSeed
+	msgbox BlossomWoodTown_Text_LadyInGrass, MSGBOX_DEFAULT
+	closemessage
+	call BlossomWoodTown_giveitem_MiracleSeed
+	msgbox BlossomWoodTown_Text_LadyInGrassAfterMiracleSeed, MSGBOX_DEFAULT
+	closemessage
+	setflag FLAG_RECEIVED_MIRACLE_SEED
+	release
+	end
+
+BlossomWoodTown_Text_LadyInGrass::
+	.string "Everyone in Blossomwood Town has\n"
+	.string "their own gardens!\p"
+	.string "I don't have the biggest green\n"
+	.string "thumb myself, but it's fun to\l"
+	.string "learn and improve my gardening!\p"
+	.string "However I have this one seed that\n"
+	.string "won't be fit for growing, so maybe\l"
+	.string "it's better in the hands of a\l"
+	.string "trainer!\p"
+	.string "You seem like a trainer, so I'll\n"
+	.string "entrust it to you!$"
+
+BlossomWoodTown_giveitem_MiracleSeed::
+	giveitem ITEM_MIRACLE_SEED
+	return
+
+BlossomWoodTown_EventScript_LadyInGrassAfterMiracleSeed::
+	lock
+	faceplayer
+	msgbox BlossomWoodTown_Text_LadyInGrassAfterMiracleSeed, MSGBOX_DEFAULT
+	closemessage
+	release
+	end
+
+BlossomWoodTown_Text_LadyInGrassAfterMiracleSeed::
+	.string "The Miracle Seed is an item for\n"
+	.string "grass type Pokémon!\p"
+	.string "It will make their attacks much\n"
+	.string "stronger.\p"
+	.string "But...it doesn't grow into a plant!\l"
+	.string "Isn't that kind of sad?\l"
+	.string "Flowers should always be in bloom!$"
+
+BlossomWoodTown_EventScript_Fisherman::
+	lock
+	faceplayer
+	goto_if_set FLAG_GIVE_BOTTLE_CAP_BLOSSOMWOOD_TOWN, BlossomWoodTown_EventScript_FishermanAfterBottleCap
+	msgbox BlossomWoodTown_Text_Fisherman, MSGBOX_DEFAULT
+	closemessage
+	call BlossomWoodTown_giveitem_BottleCap
+	msgbox BlossomWoodTown_Text_FishermanAfterBottleCap, MSGBOX_DEFAULT
+	closemessage
+	applymovement LOCAL_ID_BLOSSOMWOOD_FISHERMAN, Common_Movement_FaceRight
+	waitmovement 0
+	setflag FLAG_GIVE_BOTTLE_CAP_BLOSSOMWOOD_TOWN
+	release
+	end
+
+BlossomWoodTown_giveitem_BottleCap::
+	giveitem ITEM_BOTTLE_CAP
+	return
+
+BlossomWoodTown_Text_Fisherman::
+	.string "This is one of the most peaceful\n"
+	.string "places I've ever fished!\p"
+	.string "Though recently there have been\n"
+	.string "some wierd looking people in\l"
+	.string "strange uniforms coming to and\l"
+	.string "from town the last few days.\p"
+	.string "Eh, probably nothing. As long as\n"
+	.string "they don't scare away the fish!\p"
+	.string "Well today all I've caught is some\n"
+	.string "trash, unfortunately.\p"
+	.string "Still, even that's a win. It makes\n"
+	.string "the ocean a little cleaner!\p"
+	.string "But you know, one man's trash is\n"
+	.string "another person's treasure.\p"
+	.string "I'll share this with you!$"
+
+BlossomWoodTown_EventScript_FishermanAfterBottleCap::
+	lock
+	faceplayer
+	msgbox BlossomWoodTown_Text_FishermanAfterBottleCap, MSGBOX_DEFAULT
+	closemessage
+	release
+	end
+
+BlossomWoodTown_Text_FishermanAfterBottleCap::
+	.string "I heard that some services collect\n"
+	.string "those Bottle Caps.\p"
+	.string "Fishing improves the world. We\n"
+	.string "pick out trash, catch new friends,\l"
+	.string "improve the sea, it's a cycle!\p"
+	.string "The ocean calls to me!$"
+
+BlossomWoodTown_EventScript_Beauty::
+	lock
+	faceplayer
+	goto_if_set FLAG_SAVED_FLOWERSHOP, BlossomWoodTown_EventScript_BeautyAfterFlower
+	msgbox BlossomWoodTown_Text_Beauty, MSGBOX_DEFAULT
+	closemessage
+	release
+	end
+
+BlossomWoodTown_Text_Beauty::
+	.string "Ugh, people are so wierd nowadays.\l"
+	.string "We get a lot of travelers to our\n"
+	.string "beautiful town, but recently we've\l"
+	.string "been getting these wierdos from\l"
+	.string "EVILTEAM.\p"
+	.string "They haven't caused any issues\n"
+	.string "but I feel uncomfortable when\l"
+	.string "they... interrogate people.\p"
+	.string "Maybe I'm just too sensitive.$"
+
+BlossomWoodTown_EventScript_BeautyAfterFlower::
+	lock
+	faceplayer
+	msgbox BlossomWoodTown_Text_BeautyAfterFlower, MSGBOX_DEFAULT
+	closemessage
+	release
+	end
+
+BlossomWoodTown_Text_BeautyAfterFlower::
+	.string "Oh my gosh!\l"
+	.string "Those EVILTEAM people tried to\n"
+	.string "rob the flower shop?\p"
+	.string "And you stopped them?\p"
+	.string "Thank goodness for good people\n"
+	.string "like you... And you're so young!\p"
+	.string "The next generation is looking\n"
+	.string "bright if we have kind souls like\l"
+	.string "you in the midst!$"

@@ -3,6 +3,7 @@
     "gMapGroup_KushoRegion",
     "gMapGroup_KushoInteriorsBuildings",
     "gMapGroup_IndoorIceMountainTown",
+    "gMapGroup_IndoorBlossomwoodTown",
     "gMapGroup_KushoDungeons",
     "gMapGroup_TownsAndRoutes",
     "gMapGroup_IndoorLittleroot",
@@ -66,6 +67,11 @@
     "IceMountainTown_House1",
     "IceMountainTown_House2",
     "IceMountainTown_House3"
+  ],
+  "gMapGroup_IndoorBlossomwoodTown": [
+    "BlossomwoodTown_House1",
+    "BlossomwoodTown_House2",
+    "BlossomwoodTown_House3"
   ],
   "gMapGroup_KushoDungeons": [
     "IceMountain1F",

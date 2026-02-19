@@ -282,5 +282,6 @@ EventScript_ResetAllMapFlags::
 	setflag FLAG_HIDE_KRISTINE_AT_HOME
 	setflag FLAG_JENNY_NOT_AT_POST
 	setflag FLAG_GAIA_GRUNTS_BLOCK_BLOSSOMWOODTOWN
+	setflag FLAG_FLOWERSHOP_NORMAL_STATE
 	call EventScript_ResetAllBerries
 	end

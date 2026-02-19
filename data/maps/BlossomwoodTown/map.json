@@ -136,6 +136,113 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
       "flag": "FLAG_GAIA_GRUNTS_BLOCK_BLOSSOMWOODTOWN"
+    },
+    {
+      "local_id": "LOCAL_ID_COMBEE_BLOSSOMWOOD",
+      "graphics_id": "OBJ_EVENT_GFX_SPECIES(COMBEE)",
+      "x": 14,
+      "y": 3,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_WALK_IN_PLACE_LEFT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "BlossomWoodTown_EventScript_Combee",
+      "flag": "0"
+    },
+    {
+      "local_id": "LOCAL_ID_HONEYGIRL_BLOSSOMWOOD",
+      "graphics_id": "OBJ_EVENT_GFX_GIRL_2",
+      "x": 13,
+      "y": 3,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "BlossomWoodTown_EventScript_HoneyGirl",
+      "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_RUNNING_TRIATHLETE_F",
+      "x": 12,
+      "y": 26,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_WALK_LEFT_AND_RIGHT",
+      "movement_range_x": 5,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "BlossomWoodTown_EventScript_Runner",
+      "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_EXPERT_F",
+      "x": 10,
+      "y": 18,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_UP",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "BlossomWoodTown_EventScript_OldLadyWatering",
+      "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_PICNICKER",
+      "x": 17,
+      "y": 7,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "BlossomWoodTown_EventScript_LadyInGrass",
+      "flag": "0"
+    },
+    {
+      "local_id": "LOCAL_ID_BLOSSOMWOOD_FISHERMAN",
+      "graphics_id": "OBJ_EVENT_GFX_FISHERMAN",
+      "x": 29,
+      "y": 13,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "BlossomWoodTown_EventScript_Fisherman",
+      "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_BEAUTY",
+      "x": 11,
+      "y": 15,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_WANDER_AROUND",
+      "movement_range_x": 2,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "BlossomWoodTown_EventScript_Beauty",
+      "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+      "x": 13,
+      "y": 10,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "ITEM_GRASSY_SEED",
+      "script": "Common_EventScript_FindItem",
+      "flag": "FLAG_GRASSY_SEED_BLOSSOMWOOD_TOWN"
     }
   ],
   "warp_events": [
@@ -144,6 +251,27 @@
       "y": 7,
       "elevation": 0,
       "dest_map": "MAP_BLOSSOMWOOD_TOWN_FLOWER_SHOP",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 5,
+      "y": 22,
+      "elevation": 0,
+      "dest_map": "MAP_BLOSSOMWOOD_TOWN_HOUSE1",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 14,
+      "y": 22,
+      "elevation": 0,
+      "dest_map": "MAP_BLOSSOMWOOD_TOWN_HOUSE2",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 9,
+      "y": 13,
+      "elevation": 0,
+      "dest_map": "MAP_BLOSSOMWOOD_TOWN_HOUSE3",
       "dest_warp_id": "0"
     }
   ],
@@ -183,6 +311,24 @@
       "var": "VAR_BLOSSOMTOWN_EVENTS",
       "var_value": "3",
       "script": "BlossomwoodTown_EventScript_GaiaBossFight"
+    },
+    {
+      "type": "trigger",
+      "x": 2,
+      "y": 4,
+      "elevation": 0,
+      "var": "VAR_BLOSSOMTOWN_EVENTS",
+      "var_value": "1",
+      "script": "BlossomwoodTown_EventScript_KeepPlayerFromLeaving"
+    },
+    {
+      "type": "trigger",
+      "x": 2,
+      "y": 5,
+      "elevation": 0,
+      "var": "VAR_BLOSSOMTOWN_EVENTS",
+      "var_value": "1",
+      "script": "BlossomwoodTown_EventScript_KeepPlayerFromLeaving"
     }
   ],
   "bg_events": []

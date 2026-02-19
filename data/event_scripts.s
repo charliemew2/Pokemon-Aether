@@ -1202,3 +1202,9 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/BlossomwoodTown/scripts.inc"
 
 	.include "data/maps/BlossomwoodTownFlowerShop/scripts.inc"
+
+	.include "data/maps/BlossomwoodTown_House1/scripts.inc"
+
+	.include "data/maps/BlossomwoodTown_House2/scripts.inc"
+
+	.include "data/maps/BlossomwoodTown_House3/scripts.inc"

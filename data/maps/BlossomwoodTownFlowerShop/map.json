@@ -39,7 +39,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "BlossomwoodTownFlowerShop_EventScript_CashierSales",
       "flag": "0"
     },
     {
@@ -125,6 +125,34 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
       "flag": "FLAG_GRUNTS_LEAVE_FLOWERSHOP"
+    },
+    {
+      "local_id": "LOCAL_ID_FLOWERSHOP_GIRL_2POSTSAVED",
+      "graphics_id": "OBJ_EVENT_GFX_WOMAN_2",
+      "x": 10,
+      "y": 4,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_WANDER_RIGHT_AND_LEFT",
+      "movement_range_x": 2,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "BlossomwoodTownFlowerShop_EventScript_EmployeeGirl2",
+      "flag": "FLAG_FLOWERSHOP_NORMAL_STATE"
+    },
+    {
+      "local_id": "LOCAL_ID_FLOWERSHOP_GIRL_1POSTSAVED",
+      "graphics_id": "OBJ_EVENT_GFX_GIRL_1",
+      "x": 9,
+      "y": 7,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "BlossomwoodTownFlowerShop_EventScript_EmployeeGirl1",
+      "flag": "FLAG_FLOWERSHOP_NORMAL_STATE"
     }
   ],
   "warp_events": [

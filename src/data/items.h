@@ -1749,7 +1749,7 @@ const struct Item gItemsInfo[] =
     [ITEM_LAX_MINT] =
     {
         .name = ITEM_NAME("Lax Mint"),
-        .price = (I_PRICE >= GEN_9) ? 20000 : 20,
+        .price = (I_PRICE >= GEN_9) ? 40000 : 20,
         .description = COMPOUND_STRING(
             "Can be smelled. It\n"
             "ups Defense, but\n"
@@ -1857,7 +1857,7 @@ const struct Item gItemsInfo[] =
     [ITEM_CALM_MINT] =
     {
         .name = ITEM_NAME("Calm Mint"),
-        .price = (I_PRICE >= GEN_9) ? 20000 : 20,
+        .price = (I_PRICE >= GEN_9) ? 40000 : 20,
         .description = COMPOUND_STRING(
             "Can be smelled. It\n"
             "ups Sp. Def, but\n"
@@ -1875,7 +1875,7 @@ const struct Item gItemsInfo[] =
     [ITEM_GENTLE_MINT] =
     {
         .name = ITEM_NAME("Gentle Mint"),
-        .price = (I_PRICE >= GEN_9) ? 20000 : 20,
+        .price = (I_PRICE >= GEN_9) ? 40000 : 20,
         .description = COMPOUND_STRING(
             "Can be smelled. It\n"
             "ups Sp. Def, but\n"
@@ -10613,7 +10613,7 @@ const struct Item gItemsInfo[] =
     {
         .name = ITEM_NAME("Cheri Berry"),
         .pluralName = ITEM_PLURAL_NAME("Cheri Berries"),
-        .price = (I_BERRY_PRICE >= GEN_8) ? 80 : 20,
+        .price = (I_BERRY_PRICE >= GEN_8) ? 1 : 1,
         .holdEffect = HOLD_EFFECT_CURE_PAR,
         .description = COMPOUND_STRING(
             "A hold item that\n"
@@ -10633,7 +10633,7 @@ const struct Item gItemsInfo[] =
     {
         .name = ITEM_NAME("Chesto Berry"),
         .pluralName = ITEM_PLURAL_NAME("Chesto Berries"),
-        .price = (I_BERRY_PRICE >= GEN_8) ? 80 : 20,
+        .price = (I_BERRY_PRICE >= GEN_8) ? 1 : 1,
         .holdEffect = HOLD_EFFECT_CURE_SLP,
         .description = COMPOUND_STRING(
             "A hold item that\n"
@@ -10653,7 +10653,7 @@ const struct Item gItemsInfo[] =
     {
         .name = ITEM_NAME("Pecha Berry"),
         .pluralName = ITEM_PLURAL_NAME("Pecha Berries"),
-        .price = (I_BERRY_PRICE >= GEN_8) ? 80 : 20,
+        .price = (I_BERRY_PRICE >= GEN_8) ? 1 : 1,
         .holdEffect = HOLD_EFFECT_CURE_PSN,
         .description = COMPOUND_STRING(
             "A hold item that\n"
@@ -10673,7 +10673,7 @@ const struct Item gItemsInfo[] =
     {
         .name = ITEM_NAME("Rawst Berry"),
         .pluralName = ITEM_PLURAL_NAME("Rawst Berries"),
-        .price = (I_BERRY_PRICE >= GEN_8) ? 80 : 20,
+        .price = (I_BERRY_PRICE >= GEN_8) ? 1 : 1,
         .holdEffect = HOLD_EFFECT_CURE_BRN,
         .description = COMPOUND_STRING(
             "A hold item that\n"
@@ -10693,7 +10693,7 @@ const struct Item gItemsInfo[] =
     {
         .name = ITEM_NAME("Aspear Berry"),
         .pluralName = ITEM_PLURAL_NAME("Aspear Berries"),
-        .price = (I_BERRY_PRICE >= GEN_8) ? 80 : 20,
+        .price = (I_BERRY_PRICE >= GEN_8) ? 1 : 1,
         .holdEffect = HOLD_EFFECT_CURE_FRZ,
         .description = COMPOUND_STRING(
             "A hold item that\n"
@@ -10734,7 +10734,7 @@ const struct Item gItemsInfo[] =
     {
         .name = ITEM_NAME("Oran Berry"),
         .pluralName = ITEM_PLURAL_NAME("Oran Berries"),
-        .price = (I_BERRY_PRICE >= GEN_8) ? 80 : 20,
+        .price = (I_BERRY_PRICE >= GEN_8) ? 1 : 1,
         .holdEffect = HOLD_EFFECT_RESTORE_HP,
         .holdEffectParam = 10,
         .description = COMPOUND_STRING(
@@ -10755,7 +10755,7 @@ const struct Item gItemsInfo[] =
     {
         .name = ITEM_NAME("Persim Berry"),
         .pluralName = ITEM_PLURAL_NAME("Persim Berries"),
-        .price = (I_BERRY_PRICE >= GEN_8) ? 80 : 20,
+        .price = (I_BERRY_PRICE >= GEN_8) ? 1 : 1,
         .holdEffect = HOLD_EFFECT_CURE_CONFUSION,
         .description = COMPOUND_STRING(
             "A hold item that\n"

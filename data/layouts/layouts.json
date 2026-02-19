@@ -4644,7 +4644,7 @@
     {
       "id": "LAYOUT_ROUTE3",
       "name": "Route3_Layout",
-      "width": 55,
+      "width": 56,
       "height": 30,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Mauville",
@@ -4670,6 +4670,36 @@
       "secondary_tileset": "gTileset_PrettyPetalFlowerShop",
       "border_filepath": "data/layouts/BlossomwoodTownFlowerShop/border.bin",
       "blockdata_filepath": "data/layouts/BlossomwoodTownFlowerShop/map.bin"
+    },
+    {
+      "id": "LAYOUT_BLOSSOMWOOD_TOWN_HOUSE1",
+      "name": "BlossomwoodTown_House1_Layout",
+      "width": 10,
+      "height": 9,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_GenericBuilding",
+      "border_filepath": "data/layouts/BlossomwoodTown_House1/border.bin",
+      "blockdata_filepath": "data/layouts/BlossomwoodTown_House1/map.bin"
+    },
+    {
+      "id": "LAYOUT_BLOSSOMWOOD_TOWN_HOUSE2",
+      "name": "BlossomwoodTown_House2_Layout",
+      "width": 10,
+      "height": 9,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_GenericBuilding",
+      "border_filepath": "data/layouts/BlossomwoodTown_House2/border.bin",
+      "blockdata_filepath": "data/layouts/BlossomwoodTown_House2/map.bin"
+    },
+    {
+      "id": "LAYOUT_BLOSSOMWOOD_TOWN_HOUSE3",
+      "name": "BlossomwoodTown_House3_Layout",
+      "width": 10,
+      "height": 9,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_GenericBuilding",
+      "border_filepath": "data/layouts/BlossomwoodTown_House3/border.bin",
+      "blockdata_filepath": "data/layouts/BlossomwoodTown_House3/map.bin"
     }
   ]
 }
