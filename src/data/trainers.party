@@ -13822,86 +13822,202 @@ Ability: Mold Breaker
 - Pluck
 - Stored Power
 
-=== TRAINER_WYATT ===
-Name: WYATT
-Class: Pokemaniac
-Pic: Pokemaniac
+=== TRAINER_BLACKBELTNIXON ===
+Name: Nixon
+Class: Black Belt
+Pic: Black Belt
 Gender: Male
 Music: Suspicious
 Double Battle: No
 AI: Check Bad Move
 
-Aron
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Hitmonlee @ Normal Gem
+Level: 23
+Jolly Nature
+Ability: Unburden
+- Low Sweep
+- Fake Out
+- Throat Chop
+- Facade
 
-Aron
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Hitmontop @ Lum Berry
+Level: 23
+Jolly Nature
+Ability: Technician
+- Mach Punch
+- Bulk Up
+- Ice Spinner
+- Bulldoze
 
-=== TRAINER_ANGELINA ===
-Name: ANGELINA
-Class: Picnicker
-Pic: Picnicker
+Hitmonchan @ Punching Glove
+Level: 23
+Jolly Nature
+Ability: Iron Fist
+- Bullet Punch
+- Ice Punch
+- Thunder Punch
+- Power-Up Punch
+
+=== TRAINER_TWINSLILYANDLEIA ===
+Name: Lily&Leia
+Class: Twins
+Pic: Twins
 Gender: Female
 Music: Girl
-Double Battle: No
+Double Battle: Yes
 AI: Check Bad Move
 
-Lombre
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Ninetales @ Lum Berry
+Level: 23
+Timid Nature
+Ability: Flash Fire
+- Hex
+- Hypnosis
+- Extrasensory
+- Incinerate
 
-Marill
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Shiinotic @ Kebia Berry
+Level: 24
+Modest Nature
+Ability: Effect Spore
+- Cotton Spore
+- Protect
+- Sludge Bomb
+- Grass Knot
 
-=== TRAINER_KAI ===
-Name: KAI
-Class: Fisherman
-Pic: Fisherman
-Gender: Male
-Music: Hiker
-Double Battle: No
-AI: Check Bad Move
+Breloom @ Coba Berry
+Level: 23
+Jolly Nature
+Ability: Effect Spore
+- Rock Tomb
+- Wake-Up Slap
+- Mach Punch
+- Spore
 
-Barboach
-Level: 19
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Lampent
+Level: 24
+Hasty Nature
+Ability: Flash Fire
+- Hex
+- Ominous Wind
+- Temper Flare
+- Confuse Ray
 
-=== TRAINER_CHARLOTTE ===
-Name: CHARLOTTE
-Class: Picnicker
-Pic: Picnicker
+=== TRAINER_AROMALADYCHRISTINA ===
+Name: Christina
+Class: Aroma Lady
+Pic: Aroma Lady
 Gender: Female
-Music: Girl
+Music: Female
 Double Battle: No
 AI: Check Bad Move
 
-Nuzleaf
-Level: 19
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Ludicolo @ Damp Rock
+Level: 23
+Naive Nature
+Ability: Swift Swim
+- Rain Dance
+- Ice Punch
+- Seed Bomb
+- Bubble Beam
 
-=== TRAINER_DEANDRE ===
-Name: DEANDRE
-Class: Youngster
-Pic: Youngster
+Roselia @ Choice Scarf
+Level: 24
+Modest Nature
+Ability: Poison Point
+- Petal Dance
+- Sludge Bomb
+- Weather Ball
+
+Oricorio-Pa'u @ Wise Glasses
+Level: 23
+Hasty Nature
+Ability: Dancer
+- Revelation Dance
+- Quiver Dance
+- Rain Dance
+- Air Slash
+
+Illumise @ Lum Berry
+Level: 23
+Timid Nature
+Ability: Tinted Lens
+- Shadow Ball
+- Thunder
+- Bug Buzz
+- Water Pulse
+
+=== TRAINER_GOURMET_HANK ===
+Name: Hank
+Class: Pokefan
+Pic: Pokefan M
 Gender: Male
 Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Zigzagoon
-Level: 14
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Clodsire @ Lum Berry
+Level: 23
+Careful Nature
+Ability: Water Absorb
+- Poison Jab
+- Dig
+- Yawn
+- Liquidation
 
-Aron
-Level: 14
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Flapple @ Sitrus Berry
+Level: 24
+Naive Nature
+Ability: Ripen
+- Recycle
+- Dragon Dance
+- Dragon Breath
+- Grassy Glide
 
-Electrike
-Level: 14
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Greedent @ Enigma Berry
+Level: 24
+Impish Nature
+Ability: Cheek Pouch
+- Belly Drum
+- Body Slam
+- Bulldoze
+- Bullet Seed
+
+=== TRAINER_TRIATHLETESHELDON ===
+Name: Sheldon
+Class: Triathlete
+Pic: Running Triathlete M
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move
+
+Durant @ Lum Berry
+Level: 23
+Jolly Nature
+Ability: Hustle
+- Hone Claws
+- Bug Bite
+- Stomping Tantrum
+- Metal Claw
+
+Squawkabilly-Blue @ Normal Gem
+Level: 24
+Jolly Nature
+Ability: Hustle
+- Retaliate
+- Final Gambit
+- Reversal
+- Aerial Ace
+
+Zweilous @ Zoom Lens
+Level: 24
+Brave Nature
+Ability: Hustle
+- Dragon Tail
+- Aqua Tail
+- Assurance
+- Body Slam
 
 === TRAINER_GRUNT_MAGMA_HIDEOUT_1 ===
 Name: GRUNT

@@ -129,7 +129,7 @@ Route113_EventScript_Lawrence::
 	end
 
 Route113_EventScript_Wyatt::
-	trainerbattle_single TRAINER_WYATT, Route113_Text_WyattIntro, Route113_Text_WyattDefeat
+	trainerbattle_single TRAINER_BLACKBELTNIXON, Route113_Text_WyattIntro, Route113_Text_WyattDefeat
 	msgbox Route113_Text_WyattPostBattle, MSGBOX_AUTOCLOSE
 	end
 
