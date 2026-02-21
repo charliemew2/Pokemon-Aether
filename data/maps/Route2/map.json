@@ -15,7 +15,7 @@
   "connections": [
     {
       "map": "MAP_BLOSSOMWOOD_TOWN",
-      "offset": -20,
+      "offset": -21,
       "direction": "right"
     }
   ],

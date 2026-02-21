@@ -134,7 +134,13 @@ Route3_EventScript_BoyWanderingGrass::
 	end
 
 Route3_Text_BoyWanderingGrass::
-	.string "FUCK DES!$"
+	.string "I'm out here picking berries!\n"
+	.string "Sometimes I find rare and fresh\l"
+	.string "ones that have dropped onto the\l"
+	.string "ground.\p"
+	.string "If nobody picked them up, they'd\n"
+	.string "just regrow eventually!\p"
+	.string "Nature is so cool!$"
 
 Route3_EventScript_CyclingGirl::
 	lock
@@ -145,7 +151,15 @@ Route3_EventScript_CyclingGirl::
 	end
 
 Route3_Text_CyclingGirl::
-	.string "I like to bike!$"
+	.string "I'm so miffed!\l"
+	.string "They told me I couldn't bike on the\n"
+	.string "road up there.\p"
+	.string "I mean I get it, they don't want\n"
+	.string "anyone getting hit by a truck...\p"
+	.string "But also it's not like it's so busy\n"
+	.string "that it's bumper to bumper!\p"
+	.string "We should get a Cycling Road built\n"
+	.string "in Kusho!$"
 
 Route3_EventScript_RunningMan::
 	lock
@@ -156,7 +170,12 @@ Route3_EventScript_RunningMan::
 	end
 
 Route3_Text_RunningMan::
-	.string "I like to run!$"
+	.string "It's not too long of a trek up to\n"
+	.string "CITYONE from here.\p"
+	.string "Just go up Route 4 and then you'll\n"
+	.string "pass through the gate.\p"
+	.string "I live there and come to run down\n"
+	.string "both Routes 3 and 4 every day!$"
 
 Route3_EventScript_Fisherman::
 	lock
@@ -167,7 +186,11 @@ Route3_EventScript_Fisherman::
 	end
 
 Route3_Text_Fisherman::
-	.string "I like to fish!$"
+	.string "You see that big rock in the middle\n"
+	.string "of this pond?\p"
+	.string "I'd love to swim out and explore it.\n"
+	.string "But I can't swim!\p"
+	.string "Isn't that ironic?$"
 
 @SIGNS 
 

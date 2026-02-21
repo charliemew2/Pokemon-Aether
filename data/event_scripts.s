@@ -1208,3 +1208,7 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/BlossomwoodTown_House2/scripts.inc"
 
 	.include "data/maps/BlossomwoodTown_House3/scripts.inc"
+
+	.include "data/maps/Route4/scripts.inc"
+
+	.include "data/maps/Route5/scripts.inc"
