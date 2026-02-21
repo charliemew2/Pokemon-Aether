@@ -1051,8 +1051,8 @@
 
 // Item Ball Flags
 #define FLAG_ITEM_MOUNTAINPATH_MAX_REPEL                            0x3E8 //REPLACED FLAG_ITEM_ROUTE_102_POTION
-#define FLAG_ITEM_ROUTE_116_X_SPECIAL                               0x3E9
-#define FLAG_ITEM_ROUTE3_PP_UP                                      0x3EA
+#define FLAG_ITEM_ROUTE5_HARD_STONE                                 0x3E9 //REPLACED FLAG_ITEM_ROUTE_116_HARD_STONE
+#define FLAG_ITEM_ROUTE3_PP_UP                                      0x3EA //REPLACED SOME ITEM I FORGOR
 #define FLAG_ITEM_ROUTE_105_IRON                                    0x3EB
 #define FLAG_ITEM_ROUTE_106_PROTEIN                                 0x3EC
 #define FLAG_ITEM_ROUTE_109_PP_UP                                   0x3ED
@@ -1250,9 +1250,9 @@
 #define FLAG_EVE_EXITS_FLOWERSHOP                                   0x4AC // CUSTOM FLAG FOR EVE EXITING FLOWER SHOP
 #define FLAG_GAIA_GRUNTS_BLOCK_BLOSSOMWOODTOWN                      0x4AD // CUSTOM FLAG HIDING EVIL TEAM ADMIN FIGHT BEFORE FLOWER SHOP
 #define FLAG_FLOWERSHOP_NORMAL_STATE                                0x4AE // CUSTOM FLAG FOR RESETTING THE NORMAL FLOWER SHOP
-#define FLAG_UNUSED_0x4AF                                           0x4AF // Unused Flag
-#define FLAG_UNUSED_0x4B0                                           0x4B0 // Unused Flag
-#define FLAG_UNUSED_0x4B1                                           0x4B1 // Unused Flag
+#define FLAG_HIDENPCS_ROUTE5                                        0x4AF // CUSTOM FLAG FOR HIDING THE ROUTE 5 NPCS WHEN EVILTEAM IS THERE
+#define FLAG_HIDEEVE_INTRO_ROUTE5                                   0x4B0 // CUSTOM FLAG FOR HIDING EVE AFTER MEETING THEM AT THE ENTRANCE OF ROUTE 5
+#define FLAG_HIDELOCH_GOESINTOCAVE                                  0x4B1 // CUSTOM FLAG FOR HIDING LOCH WHEN SHE GOES INTO THE CAVE OF THE CRYSTAL LAKE
 #define FLAG_UNUSED_0x4B2                                           0x4B2 // Unused Flag
 #define FLAG_UNUSED_0x4B3                                           0x4B3 // Unused Flag
 #define FLAG_UNUSED_0x4B4                                           0x4B4 // Unused Flag

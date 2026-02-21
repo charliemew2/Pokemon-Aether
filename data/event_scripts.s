@@ -1212,3 +1212,5 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/Route4/scripts.inc"
 
 	.include "data/maps/Route5/scripts.inc"
+
+	.include "data/maps/CrystalLake/scripts.inc"

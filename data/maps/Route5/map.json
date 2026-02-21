@@ -2,7 +2,7 @@
   "id": "MAP_ROUTE5",
   "name": "Route5",
   "layout": "LAYOUT_ROUTE5",
-  "music": "MUS_ROUTE113",
+  "music": "MUS_SEALED_CHAMBER",
   "region_map_section": "MAPSEC_ROUTE_106",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
@@ -29,11 +29,12 @@
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
-      "flag": "0"
+      "trainer_sight_or_berry_tree_id": "ITEM_HARD_STONE",
+      "script": "Common_EventScript_FindItem",
+      "flag": "FLAG_ITEM_ROUTE5_HARD_STONE"
     },
     {
+      "local_id": "LOCAL_ID_EVEFIGHTINGLOCH",
       "graphics_id": "OBJ_EVENT_GFX_BRENDAN_NORMAL",
       "x": 10,
       "y": 12,
@@ -43,10 +44,11 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "Route5_EventScript_EveWaitsForPlayer",
       "flag": "0"
     },
     {
+      "local_id": "LOCAL_ID_LOCH_ROUTE5",
       "graphics_id": "OBJ_EVENT_GFX_LUCY",
       "x": 9,
       "y": 12,
@@ -57,9 +59,10 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HIDELOCH_GOESINTOCAVE"
     },
     {
+      "local_id": "LOCAL_ID_EVE_STANDINGWAITING",
       "graphics_id": "OBJ_EVENT_GFX_BRENDAN_NORMAL",
       "x": 38,
       "y": 28,
@@ -70,7 +73,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HIDEEVE_INTRO_ROUTE5"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_AQUA_MEMBER_M",
@@ -80,9 +83,9 @@
       "movement_type": "MOVEMENT_TYPE_FACE_UP",
       "movement_range_x": 0,
       "movement_range_y": 0,
-      "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "trainer_type": "TRAINER_TYPE_NORMAL",
+      "trainer_sight_or_berry_tree_id": "2",
+      "script": "Route5_EventScript_Grunt1",
       "flag": "0"
     },
     {
@@ -93,9 +96,9 @@
       "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
       "movement_range_x": 0,
       "movement_range_y": 0,
-      "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "trainer_type": "TRAINER_TYPE_NORMAL",
+      "trainer_sight_or_berry_tree_id": "2",
+      "script": "Route5_EventScript_Grunt2",
       "flag": "0"
     },
     {
@@ -106,9 +109,9 @@
       "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
       "movement_range_x": 0,
       "movement_range_y": 0,
-      "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "trainer_type": "TRAINER_TYPE_NORMAL",
+      "trainer_sight_or_berry_tree_id": "3",
+      "script": "Route5_EventScript_Grunt3",
       "flag": "0"
     },
     {
@@ -119,9 +122,9 @@
       "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
       "movement_range_x": 0,
       "movement_range_y": 0,
-      "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "trainer_type": "TRAINER_TYPE_NORMAL",
+      "trainer_sight_or_berry_tree_id": "3",
+      "script": "Route5_EventScript_Grunt4",
       "flag": "0"
     },
     {
@@ -134,7 +137,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "Route5_EventScript_AquaGruntEveBeatUp",
       "flag": "0"
     }
   ],
@@ -143,7 +146,7 @@
       "x": 9,
       "y": 11,
       "elevation": 0,
-      "dest_map": "MAP_ROUTE5",
+      "dest_map": "MAP_CRYSTAL_LAKE",
       "dest_warp_id": "0"
     }
   ],
@@ -153,27 +156,27 @@
       "x": 39,
       "y": 31,
       "elevation": 0,
-      "var": "VAR_TEMP_0",
+      "var": "VAR_CRYSTAL_LAKE_SEQUENCE",
       "var_value": "0",
-      "script": "NULL"
+      "script": "Route5_EventScript_EveSpotsPlayer"
     },
     {
       "type": "trigger",
       "x": 40,
       "y": 31,
       "elevation": 0,
-      "var": "VAR_TEMP_0",
+      "var": "VAR_CRYSTAL_LAKE_SEQUENCE",
       "var_value": "0",
-      "script": "NULL"
+      "script": "Route5_EventScript_EveSpotsPlayer"
     },
     {
       "type": "trigger",
       "x": 14,
       "y": 12,
       "elevation": 0,
-      "var": "VAR_TEMP_0",
-      "var_value": "0",
-      "script": "NULL"
+      "var": "VAR_CRYSTAL_LAKE_SEQUENCE",
+      "var_value": "1",
+      "script": "Route5_EventScript_MeetingLoch"
     }
   ],
   "bg_events": [

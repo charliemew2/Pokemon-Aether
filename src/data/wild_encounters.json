@@ -13685,6 +13685,70 @@
               }
             ]
           }
+        },
+        {
+          "map": "MAP_ROUTE5",
+          "base_label": "gRoute5",
+          "land_mons": {
+            "encounter_rate": 10,
+            "mons": [
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_CHINGLING"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_PONYTA_GALAR"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_FLAAFFY"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_SOLOSIS"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_CLOBBOPUS"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_CUFANT"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_ROCKRUFF"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_ROCKRUFF"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_ROCKRUFF"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_ROCKRUFF"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_ROCKRUFF_OWN_TEMPO"
+              }
+            ]
+          }
         }
       ]
     },
