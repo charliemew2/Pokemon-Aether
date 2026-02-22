@@ -32,7 +32,7 @@
       "local_id": "LOCAL_ID_DIANCIE",
       "graphics_id": "OBJ_EVENT_GFX_SPECIES(DIANCIE)",
       "x": 13,
-      "y": 8,
+      "y": 16,
       "elevation": 0,
       "movement_type": "MOVEMENT_TYPE_WALK_IN_PLACE_DOWN",
       "movement_range_x": 0,
@@ -40,7 +40,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HIDEDIANCIE"
     },
     {
       "local_id": "LOCAL_ID_CARBINK1",
@@ -53,7 +53,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "CrystalLake_EventScript_CarbinkSpeaks",
       "flag": "0"
     },
     {
@@ -67,7 +67,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "CrystalLake_EventScript_CarbinkSpeaks2",
       "flag": "0"
     },
     {
@@ -81,7 +81,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "CrystalLake_EventScript_CarbinkSpeaks3",
       "flag": "0"
     },
     {
@@ -95,7 +95,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "CrystalLake_EventScript_CarbinkSpeaks2",
       "flag": "0"
     },
     {
@@ -109,7 +109,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "CrystalLake_EventScript_CarbinkSpeaks3",
       "flag": "0"
     },
     {
@@ -124,7 +124,21 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HIDEBEFOREDIANCIE"
+    },
+    {
+      "local_id": "LOCAL_ID_MEW_CRYSTALLAKE",
+      "graphics_id": "OBJ_EVENT_GFX_MEW",
+      "x": 13,
+      "y": 19,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_WALK_IN_PLACE_UP",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "CrystalLake_EventScript_MewDialogue",
+      "flag": "FLAG_HIDEMEW_CRYSTAL_LAKE"
     }
   ],
   "warp_events": [
