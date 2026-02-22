@@ -17,7 +17,7 @@ MagmaHideout_2F_1R_EventScript_Grunt4::
 	end
 
 MagmaHideout_2F_1R_EventScript_Grunt5::
-	trainerbattle_single TRAINER_GRUNT_MAGMA_HIDEOUT_5, MagmaHideout_2F_1R_Text_Grunt5Intro, MagmaHideout_2F_1R_Text_Grunt5Defeat
+	trainerbattle_single TRAINER_ADMIN_LOCH_CRYSTAL_LAKE, MagmaHideout_2F_1R_Text_Grunt5Intro, MagmaHideout_2F_1R_Text_Grunt5Defeat
 	msgbox MagmaHideout_2F_1R_Text_Grunt5PostBattle, MSGBOX_AUTOCLOSE
 	end
 

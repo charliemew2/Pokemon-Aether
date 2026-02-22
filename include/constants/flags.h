@@ -1253,7 +1253,7 @@
 #define FLAG_HIDENPCS_ROUTE5                                        0x4AF // CUSTOM FLAG FOR HIDING THE ROUTE 5 NPCS WHEN EVILTEAM IS THERE
 #define FLAG_HIDEEVE_INTRO_ROUTE5                                   0x4B0 // CUSTOM FLAG FOR HIDING EVE AFTER MEETING THEM AT THE ENTRANCE OF ROUTE 5
 #define FLAG_HIDELOCH_GOESINTOCAVE                                  0x4B1 // CUSTOM FLAG FOR HIDING LOCH WHEN SHE GOES INTO THE CAVE OF THE CRYSTAL LAKE
-#define FLAG_UNUSED_0x4B2                                           0x4B2 // Unused Flag
+#define FLAG_DEFEATED_LOCH                                          0x4B2 // CUSTOM FLAG FOR AFTER DEFEATING LOCH
 #define FLAG_UNUSED_0x4B3                                           0x4B3 // Unused Flag
 #define FLAG_UNUSED_0x4B4                                           0x4B4 // Unused Flag
 #define FLAG_UNUSED_0x4B5                                           0x4B5 // Unused Flag

@@ -14153,22 +14153,59 @@ Ability: Protean
 - Rock Slide
 - Aerial Ace
 
-=== TRAINER_GRUNT_MAGMA_HIDEOUT_5 ===
-Name: GRUNT
-Class: Team Magma
-Pic: Magma Grunt M
-Gender: Male
+=== TRAINER_ADMIN_LOCH_CRYSTAL_LAKE ===
+Name: Loch
+Class: Aqua Admin
+Pic: Pike Queen Lucy
+Gender: Female
 Music: Magma
 Double Battle: No
 AI: Check Bad Move
 
-Baltoy
-Level: 28
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Qwilfish_Hisui @ Clear Amulet
+Level: 26
+Jolly Nature
+Ability: Poison Point
+- Toxic Spikes
+- Spikes
+- Aqua Tail
+- Crunch
 
-Numel
-Level: 28
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Perrserker @ Metal Coat
+Level: 25
+Brave Nature
+Ability: Battle Armor
+- Lash Out
+- Hone Claws
+- Seed Bomb
+- Bullet Punch
+
+Gabite @ Yache Berry
+Level: 26
+Jolly Nature
+Ability: Rough Skin
+- Swords Dance
+- Fire Fang
+- Bulldoze
+- Dragon Claw
+
+Cloyster @ Lum Berry
+Level: 24
+Naive Nature
+Ability: Shell Armor
+- Razor Shell
+- Whirlpool
+- Rock Blast
+- Aurora Beam
+
+Dhelmise @ Iron Ball
+Level: 26
+Quiet Nature
+Ability: Steelworker
+- Gyro Ball
+- Brine
+- Rest
+- Sleep Talk
 
 === TRAINER_GRUNT_MAGMA_HIDEOUT_6 ===
 Name: GRUNT

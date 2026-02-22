@@ -4725,7 +4725,7 @@
       "id": "LAYOUT_CRYSTAL_LAKE",
       "name": "CrystalLake_Layout",
       "width": 27,
-      "height": 29,
+      "height": 36,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/CrystalLake/border.bin",

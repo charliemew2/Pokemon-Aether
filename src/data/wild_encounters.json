@@ -13749,6 +13749,125 @@
               }
             ]
           }
+        },
+        {
+          "map": "MAP_CRYSTAL_LAKE",
+          "base_label": "gCrystalLake",
+          "land_mons": {
+            "encounter_rate": 10,
+            "mons": [
+              {
+                "min_level": 18,
+                "max_level": 21,
+                "species": "SPECIES_BALTOY"
+              },
+              {
+                "min_level": 18,
+                "max_level": 21,
+                "species": "SPECIES_SOLOSIS"
+              },
+              {
+                "min_level": 18,
+                "max_level": 21,
+                "species": "SPECIES_PONYTA_GALAR"
+              },
+              {
+                "min_level": 18,
+                "max_level": 21,
+                "species": "SPECIES_PHANPY"
+              },
+              {
+                "min_level": 18,
+                "max_level": 21,
+                "species": "SPECIES_GLIMMET"
+              },
+              {
+                "min_level": 18,
+                "max_level": 21,
+                "species": "SPECIES_FLITTLE"
+              },
+              {
+                "min_level": 18,
+                "max_level": 21,
+                "species": "SPECIES_ANORITH"
+              },
+              {
+                "min_level": 18,
+                "max_level": 21,
+                "species": "SPECIES_ONIX"
+              },
+              {
+                "min_level": 18,
+                "max_level": 21,
+                "species": "SPECIES_ONIX"
+              },
+              {
+                "min_level": 18,
+                "max_level": 21,
+                "species": "SPECIES_ONIX"
+              },
+              {
+                "min_level": 18,
+                "max_level": 21,
+                "species": "SPECIES_ONIX"
+              }
+            ]
+          },
+          "fishing_mons": {
+            "encounter_rate": 30,
+            "mons": [
+              {
+                "min_level": 18,
+                "max_level": 21,
+                "species": "SPECIES_STARYU"
+              },
+              {
+                "min_level": 18,
+                "max_level": 21,
+                "species": "SPECIES_CORSOLA"
+              },
+              {
+                "min_level": 18,
+                "max_level": 21,
+                "species": "SPECIES_STARYU"
+              },
+              {
+                "min_level": 18,
+                "max_level": 21,
+                "species": "SPECIES_CORSOLA"
+              },
+              {
+                "min_level": 18,
+                "max_level": 21,
+                "species": "SPECIES_PINCURCHIN"
+              },
+              {
+                "min_level": 18,
+                "max_level": 21,
+                "species": "SPECIES_ANORITH"
+              },
+              {
+                "min_level": 18,
+                "max_level": 21,
+                "species": "SPECIES_ANORITH"
+              },
+              {
+                "min_level": 18,
+                "max_level": 21,
+                "species": "SPECIES_ANORITH"
+              },
+              {
+                "min_level": 18,
+                "max_level": 21,
+                "species": "SPECIES_GOOMY"
+              },
+              {
+                "min_level": 18,
+                "max_level": 21,
+                "species": "SPECIES_GOOMY"
+              }
+            ]
+          }
         }
       ]
     },
