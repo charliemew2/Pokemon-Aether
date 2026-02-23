@@ -287,5 +287,6 @@ EventScript_ResetAllMapFlags::
 	setflag FLAG_HIDEBEFOREDIANCIE
 	setflag FLAG_HIDEDIANCIE
 	setflag FLAG_HIDEMEW_CRYSTAL_LAKE
+	setflag FLAG_HIDEDIANCIETEAM
 	call EventScript_ResetAllBerries
 	end

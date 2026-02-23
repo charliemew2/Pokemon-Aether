@@ -12,13 +12,14 @@ u32 GetCurrentLevelCap(void)
         {FLAG_DEFEATED_SAYO, 14},
         {FLAG_DEFEATED_KRISTINE, 19},
         {FLAG_DEFEATED_GAIA, 24},
-        {FLAG_BADGE03_GET, 27},
-        {FLAG_BADGE04_GET, 29},
-        {FLAG_BADGE05_GET, 31},
-        {FLAG_BADGE06_GET, 33},
-        {FLAG_BADGE07_GET, 42},
-        {FLAG_BADGE08_GET, 46},
-        {FLAG_IS_CHAMPION, 58},
+        {FLAG_DEFEATED_DIANCIE, 27},
+        {FLAG_BADGE03_GET, 32},
+        {FLAG_BADGE04_GET, 36},
+        {FLAG_BADGE05_GET, 40},
+        {FLAG_BADGE06_GET, 46},
+        {FLAG_BADGE07_GET, 55},
+        {FLAG_BADGE08_GET, 58},
+        {FLAG_IS_CHAMPION, 60},
     };
 
     u32 i;

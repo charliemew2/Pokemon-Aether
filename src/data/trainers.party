@@ -4940,39 +4940,70 @@ Nature: Timid
 -Powder Snow
 -Hidden Power
 
-=== TRAINER_BRAWLY_1 ===
-Name: BRAWLY
-Class: Leader
-Pic: Leader Brawly
-Gender: Male
-Music: Male
-Items: Super Potion / Super Potion
-Double Battle: No
+=== TRAINER_DIANCIE ===
+Name: Diancie
+Class: Guardian
+Pic: Guardian Diancie
+Gender: Female
+Music: Female
+Items: None
+Double Battle: Yes
 AI: Basic Trainer
+Mugshot: Blue
 
-Machop
-Level: 16
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Karate Chop
-- Low Kick
-- Seismic Toss
-- Bulk Up
+Duosion @ Covert Cloak
+Level: 25
+Quiet Nature
+Ability: Magic Guard
+- Trick Room
+- Psybeam
+- Energy Ball
+- Charge Beam
 
-Meditite
-Level: 16
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Focus Punch
-- Light Screen
-- Reflect
-- Bulk Up
+Sableye @ Lagging Tail
+Level: 26
+Brave Nature
+Ability: Keen Eye
+- Fake Out
+- Will-O-Wisp
+- Trick
+- Knock Off
 
-Makuhita @ Sitrus Berry
-Level: 19
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Arm Thrust
-- Vital Throw
-- Reversal
-- Bulk Up
+Azumarill @ Ice Gem
+Level: 26
+Brave Nature
+Ability: Huge Power
+- Ice Punch
+- Alluring Voice
+- Aqua Jet
+- Scald
+
+Orthworm @ Lum Berry
+Level: 25
+Brave Nature
+Ability: Earth Eater
+- Iron Head
+- Coil
+- Rock Slide
+- Stomping Tantrum
+
+Sliggoo-Hisui @ Leftovers
+Level: 25
+Sassy Nature
+Ability: Gooey
+- Muddy Water
+- Protect
+- Acid Spray
+- Dragon Pulse
+
+Diancie @ Room Service
+Level: 27
+Quiet Nature
+Ability: Clear Body
+- Smack Down
+- Draining Kiss
+- Trick Room
+- Silver Wind
 
 === TRAINER_WATTSON_1 ===
 Name: WATTSON

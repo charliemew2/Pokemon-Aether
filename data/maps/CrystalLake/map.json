@@ -39,7 +39,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "CrystalLake_EventScript_DiancieBossFight",
       "flag": "FLAG_HIDEDIANCIE"
     },
     {
@@ -139,6 +139,76 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "CrystalLake_EventScript_MewDialogue",
       "flag": "FLAG_HIDEMEW_CRYSTAL_LAKE"
+    },
+    {
+      "local_id": "LOCAL_ID_ORTHWORM",
+      "graphics_id": "OBJ_EVENT_GFX_SPECIES(ORTHWORM)",
+      "x": 15,
+      "y": 16,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_WALK_IN_PLACE_LEFT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "CrystalLake_EventScript_CarbinkSpeaks3",
+      "flag": "FLAG_HIDEDIANCIETEAM"
+    },
+    {
+      "local_id": "LOCAL_ID_AZUMARILL",
+      "graphics_id": "OBJ_EVENT_GFX_SPECIES(AZUMARILL)",
+      "x": 16,
+      "y": 17,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_WALK_IN_PLACE_LEFT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "CrystalLake_EventScript_CarbinkSpeaks3",
+      "flag": "FLAG_HIDEDIANCIETEAM"
+    },
+    {
+      "local_id": "LOCAL_ID_DUOSION",
+      "graphics_id": "OBJ_EVENT_GFX_SPECIES(DUOSION)",
+      "x": 13,
+      "y": 18,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_WALK_IN_PLACE_UP",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "CrystalLake_EventScript_CarbinkSpeaks3",
+      "flag": "FLAG_HIDEDIANCIETEAM"
+    },
+    {
+      "local_id": "LOCAL_ID_SABLEYE",
+      "graphics_id": "OBJ_EVENT_GFX_SPECIES(SABLEYE)",
+      "x": 11,
+      "y": 16,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_WALK_IN_PLACE_RIGHT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "CrystalLake_EventScript_CarbinkSpeaks2",
+      "flag": "FLAG_HIDEDIANCIETEAM"
+    },
+    {
+      "local_id": "LOCAL_ID_SLIGGOO_HISUI",
+      "graphics_id": "OBJ_EVENT_GFX_SPECIES(SLIGGOO_HISUI)",
+      "x": 10,
+      "y": 17,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_WALK_IN_PLACE_RIGHT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "CrystalLake_EventScript_CarbinkSpeaks2",
+      "flag": "FLAG_HIDEDIANCIETEAM"
     }
   ],
   "warp_events": [

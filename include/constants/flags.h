@@ -1257,7 +1257,7 @@
 #define FLAG_HIDEBEFOREDIANCIE                                      0x4B3 // CUSTOM FLAG FOR HIDING EVE IN THE CRYSTAL LAKE
 #define FLAG_HIDEDIANCIE                                            0x4B4 // CUSTOM FLAG FOR HIDING DIANCIE
 #define FLAG_HIDEMEW_CRYSTAL_LAKE                                   0x4B5 // CUSTOM FLAG FOR HIDING MEW IN CRYSTAL LAKE
-#define FLAG_UNUSED_0x4B6                                           0x4B6 // Unused Flag
+#define FLAG_HIDEDIANCIETEAM                                        0x4B6 // CUSTOM FLAG FOR HIDING DIANCIES POKEMON
 #define FLAG_UNUSED_0x4B7                                           0x4B7 // Unused Flag
 #define FLAG_UNUSED_0x4B8                                           0x4B8 // Unused Flag
 #define FLAG_UNUSED_0x4B9                                           0x4B9 // Unused Flag
@@ -1510,7 +1510,7 @@
 #define FLAG_DEFEATED_SAYO                          (SYSTEM_FLAGS + 0x85) // UNUSED FLAG CHANGED TO SAYO LEVEL CAP > KRISTINE
 #define FLAG_DEFEATED_KRISTINE                      (SYSTEM_FLAGS + 0x86) // UNUSED FLAG CHANGED TO KRISTINE LEVEL CAP > GAIA
 #define FLAG_DEFEATED_GAIA                          (SYSTEM_FLAGS + 0x87) // UNUSED FLAG CHANGED TO GAIA LEVEL CAP > DIANCIE
-#define FLAG_UNUSED_0x8E8                           (SYSTEM_FLAGS + 0x88) // Unused Flag
+#define FLAG_DEFEATED_DIANCIE                       (SYSTEM_FLAGS + 0x88) // UNUSED FLAG CHANGED TO DIANCIE LEVEL CAP > 
 #define FLAG_UNUSED_0x8E9                           (SYSTEM_FLAGS + 0x89) // Unused Flag
 #define FLAG_UNUSED_0x8EA                           (SYSTEM_FLAGS + 0x8A) // Unused Flag
 #define FLAG_UNUSED_0x8EB                           (SYSTEM_FLAGS + 0x8B) // Unused Flag

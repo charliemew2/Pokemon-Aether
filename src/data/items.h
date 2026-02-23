@@ -15546,6 +15546,22 @@ const struct Item gItemsInfo[] =
         .iconPic = gItemIcon_Repel,
         .iconPalette = gItemIconPalette_MaxRepel,
     },
+
+    [ITEM_EARTH_ESSENCE] =
+    {
+        .name = ITEM_NAME("Earth Essence"),
+        .price = 0,
+        .description = COMPOUND_STRING(
+            "A piece of Pure\n"
+            "Essence, recieved\n"
+            "from Diancie."),
+        .importance = 2,
+        .pocket = POCKET_KEY_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .iconPic = gItemIcon_SolganiumZ,
+        .iconPalette = gItemIconPalette_SolganiumZ,
+    },
 };
 
 #undef ITEM_NAME

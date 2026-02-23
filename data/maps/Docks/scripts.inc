@@ -719,8 +719,7 @@ SouthernDocks_Movement_DawnGoesBacktoSpotAfterPokedex::
 SouthernDocks_Text_CharlieDawnPostBasement4::
 	.string "Charlie: It was nice to meet you\n"
 	.string "{PLAYER}! We're supposed to be\l"
-	.string "staying at the Observatory to the\l"
-	.string "northwest of MYREIGON.\p"
+	.string "staying at the hotel in CITYONE\p"
 	.string "Dawn: I apologize that our meeting\n"
 	.string "was a bit haphazard. Next time we\l"
 	.string "will be a bit more relaxed - I hope!\p"
