@@ -32,7 +32,7 @@ SouthernDocks_Movement_PlayerAlignEve::
 	step_end	
 
 SouthernDocks_EventScript_EveEscortToShip::
-	lock
+	callnative LockPlayerFieldControls
 	setflag FLAG_DOCKS_HIDENPCDURINGCUTSCENE
 	setflag FLAG_DOCKS_HIDENPCAFTERDOCKSEVENTS
 	setflag FLAG_DOCKS_EVENTS_FINISHED_GET_POKEDEX
@@ -124,7 +124,7 @@ SouthernDocks_EventScript_EveEscortToShip::
 	clearflag FLAG_DOCKS_HIDENPCAFTERDOCKSEVENTS
 	setflag FLAG_DOCKS_BLOCKDOCKS
 	setflag FLAG_DOCKS_HIDECHARLIEDAWNDOCKSCONVO
-	release
+	callnative UnlockPlayerFieldControls
 	end
 
 SouthernDocks_Text_PlayerMeetsEveAtDocks::
@@ -587,7 +587,7 @@ SouthernDocks_Text_OldWomenNPCSeesBoom::
 @ CUTSCENE WITH CHARLIE AND DAWN - RECIEVE POKEDEX - ALLOWS PROGRESSION NORTHWARD
 
 SouthernDocks_EventScript_PostBasementCutscene::
-	lock
+	callnative LockPlayerFieldControls
 	playse SE_PIN
 	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_ExclamationMark
 	waitmovement 0
@@ -625,7 +625,7 @@ SouthernDocks_EventScript_PostBasementCutscene::
 	clearflag FLAG_REPELTOGGLE
 	addvar VAR_STARTER_CUTSCENE 1
 	addvar VAR_DOCKS_CUTSCENE 1
-	release
+	callnative UnlockPlayerFieldControls
 	end
 
 SouthernDocks_Movement_PlayerWalksUptoDawnCharlie::

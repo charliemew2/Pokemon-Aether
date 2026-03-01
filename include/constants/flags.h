@@ -1068,7 +1068,7 @@
 #define FLAG_ITEM_ROUTE_114_PROTEIN                                 0x3F7
 #define FLAG_ITEM_ROUTE_115_SUPER_POTION                            0x3F8
 #define FLAG_GIVES_TM01_SMACK_DOWN                                  0x3F9 //Replaced Focus Punch TM pickup with this guy's dialogue
-#define FLAG_ITEM_ROUTE_115_IRON                                    0x3FA
+#define FLAG_GIVES_TM03_SMART_STRIKE                                0x3FA //Replaced some random iron
 #define FLAG_ITEM_ROUTE_116_ETHER                                   0x3FB
 #define FLAG_ITEM_ROUTE_116_REPEL                                   0x3FC
 #define FLAG_ITEM_ROUTE_116_HP_UP                                   0x3FD

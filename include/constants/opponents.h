@@ -329,13 +329,13 @@
 #define TRAINER_BEN                         323
 #define TRAINER_QUINCY                      324
 #define TRAINER_KATELYNN                    325
-#define TRAINER_JAYLEN                      326
-#define TRAINER_DILLON                      327
+#define TRAINER_YOUNGSTERTAYLOR             326 //Replaced Youngster Jaylen
+#define TRAINER_YOUNGSTERMIKEY              327 //Replaced Youngster Dillon
 #define TRAINER_CALVIN_2                    328
 #define TRAINER_CALVIN_3                    329
 #define TRAINER_CALVIN_4                    330
 #define TRAINER_CALVIN_5                    331
-#define TRAINER_EDDIE                       332
+#define TRAINER_YOUNGCOUPLELARAANDJACK                       332
 #define TRAINER_CAMPERDAVID                 333
 #define TRAINER_TIMMY                       334
 #define TRAINER_WALLACE                     335

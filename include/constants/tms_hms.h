@@ -4,7 +4,7 @@
 #define FOREACH_TM(F) \
     F(SMACK_DOWN) \
     F(ICY_WIND) \
-    F(WATER_PULSE) \
+    F(SMART_STRIKE) \
     F(CALM_MIND) \
     F(ROAR) \
     F(TOXIC) \

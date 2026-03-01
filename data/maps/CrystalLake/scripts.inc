@@ -253,7 +253,7 @@ CrystalLake_Text_EveAndDiancieConvo::
 	.string "Diancie: I'd recognize that voice\n"
 	.string "anywhere, but you look different.\p"
 	.string "Any reason for the disguise?\l"
-	.string "Mew: Oh! Sorry! I haven't exactly\n"
+	.string "Eve: Oh! Sorry! I haven't exactly\n"
 	.string "told my friend here though about\l"
 	.string "what I look like.\p"
 	.string "I guess I can show them now!$"

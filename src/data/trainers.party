@@ -4933,12 +4933,11 @@ Nature: Adamant
 Frosmoth @ Flying Gem
 Ability: Ice Scales
 Level: 18
-IVs: 31 HP / 31 Atk / 31 Def / 30 SpA / 31 SpD / 31 Spe
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 Nature: Timid
 -Acrobatics
 -Infestation
 -Powder Snow
--Hidden Power
 
 === TRAINER_DIANCIE ===
 Name: Diancie
@@ -6303,8 +6302,8 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Aerial Ace
 - Brick Break
 
-=== TRAINER_JAYLEN ===
-Name: JAYLEN
+=== TRAINER_YOUNGSTERTAYLOR ===
+Name: Taylor
 Class: Youngster
 Pic: Youngster
 Gender: Male
@@ -6312,12 +6311,44 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Trapinch
-Level: 19
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Sandslash @ Scope Lens
+Level: 25
+Jolly Nature
+Ability: Sand Veil
+- Drill Run
+- Poison Jab
+- Swords Dance
+- Night Slash
 
-=== TRAINER_DILLON ===
-Name: DILLON
+Swellow @ Life Orb
+Level: 25
+Timid Nature
+Ability: Scrappy
+- Tailwind
+- Heat Wave
+- Ominous Wind
+- Air Slash
+
+Boltund @ Lum Berry
+Level: 25
+Jolly Nature
+Ability: Strong Jaw
+- Thunder Fang
+- Fire Fang
+- Howl
+- Crunch
+
+Watchog @ Normal Gem
+Level: 25
+Jolly Nature
+Ability: Analytic
+- Retaliate
+- Ice Punch
+- Iron Tail
+- Crunch
+
+=== TRAINER_YOUNGSTERMIKEY ===
+Name: Mikey
 Class: Youngster
 Pic: Youngster
 Gender: Male
@@ -6325,9 +6356,41 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Aron
-Level: 19
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Mothim @ Charti Berry
+Level: 25
+Timid Nature
+Ability: Tinted Lens
+- Air Slash
+- Psychic
+- Bug Buzz
+- Sunny Day
+
+Wormadam-Sandy @ Life Orb
+Level: 25
+Naughty Nature
+Ability: Overcoat
+- Earth Power
+- Bug Buzz
+- Sucker Punch
+- Rock Tomb
+
+Cherrim @ Covert Cloak
+Level: 26
+Modest Nature
+Ability: Flower Gift
+- Sunny Day
+- Morning Sun
+- Weather Ball
+- Giga Drain
+
+Munchlax @ Berserk Gene
+Level: 26
+Brave Nature
+Ability: Thick Fat
+- Double-Edge
+- Gyro Ball
+- Earthquake
+- Crunch
 
 === TRAINER_CALVIN_2 ===
 Name: CALVIN
@@ -6401,22 +6464,61 @@ Mightyena
 Level: 36
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 
-=== TRAINER_EDDIE ===
-Name: EDDIE
-Class: Youngster
-Pic: Youngster
+=== TRAINER_YOUNGCOUPLELARAANDJACK ===
+Name: Lara&Jack
+Class: Young Couple
+Pic: Young Couple
 Gender: Male
 Music: Male
-Double Battle: No
+Double Battle: Yes
 AI: Check Bad Move
 
-Zigzagoon
-Level: 14
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Rhydon @ Eviolite
+Level: 26
+Sassy Nature
+Ability: Lightning Rod
+- Thunderbolt
+- Flamethrower
+- Icy Wind
+- Earth Power
 
-Zigzagoon
-Level: 16
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Kilowattrel @ Lum Berry
+Level: 27
+Timid Nature
+Ability: Competitive
+IVs: 0 Atk
+- Discharge
+- Electroweb
+- Air Slash
+- Tailwind
+
+Seaking @ Clear Amulet
+Level: 27
+Naive Nature
+Ability: Lightning Rod
+- Drill Run
+- Waterfall
+- Blizzard
+- Smart Strike
+
+Swanna @ Flying Gem
+Level: 26
+Naive Nature
+Ability: Big Pecks
+- Feather Dance
+- Acrobatics
+- Helping Hand
+- Brine
+
+Oricorio @ Life Orb
+Level: 26
+Timid Nature
+Ability: Dancer
+IVs: 30 SpA
+- Revelation Dance
+- Hidden Power
+- Psych Up
+- Air Cutter
 
 === TRAINER_CAMPERDAVID ===
 Name: David
