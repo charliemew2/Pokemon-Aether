@@ -81,6 +81,1712 @@ Gender: Male
 Music: Male
 Double Battle: No
 
+=== TRAINER_EVE_STARTINGTOWN_JANGMO_O ===
+Name: Eve
+Class: Rival
+Pic: Brendan
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Basic Trainer
+
+Dratini
+Level: 5
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_EVE_STARTINGTOWN_DRATINI ===
+Name: Eve
+Class: Rival
+Pic: Brendan
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Basic Trainer
+
+Frigibax
+Level: 5
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_EVE_STARTINGTOWN_FRIGIBAX ===
+Name: Eve
+Class: Rival
+Pic: Brendan
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Basic Trainer
+
+Jangmo-o
+Level: 5
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_RIVAL_JOHN_1 ===
+Name: ???
+Class: Android
+Pic: Steven
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Basic Trainer
+
+Meltan @ Oran Berry
+Level: 10
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+-Thundershock
+-Magnet Bomb
+-Harden
+-Flash Cannon
+
+=== TRAINER_CAMPERDAVID ===
+Name: David
+Class: Camper
+Pic: Camper
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move
+
+Yungoos @ Oran Berry
+Level: 6
+Ability: Strong Jaw
+Nature: Jolly
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+-Bite
+-Super Fang
+
+Shinx @ Oran Berry
+Level: 6
+Ability: Intimidate
+Nature: Jolly
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+-Spark
+-Charge
+
+Bonsly @ Oran Berry
+Level: 7
+Ability: Sturdy
+Nature: Jolly
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+-Rollout
+
+=== TRAINER_BENSON ===
+Name: Benson
+Class: Camper
+Pic: Camper
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move
+
+Teddiursa @ Toxic Orb
+Level: 7
+Ability: Quick Feet
+Nature: Jolly
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+-Fury Cutter
+-Fury Swipes
+-Metal Claw
+
+Wattrel @ Oran Berry
+Level: 7
+Ability: Competitive
+Nature: Naive
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+-Pluck
+-Electro Ball
+-Agility
+
+Exeggcute @ Oran Berry
+Level: 8
+Ability: Harvest
+Nature: Modest
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+-Psybeam
+-Stun Spore
+-Mega Drain
+
+=== TRAINER_YODEL ===
+Name: Yodel
+Class: Hiker
+Pic: Hiker
+Gender: Male
+Music: Hiker
+Items: None
+Double Battle: No
+AI: Check Bad Move
+
+Rolycoly @ Passho Berry
+Ability: Steam Engine
+Level: 7
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Nature: Adamant
+-Temper Flare
+-Rock Blast
+-Iron Head
+
+Roggenrola @ Weakness Policy
+Ability: Sturdy
+Level: 8
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Nature: Jolly
+-Rock Slide
+-Rock Polish
+-Body Press
+
+Larvitar @ Flame Orb
+Ability: Guts
+Level: 8
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Nature: Adamant
+-Dragon Dance
+-Rock Throw
+-Stomping Tantrum
+-Protect
+
+=== TRAINER_DALLAS ===
+Name: Dallas
+Class: Pkmn Ranger
+Pic: Pokemon Ranger M
+Gender: Male
+Music: Hiker
+Double Battle: No
+AI: Check Bad Move
+
+Growlithe @ Muscle Band
+Level: 8
+Nature: Jolly
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Ability: Intimidate
+-Temper Flare
+-Thunder Fang
+-Dig
+
+Machop @ Scope Lens
+Level: 8
+Nature: Adamant
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Ability: Guts
+-Focus Energy
+-Karate Chop
+-Dual Chop
+
+Pikachu @ Steel Gem
+Level: 9
+Nature: Jolly
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Ability: Static
+-Iron Tail
+-Thunder Punch
+-Upper Hand
+
+=== TRAINER_DIRK ===
+Name: Dirk
+Class: Fisherman
+Pic: Fisherman
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move
+
+Wishiwashi @ Choice Band
+Level: 9
+Nature: Adamant
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Ability: Schooling
+-Wave Crash
+
+Finneon @ Choice Specs
+Level: 9
+Nature: Modest
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Ability: Storm Drain
+-Hydro Pump
+
+Feebas @ Choice Specs
+Level: 9
+Nature: Modest
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Ability: Oblivious
+-Hydro Pump
+
+=== TRAINER_KATRINA ===
+Name: Katrina
+Class: Pkmn Ranger
+Pic: Pokemon Ranger F
+Gender: Female
+Music: Girl
+Double Battle: No
+AI: Check Bad Move
+
+Skiddo @ Big Root
+Level: 8
+Nature: Adamant
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Ability: Sap Sipper
+-Horn Leech
+-Wild Charge
+-Stomping Tantrum
+
+Flabebe_Orange @ Big Root
+Level: 8
+Nature: Timid
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Ability:  Flower Veil
+-Draining Kiss
+-Magical Leaf
+-Chilling Water
+
+Vivillon @ Big Root
+Level: 10
+Nature: Timid
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Ability: Compound_Eyes
+-Sleep Powder
+-Air Cutter
+-Draining Kiss
+
+=== TRAINER_HIKERRILEY ===
+Name: Riley
+Class: Hiker
+Pic: Hiker
+Gender: Male
+Music: Hiker
+Double Battle: No
+AI: Check Bad Move
+
+Zubat @ Oran Berry
+Level: 11
+Nature: Timid
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Ability: Inner Focus
+-Nasty Plot
+-Giga Drain
+-Venoshock
+-Air Slash
+
+Woobat @ Scope Lens
+Level: 11
+Nature: Timid
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Ability: Simple
+-Work Up
+-Air Cutter
+-Psycho Cut
+
+Noibat @ Weakness Policy
+Level: 12
+Nature: Jolly
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Ability: Infiltrator
+-Screech
+-Wing Attack
+-Breaking Swipe
+
+=== TRAINER_RANGERBRENT ===
+Name: Brent
+Class: Pkmn Ranger
+Pic: Pokemon Ranger M
+Gender: Male
+Music: Hiker
+Double Battle: No
+AI: Check Bad Move
+
+Numel @ Passho Berry
+Level: 12
+Nature: Modest
+IVs: 30 HP / 31 Atk / 31 Def / 30 SpA / 31 SpD / 31 Spe
+Ability: Own Tempo
+-Earth Power
+-Incinerate
+-Hidden Power
+
+Stunky @ Petaya Berry
+Level: 12
+Nature: Timid
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Ability: Aftermath
+-Belch
+-Snarl
+-Flame Burst
+
+Aipom @ Wishing Piece
+Level: 12
+Nature: Jolly
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Ability: Technician
+-Double Hit
+-Trailblaze
+-Fling
+-Fake Out
+
+=== TRAINER_BRIANNA ===
+Name: Brianna
+Class: Camper
+Pic: Picnicker
+Gender: Female
+Music: Female
+Items: None
+Double Battle: Yes
+AI: Check Bad Move
+
+Tandemaus @ Metronome
+Level: 12
+Nature: Modest
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Ability: Own Tempo
+-Echoed Voice
+
+Pachirisu @ Berry Juice
+Level: 11
+Nature: Calm
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Ability: Static
+-Nuzzle
+-Super Fang
+-Spark
+-Follow Me
+
+Jigglypuff @ Choice Band
+Level: 13
+Nature: Adamant
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Ability: Friend Guard
+-Focus Punch
+
+=== TRAINER_SAYO_1 ===
+Name: Sayo
+Class: Rival
+Pic: Leaf
+Gender: Female
+Double Battle: No
+AI: Omniscient
+Mugshot: Pink
+
+Gible @ Eviolite
+Level: 13
+Ability: Rough Skin
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Nature: Jolly
+-Stealth Rock
+-Mud Slap
+-Metal Claw
+-Dragon Breath
+
+Litten @ Charcoal
+Level: 14
+Ability: Intimidate
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Nature: Adamant
+-Fire Fang
+-Bite
+-Trailblaze
+
+Corvisquire @ Mirror Herb
+Level: 12
+Ability: Unnerve
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Nature: Jolly
+-Pluck
+-Swagger
+-Power Trip
+
+Kubfu @ Salac Berry
+Level: 12
+Ability: Inner Focus
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Nature: Jolly
+-Reversal
+-Counter
+-Focus Energy
+
+=== TRAINER_TRISTIAN ===
+Name: Tristian
+Class: Camper
+Pic: Camper
+Gender: Male
+Music: Intense
+Double Battle: No
+AI: Check Bad Move
+
+Dedenne @ Oran Berry
+Level: 13
+Nature: Timid
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Ability: Cheek Pouch
+- Parabolic Charge
+- Grass Knot
+- Covet
+
+Deerling @ King's Rock
+Level: 13
+Nature: Jolly
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Ability: Serene Grace
+- Razor Leaf
+- Zen Headbutt
+- Stomp
+
+Dustox @ Wise Glasses
+Level: 14
+Nature: Timid
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Ability: Cheek Pouch
+- Toxic
+- Silver Wind
+- Psybeam
+- Moonlight
+
+=== TRAINER_NICKI ===
+Name: Nicki
+Class: Engineer
+Pic: Bug Maniac
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move
+
+Klink @ Air Balloon
+Level: 14
+Nature: Adamant
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Ability: Clear Body
+- Gear Grind
+- Autotomize 
+
+Varoom @ Shuca Berry
+Level: 14
+Nature: Naive
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Ability: Overcoat
+- Swagger
+- Flash Cannon
+- Poison Jab
+
+Dustox @ Flying Gem
+Level: 15
+Nature: Hardy
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Ability: Battery
+- Acrobatics
+- Pounce
+- Discharge
+
+=== TRAINER_POODLE ===
+Name: Poodle
+Class: Pokefan
+Pic: Pokefan F
+Gender: Female
+Music: Female
+Double Battle: No
+AI: Check Bad Move
+
+Fidough @ Oran Berry
+Level: 15
+Nature: Jolly
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Ability: Own Tempo
+- Attract
+- Play Rough
+- Mud Slap
+
+Greavard @ Lum Berry
+Level: 14
+Nature: Naive
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Ability: Fluffy
+- Poltergeist
+- Rest
+- Bulldoze
+- Bite
+
+Herdier @ Normal Gem
+Level: 15
+Nature: Jolly
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Ability: Intimidate
+- Take Down
+- Reversal
+
+Maschiff @ Razor Fang
+Level: 15
+Nature: Adamant
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Ability: Stakeout
+- Trailblaze
+- Fire Fang
+- Bite
+
+=== TRAINER_GRUNT_1 ===
+Name: Grunt
+Class: Team Aqua
+Pic: Aqua Grunt M
+Gender: Male
+Music: Aqua
+Double Battle: No
+AI: Basic Trainer
+
+Darumaka_Galar @ Berry Juice
+Level: 15
+Ability: Inner Focus
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Nature: Jolly
+-Ice Fang
+-U Turn
+-Zen Headbutt
+
+Farfetch'd @ Leek
+Level: 15
+Ability: Defiant
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Nature: Naive
+-Slash
+-Air Cutter
+-U-Turn
+
+Corsola_Galar @ Weakness Policy
+Level: 15
+Ability: Weak Armor
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Nature: Naive
+-Whirlpool
+-Disable
+-Icicle Spear
+-Flail
+
+Magnemite @ Air Balloon
+Level: 15
+Ability: Sturdy
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Nature: Timid
+-Volt Switch
+-Sonicboom
+-Supersonic
+
+=== TRAINER_DESMOND ===
+Name: Desmond
+Class: Triathlete
+Pic: Cycling Triathlete M
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move
+
+Seel @ Leftovers
+Level: 16
+Nature: Naive
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Ability: Ice Body
+- Aqua Ring
+- Drill Run
+- Weather Ball
+- Water Pulse
+
+Spheal @ Berry Juice
+Level: 15
+Nature: Adamant
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Ability: Oblivious
+- Rollout
+- Ice Ball
+
+Brionne @ Throat Spray
+Level: 16
+Nature: Modest
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Ability: Liquid Voice
+- Brine
+- Sing
+- Disarming Voice
+- Aqua Jet
+
+=== TRAINER_JONAH ===
+Name: Jonah
+Class: Triathlete
+Pic: Running Triathlete M
+Gender: Male
+Music: Hiker
+Double Battle: No
+AI: Check Bad Move
+
+Bergmite @ Weakness Policy
+Level: 16
+Nature: Brave
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Ability: Sturdy
+- Mirror Coat
+- Avalanche
+- Recover
+
+Binacle @ Scope Lens
+Level: 16
+Nature: Hasty
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Ability: Sniper
+- Surf
+- Rock Blast
+
+Amaura @ Chople Berry
+Level: 15
+Nature: Naive
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Ability: Refrigerate
+- Body Slam
+- Ancient Power
+- Thunder Wave
+
+Drilbur @ Power Herb
+Level: 15
+Nature: Jolly
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Ability: Mold Breaker
+- Dig
+- Rock Slide
+- Swords Dance
+
+=== TRAINER_LAYLA ===
+Name: Layla
+Class: Psychic
+Pic: Psychic F
+Gender: Male
+Music: Intense
+Double Battle: Yes
+AI: Check Bad Move
+
+Mightyena @ Black Glasses
+Level: 18
+Nature: Naive
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Ability: Intimidate
+- Snarl
+- Sucker Punch
+- Ice Fang
+- Scary Face
+
+Zorua-Hisui @ Wise Glasses
+Level: 15
+Nature: Hasty
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Ability: Illusion
+- Bitter Malice
+- Swift
+- Knock Off
+
+Froslass @ Wide Lens
+Level: 16
+Nature: Modest
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Ability: Cursed Body
+- Will-O-Wisp
+- Confuse Ray
+- Ice Shard
+- Hex
+
+=== TRAINER_KRISTINEICEMOUNTAIN ===
+Name: Kristine
+Class: Leader
+Pic: Elite Four Glacia
+Gender: Female
+Music: Female
+Items: None
+Double Battle: No
+AI: Basic Trainer
+Mugshot: Blue
+
+Vulpix_Alola @ NevermeltIce
+Ability: Ice Body
+Level: 19
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Nature: Timid
+-Disable
+-Icy Wind
+-Confuse Ray
+-Dazzling Gleam
+
+Sneasel_Hisui @ Payapa Berry
+Ability: Inner Focus
+Level: 17
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Nature: Adamant
+-Thief
+-Low Sweep
+-Poison Tail
+-Trailblaze
+
+Pumpkaboo_Super @ Berry Juice
+Ability: Heatproof
+Level: 18
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Nature: Brave
+-Leech Seed
+-Mystical Fire
+-Hypnosis
+-Razor Leaf
+
+Phione @ Lum Berry
+Ability: Hydration
+Level: 17
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Nature: Modest
+-Water Pulse
+-Flip Turn
+-Grass Knot
+-Secret Power
+
+Sandshrew_Alola @ Eviolite
+Ability: Slush Rush
+Level: 19
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Nature: Adamant
+-Ice Spinner
+-Metal Claw
+-Aerial Ace
+-Spiky Shield
+
+Frosmoth @ Flying Gem
+Ability: Ice Scales
+Level: 18
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Nature: Timid
+-Acrobatics
+-Infestation
+-Powder Snow
+
+=== TRAINER_WORKER_MARTY ===
+Name: Marty
+Class: Pokefan
+Pic: Pokefan M
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move
+
+Gurdurr @ Flame Orb
+Level: 18
+Nature: Adamant
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Ability: Guts
+- Facade
+- Mach Punch
+- Ice Punch
+- Protect
+
+Carkol @ Passho Berry
+Level: 19
+Nature: Modest
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Ability: Steam Engine
+- Endure
+- Body Press
+- Ancient Power
+- Scorching Sands
+
+Tinkatuff @ Eviolite
+Level: 20
+Nature: Jolly
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Ability: Mold Breaker
+- Work Up
+- Play Rough
+- Flash Cannon
+- Ice Hammer
+
+=== TRAINER_AROMALADY_DELIAH ===
+Name: Deliah
+Class: Aroma Lady
+Pic: Aroma Lady
+Gender: Female
+Music: Female
+Double Battle: No
+AI: Check Bad Move
+
+Venomoth @ Grass Gem
+Level: 19
+Nature: Timid
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Ability: Tinted Lens
+- Toxic Spikes
+- Endeavor
+- Giga Drain
+- Psychic Noise
+
+Eldegoss @ Red Card
+Level: 20
+Nature: Modest
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Ability: Cotton Down
+- Synthesis
+- Leaf Tornado
+- Pollen Puff
+- Substitute
+
+Vespiquen @ Lum Berry
+Level: 20
+Nature: Quiet
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Ability: Unnerve
+- Power Gem
+- Aerial Ace
+- Hex
+- Bug Bite
+
+Girafarig @ Miracle Seed
+Level: 20
+Nature: Jolly
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Ability: Inner Focus
+- Grass Knot
+- Trailblaze
+- Zen Headbutt
+- Stomp
+
+=== TRAINER_BEAUTY_LAURIE ===
+Name: Laurie
+Class: Beauty
+Pic: Beauty
+Gender: Female
+Music: Girl
+Double Battle: No
+AI: Check Bad Move
+
+Chatot @ Throat Spray
+Level: 20
+Nature: Naive
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Ability: Big Pecks
+- Chatter
+- Sing
+- Steel Wing
+- Heat Wave
+
+Audino @ Throat Spray
+Level: 21
+Nature: Timid
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Ability: Healer
+- Hyper Voice
+- Alluring Voice
+- Attract
+- Pain Split
+
+Meowstic-F @ Lum Berry
+Level: 21
+Nature: Timid
+Ability: Competitive
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Magical Leaf
+- Charge Beam
+- Fake Tears
+- Alluring Voice
+
+=== TRAINER_LASS_DALIA ===
+Name: Dalia
+Class: Lass
+Pic: Lass
+Gender: Female
+Music: Female
+Double Battle: No
+AI: Check Bad Move
+
+Monferno @ Focus Sash
+Level: 21
+Nature: Naive
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Ability: Iron Fist
+- Fake Out
+- Thunder Punch
+- Fire Punch
+- Brick Break
+
+Grotle @ White Herb
+Level: 21
+Nature: Adamant
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Ability: Overgrow
+- Seed Bomb
+- Smack Down
+- Superpower
+- Shell Smash
+
+Prinplup @ Expert Belt
+Level: 21
+Nature: Hasty
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Ability: Competitive
+- Brine
+- Roost
+- Drill Peck
+- Ice Beam
+
+=== TRAINER_FISHERMAN_TIMOTHY ===
+Name: Timothy
+Class: Fisherman
+Pic: Fisherman
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move
+
+Slowpoke-Galar @ Eviolite
+Level: 21
+Nature: Relaxed
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Ability: Own Tempo
+- Surf
+- Avalanche
+- Shadow Ball
+- Psyshock
+
+Spidops @ Lum Berry
+Level: 21
+Nature: Adamant
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Ability: Technician
+- Rock Tomb
+- Pounce
+- Knock Off
+
+Cramorant @ Wacan Berry
+Level: 21
+Nature: Naive
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Ability: Gulp Missile
+- Dive
+- Belch
+- Icy Wind
+- Air Cutter
+
+Veluza @ Lum Berry
+Level: 22
+Nature: Lonely
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Ability: Mold Breaker
+- Agility
+- Aqua Cutter
+- Pluck
+- Stored Power
+
+=== TRAINER_FLOWER_SHOP_GRUNT_1 ===
+Name: Grunt
+Class: Team Aqua
+Pic: Aqua Grunt F
+Gender: Female
+Music: Aqua
+Double Battle: No
+AI: Check Bad Move
+
+Honedge @ Iron Ball
+Level: 21
+Nature: Brave
+IVs: 31 HP / 31 Atk / 31 Def / 30 SpA / 31 SpD / 31 Spe
+Ability: No Guard
+- Gyro Ball
+- Shadow Sneak
+- Swords Dance
+- Brick Break
+
+Bombirdier @ Lum Berry
+Level: 22
+Nature: Hasty
+IVs: 31 HP / 31 Atk / 31 Def / 30 SpA / 31 SpD / 31 Spe
+Ability: Rocky Payload
+- Air Slash
+- Nasty Plot
+- Knock Off
+- Power Gem
+
+=== TRAINER_FLOWER_SHOP_GRUNT_2 ===
+Name: GRUNT
+Class: Team Aqua
+Pic: Aqua Grunt M
+Gender: Male
+Music: Aqua
+Double Battle: No
+AI: Check Bad Move
+
+Trapinch @ Lum Berry
+Level: 21
+Nature: Adamant
+IVs: 31 HP / 31 Atk / 31 Def / 30 SpA / 31 SpD / 31 Spe
+Ability: Arena Trap
+- Rock Tomb
+- Bug Bite
+- Bulldoze
+
+Arbok @ Muscle Band
+Level: 22
+Nature: Jolly
+IVs: 31 HP / 31 Atk / 31 Def / 30 SpA / 31 SpD / 31 Spe
+Ability: Intimidate
+- Glare
+- Seed Bomb
+- Poison Jab
+- Ice Fang
+
+Ariados @ Scope Lens
+Level: 22
+Nature: Naughty
+IVs: 31 HP / 31 Atk / 31 Def / 30 SpA / 31 SpD / 31 Spe
+Ability: Sniper
+- Shadow Sneak
+- Sludge Bomb
+- Pounce
+- Smart Strike
+
+=== TRAINER_ADMIN_GAIA_BLOSSOMTOWN ===
+Name: Gaia
+Class: Magma Admin
+Pic: Magma Admin
+Gender: Male
+Music: Magma
+Double Battle: No
+AI: Basic Trainer
+
+Shuckle @ Smooth Rock
+Level: 23
+Nature: Impish
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Ability: Contrary
+- Sticky Web
+- Sandstorm
+- Toxic
+- Knock Off
+
+Klang @ Lum Berry
+Level: 22
+Nature: Hasty
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Ability: Clear Body
+- Gear Grind
+- Power Gem
+- Discharge
+- Screech
+
+Toedscruel @ Yache Berry
+Level: 23
+Nature: Hasty
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Ability: Storm Drain
+- Spore
+- Growth
+- Seed Bomb
+- Earth Power
+
+Morgrem @ Black Glasses
+Level: 24
+Nature: Lonely
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Ability: Prankster
+- False Surrender
+- Play Rough
+- Sucker Punch
+- Thunder Wave
+
+Klawf @ Lum Berry
+Level: 22
+Nature: Adamant
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Ability: Anger Shell
+- Stomping Tantrum
+- Metal Claw
+- Rock Slide
+- Trailblaze
+
+=== TRAINER_BLACKBELTNIXON ===
+Name: Nixon
+Class: Black Belt
+Pic: Black Belt
+Gender: Male
+Music: Suspicious
+Double Battle: No
+AI: Check Bad Move
+
+Hitmonlee @ Normal Gem
+Level: 23
+Jolly Nature
+Ability: Unburden
+- Low Sweep
+- Fake Out
+- Throat Chop
+- Facade
+
+Hitmontop @ Lum Berry
+Level: 23
+Jolly Nature
+Ability: Technician
+- Mach Punch
+- Bulk Up
+- Ice Spinner
+- Bulldoze
+
+Hitmonchan @ Punching Glove
+Level: 23
+Jolly Nature
+Ability: Iron Fist
+- Bullet Punch
+- Ice Punch
+- Thunder Punch
+- Power-Up Punch
+
+=== TRAINER_TWINSLILYANDLEIA ===
+Name: Lily&Leia
+Class: Twins
+Pic: Twins
+Gender: Female
+Music: Girl
+Double Battle: Yes
+AI: Check Bad Move
+
+Ninetales @ Lum Berry
+Level: 23
+Timid Nature
+Ability: Flash Fire
+- Hex
+- Hypnosis
+- Extrasensory
+- Incinerate
+
+Shiinotic @ Kebia Berry
+Level: 24
+Modest Nature
+Ability: Effect Spore
+- Cotton Spore
+- Protect
+- Sludge Bomb
+- Grass Knot
+
+Breloom @ Coba Berry
+Level: 23
+Jolly Nature
+Ability: Effect Spore
+- Rock Tomb
+- Wake-Up Slap
+- Mach Punch
+- Spore
+
+Lampent
+Level: 24
+Hasty Nature
+Ability: Flash Fire
+- Hex
+- Ominous Wind
+- Temper Flare
+- Confuse Ray
+
+=== TRAINER_AROMALADYCHRISTINA ===
+Name: Christina
+Class: Aroma Lady
+Pic: Aroma Lady
+Gender: Female
+Music: Female
+Double Battle: No
+AI: Check Bad Move
+
+Ludicolo @ Damp Rock
+Level: 23
+Naive Nature
+Ability: Swift Swim
+- Rain Dance
+- Ice Punch
+- Seed Bomb
+- Bubble Beam
+
+Roselia @ Choice Scarf
+Level: 24
+Modest Nature
+Ability: Poison Point
+- Petal Dance
+- Sludge Bomb
+- Weather Ball
+
+Oricorio-Pa'u @ Wise Glasses
+Level: 23
+Hasty Nature
+Ability: Dancer
+- Revelation Dance
+- Quiver Dance
+- Rain Dance
+- Air Slash
+
+Illumise @ Lum Berry
+Level: 23
+Timid Nature
+Ability: Tinted Lens
+- Shadow Ball
+- Thunder
+- Bug Buzz
+- Water Pulse
+
+=== TRAINER_GOURMET_HANK ===
+Name: Hank
+Class: Pokefan
+Pic: Pokefan M
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move
+
+Clodsire @ Lum Berry
+Level: 23
+Careful Nature
+Ability: Water Absorb
+- Poison Jab
+- Dig
+- Yawn
+- Liquidation
+
+Flapple @ Sitrus Berry
+Level: 24
+Naive Nature
+Ability: Ripen
+- Recycle
+- Dragon Dance
+- Dragon Breath
+- Grassy Glide
+
+Greedent @ Enigma Berry
+Level: 24
+Impish Nature
+Ability: Cheek Pouch
+- Belly Drum
+- Body Slam
+- Bulldoze
+- Bullet Seed
+
+=== TRAINER_TRIATHLETESHELDON ===
+Name: Sheldon
+Class: Triathlete
+Pic: Running Triathlete M
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move
+
+Durant @ Lum Berry
+Level: 23
+Jolly Nature
+Ability: Hustle
+- Hone Claws
+- Bug Bite
+- Stomping Tantrum
+- Metal Claw
+
+Squawkabilly-Blue @ Normal Gem
+Level: 24
+Jolly Nature
+Ability: Hustle
+- Retaliate
+- Final Gambit
+- Reversal
+- Aerial Ace
+
+Zweilous @ Zoom Lens
+Level: 24
+Brave Nature
+Ability: Hustle
+- Dragon Tail
+- Aqua Tail
+- Assurance
+- Body Slam
+
+=== TRAINER_YOUNGSTERTAYLOR ===
+Name: Taylor
+Class: Youngster
+Pic: Youngster
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move
+
+Sandslash @ Scope Lens
+Level: 25
+Jolly Nature
+Ability: Sand Veil
+- Drill Run
+- Poison Jab
+- Swords Dance
+- Night Slash
+
+Swellow @ Life Orb
+Level: 25
+Timid Nature
+Ability: Scrappy
+- Tailwind
+- Heat Wave
+- Ominous Wind
+- Air Slash
+
+Boltund @ Lum Berry
+Level: 25
+Jolly Nature
+Ability: Strong Jaw
+- Thunder Fang
+- Fire Fang
+- Howl
+- Crunch
+
+Watchog @ Normal Gem
+Level: 25
+Jolly Nature
+Ability: Analytic
+- Retaliate
+- Ice Punch
+- Iron Tail
+- Crunch
+
+=== TRAINER_YOUNGSTERMIKEY ===
+Name: Mikey
+Class: Youngster
+Pic: Youngster
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move
+
+Mothim @ Charti Berry
+Level: 25
+Timid Nature
+Ability: Tinted Lens
+- Air Slash
+- Psychic
+- Bug Buzz
+- Sunny Day
+
+Wormadam-Sandy @ Life Orb
+Level: 25
+Naughty Nature
+Ability: Overcoat
+- Earth Power
+- Bug Buzz
+- Sucker Punch
+- Rock Tomb
+
+Cherrim @ Covert Cloak
+Level: 26
+Modest Nature
+Ability: Flower Gift
+- Sunny Day
+- Morning Sun
+- Weather Ball
+- Giga Drain
+
+Munchlax @ Berserk Gene
+Level: 26
+Brave Nature
+Ability: Thick Fat
+- Double-Edge
+- Gyro Ball
+- Earthquake
+- Crunch
+
+=== TRAINER_YOUNGCOUPLELARAANDJACK ===
+Name: Lara&Jack
+Class: Young Couple
+Pic: Young Couple
+Gender: Male
+Music: Male
+Double Battle: Yes
+AI: Check Bad Move
+
+Rhydon @ Eviolite
+Level: 26
+Sassy Nature
+Ability: Lightning Rod
+- Thunderbolt
+- Flamethrower
+- Icy Wind
+- Earth Power
+
+Kilowattrel @ Lum Berry
+Level: 27
+Timid Nature
+Ability: Competitive
+IVs: 0 Atk
+- Discharge
+- Electroweb
+- Air Slash
+- Tailwind
+
+Seaking @ Clear Amulet
+Level: 27
+Naive Nature
+Ability: Lightning Rod
+- Drill Run
+- Waterfall
+- Blizzard
+- Smart Strike
+
+Swanna @ Flying Gem
+Level: 26
+Naive Nature
+Ability: Big Pecks
+- Feather Dance
+- Acrobatics
+- Helping Hand
+- Brine
+
+Oricorio @ Life Orb
+Level: 26
+Timid Nature
+Ability: Dancer
+IVs: 30 SpA
+- Revelation Dance
+- Hidden Power
+- Psych Up
+- Air Cutter
+
+=== TRAINER_GRUNT1_ROUTE5 ===
+Name: Grunt
+Class: Team Aqua
+Pic: Aqua Grunt M
+Gender: Male
+Music: Aqua
+Double Battle: No
+AI: Check Bad Move
+
+Liepard @ Life Orb
+Level: 24
+Jolly Nature
+Ability: Unburden
+- Grass Knot
+- Aerial Ace
+- Night Slash
+- Screech
+
+Basculin-Blue-Striped @ Liechi Berry
+Level: 24
+Jolly Nature
+Ability: Reckless
+- Take Down
+- Substitute
+- Scale Shot
+- Waterfall
+
+Golbat @ Lum Berry
+Level: 25
+Timid Nature
+Ability: Inner Focus
+- Giga Drain
+- Shadow Ball
+- Sludge Bomb
+- Hypnosis
+
+=== TRAINER_GRUNT2_ROUTE5 ===
+Name: Grunt
+Class: Team Aqua
+Pic: Aqua Grunt F
+Gender: Female
+Music: Aqua
+Double Battle: No
+AI: Check Bad Move
+
+Wugtrio @ Ice Gem
+Level: 24
+Lonely Nature
+Ability: Gooey
+- Triple Dive
+- Dig
+- Ice Beam
+- Sucker Punch
+
+Murkrow @ Flying Gem
+Level: 24
+Naive Nature
+Ability: Prankster
+- Tailwind
+- Foul Play
+- Psychic
+- Acrobatics
+
+Granbull @ Toxic Orb
+Level: 25
+Jolly Nature
+Ability: Intimidate
+- Play Rough
+- Low Sweep
+- Thunder Fang
+- Bulk Up
+
+Koffing @ Payapa Berry
+Level: 25
+Rash Nature
+Ability: Levitate
+- Self-Destruct
+- Flamethrower
+- Thunderbolt
+- Sludge Bomb
+
+=== TRAINER_GRUNT3_ROUTE5 ===
+Name: Grunt
+Class: Team Aqua
+Pic: Aqua Grunt M
+Gender: Male
+Music: Aqua
+Double Battle: No
+AI: Check Bad Move
+
+Seadra @ Scope Lens
+Level: 24
+Timid Nature
+Ability: Sniper
+- Focus Energy
+- Brine
+- Dragon Breath
+- Flash Cannon
+
+Voltorb @ Custap Berry
+Level: 25
+Hasty Nature
+Ability: Static
+- Explosion
+- Thunderbolt
+- Endure
+- Helping Hand
+
+=== TRAINER_GRUNT4_ROUTE5 ===
+Name: Grunt
+Class: Team Aqua
+Pic: Aqua Grunt F
+Gender: Female
+Music: Aqua
+Double Battle: No
+AI: Check Bad Move
+
+Cryogonal @ Lum Berry
+Level: 24
+Timid Nature
+Ability: Levitate
+- Icy Wind
+- Water Pulse
+- Reflect
+- Ancient Power
+
+Kecleon @ Sitrus Berry
+Level: 25
+Jolly Nature
+Ability: Protean
+- Shadow Claw
+- Rock Slide
+- Aerial Ace
+
+=== TRAINER_ADMIN_LOCH_CRYSTAL_LAKE ===
+Name: Loch
+Class: Aqua Admin
+Pic: Pike Queen Lucy
+Gender: Female
+Music: Magma
+Double Battle: No
+AI: Check Bad Move
+
+Qwilfish_Hisui @ Clear Amulet
+Level: 26
+Jolly Nature
+Ability: Poison Point
+- Toxic Spikes
+- Spikes
+- Aqua Tail
+- Crunch
+
+Perrserker @ Metal Coat
+Level: 25
+Brave Nature
+Ability: Battle Armor
+- Lash Out
+- Hone Claws
+- Seed Bomb
+- Bullet Punch
+
+Gabite @ Yache Berry
+Level: 26
+Jolly Nature
+Ability: Rough Skin
+- Swords Dance
+- Fire Fang
+- Bulldoze
+- Dragon Claw
+
+Cloyster @ Lum Berry
+Level: 24
+Naive Nature
+Ability: Shell Armor
+- Razor Shell
+- Whirlpool
+- Rock Blast
+- Aurora Beam
+
+Dhelmise @ Iron Ball
+Level: 26
+Quiet Nature
+Ability: Steelworker
+- Gyro Ball
+- Brine
+- Rest
+- Sleep Talk
+
+=== TRAINER_DIANCIE ===
+Name: Diancie
+Class: Guardian
+Pic: Guardian Diancie
+Gender: Female
+Music: Female
+Items: None
+Double Battle: Yes
+AI: Basic Trainer
+Mugshot: Blue
+
+Duosion @ Covert Cloak
+Level: 25
+Quiet Nature
+Ability: Magic Guard
+- Trick Room
+- Psybeam
+- Energy Ball
+- Charge Beam
+
+Sableye @ Lagging Tail
+Level: 26
+Brave Nature
+Ability: Keen Eye
+- Fake Out
+- Will-O-Wisp
+- Trick
+- Knock Off
+
+Azumarill @ Ice Gem
+Level: 26
+Brave Nature
+Ability: Huge Power
+- Ice Punch
+- Alluring Voice
+- Aqua Jet
+- Scald
+
+Orthworm @ Lum Berry
+Level: 25
+Brave Nature
+Ability: Earth Eater
+- Iron Head
+- Coil
+- Rock Slide
+- Stomping Tantrum
+
+Sliggoo-Hisui @ Leftovers
+Level: 25
+Sassy Nature
+Ability: Gooey
+- Muddy Water
+- Protect
+- Acid Spray
+- Dragon Pulse
+
+Diancie @ Room Service
+Level: 27
+Quiet Nature
+Ability: Clear Body
+- Smack Down
+- Draining Kiss
+- Trick Room
+- Silver Wind
+
 === TRAINER_SAWYER_1 ===
 Name: SAWYER
 Class: Hiker
@@ -380,73 +2086,6 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 Carvanha
 Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_FLOWER_SHOP_GRUNT_1 ===
-Name: Grunt
-Class: Team Aqua
-Pic: Aqua Grunt F
-Gender: Female
-Music: Aqua
-Double Battle: No
-AI: Check Bad Move
-
-Honedge @ Iron Ball
-Level: 21
-Nature: Brave
-IVs: 31 HP / 31 Atk / 31 Def / 30 SpA / 31 SpD / 31 Spe
-Ability: No Guard
-- Gyro Ball
-- Shadow Sneak
-- Swords Dance
-- Brick Break
-
-Bombirdier @ Lum Berry
-Level: 22
-Nature: Hasty
-IVs: 31 HP / 31 Atk / 31 Def / 30 SpA / 31 SpD / 31 Spe
-Ability: Rocky Payload
-- Air Slash
-- Nasty Plot
-- Knock Off
-- Power Gem
-
-=== TRAINER_FLOWER_SHOP_GRUNT_2 ===
-Name: GRUNT
-Class: Team Aqua
-Pic: Aqua Grunt M
-Gender: Male
-Music: Aqua
-Double Battle: No
-AI: Check Bad Move
-
-Trapinch @ Lum Berry
-Level: 21
-Nature: Adamant
-IVs: 31 HP / 31 Atk / 31 Def / 30 SpA / 31 SpD / 31 Spe
-Ability: Arena Trap
-- Rock Tomb
-- Bug Bite
-- Bulldoze
-
-Arbok @ Muscle Band
-Level: 22
-Nature: Jolly
-IVs: 31 HP / 31 Atk / 31 Def / 30 SpA / 31 SpD / 31 Spe
-Ability: Intimidate
-- Glare
-- Seed Bomb
-- Poison Jab
-- Ice Fang
-
-Ariados @ Scope Lens
-Level: 22
-Nature: Naughty
-IVs: 31 HP / 31 Atk / 31 Def / 30 SpA / 31 SpD / 31 Spe
-Ability: Sniper
-- Shadow Sneak
-- Sludge Bomb
-- Pounce
-- Smart Strike
 
 === TRAINER_GRUNT_SPACE_CENTER_1 ===
 Name: GRUNT
@@ -2227,40 +3866,6 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Tackle
 - Tail Whip
 
-=== TRAINER_BRIANNA ===
-Name: Brianna
-Class: Camper
-Pic: Picnicker
-Gender: Female
-Music: Female
-Items: None
-Double Battle: Yes
-AI: Check Bad Move
-
-Tandemaus @ Metronome
-Level: 12
-Nature: Modest
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-Ability: Own Tempo
--Echoed Voice
-
-Pachirisu @ Berry Juice
-Level: 11
-Nature: Calm
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-Ability: Static
--Nuzzle
--Super Fang
--Spark
--Follow Me
-
-Jigglypuff @ Choice Band
-Level: 13
-Nature: Adamant
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-Ability: Friend Guard
--Focus Punch
-
 === TRAINER_NAOMI ===
 Name: NAOMI
 Class: Lady
@@ -2573,44 +4178,6 @@ IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 - Screech
 - Glare
 - Crunch
-
-=== TRAINER_YODEL ===
-Name: Yodel
-Class: Hiker
-Pic: Hiker
-Gender: Male
-Music: Hiker
-Items: None
-Double Battle: No
-AI: Check Bad Move
-
-Rolycoly @ Passho Berry
-Ability: Steam Engine
-Level: 7
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-Nature: Adamant
--Temper Flare
--Rock Blast
--Iron Head
-
-Roggenrola @ Weakness Policy
-Ability: Sturdy
-Level: 8
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-Nature: Jolly
--Rock Slide
--Rock Polish
--Body Press
-
-Larvitar @ Flame Orb
-Ability: Guts
-Level: 8
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-Nature: Adamant
--Dragon Dance
--Rock Throw
--Stomping Tantrum
--Protect
 
 === TRAINER_MOLLIE ===
 Name: MOLLIE
@@ -4869,141 +6436,6 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Rock Slide
 - Crunch
 
-=== TRAINER_KRISTINEICEMOUNTAIN ===
-Name: Kristine
-Class: Leader
-Pic: Elite Four Glacia
-Gender: Female
-Music: Female
-Items: None
-Double Battle: No
-AI: Basic Trainer
-Mugshot: Blue
-
-Vulpix_Alola @ NevermeltIce
-Ability: Ice Body
-Level: 19
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-Nature: Timid
--Disable
--Icy Wind
--Confuse Ray
--Dazzling Gleam
-
-Sneasel_Hisui @ Payapa Berry
-Ability: Inner Focus
-Level: 17
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-Nature: Adamant
--Thief
--Low Sweep
--Poison Tail
--Trailblaze
-
-Pumpkaboo_Super @ Berry Juice
-Ability: Heatproof
-Level: 18
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-Nature: Brave
--Leech Seed
--Mystical Fire
--Hypnosis
--Razor Leaf
-
-Phione @ Lum Berry
-Ability: Hydration
-Level: 17
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-Nature: Modest
--Water Pulse
--Flip Turn
--Grass Knot
--Secret Power
-
-Sandshrew_Alola @ Eviolite
-Ability: Slush Rush
-Level: 19
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-Nature: Adamant
--Ice Spinner
--Metal Claw
--Aerial Ace
--Spiky Shield
-
-Frosmoth @ Flying Gem
-Ability: Ice Scales
-Level: 18
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-Nature: Timid
--Acrobatics
--Infestation
--Powder Snow
-
-=== TRAINER_DIANCIE ===
-Name: Diancie
-Class: Guardian
-Pic: Guardian Diancie
-Gender: Female
-Music: Female
-Items: None
-Double Battle: Yes
-AI: Basic Trainer
-Mugshot: Blue
-
-Duosion @ Covert Cloak
-Level: 25
-Quiet Nature
-Ability: Magic Guard
-- Trick Room
-- Psybeam
-- Energy Ball
-- Charge Beam
-
-Sableye @ Lagging Tail
-Level: 26
-Brave Nature
-Ability: Keen Eye
-- Fake Out
-- Will-O-Wisp
-- Trick
-- Knock Off
-
-Azumarill @ Ice Gem
-Level: 26
-Brave Nature
-Ability: Huge Power
-- Ice Punch
-- Alluring Voice
-- Aqua Jet
-- Scald
-
-Orthworm @ Lum Berry
-Level: 25
-Brave Nature
-Ability: Earth Eater
-- Iron Head
-- Coil
-- Rock Slide
-- Stomping Tantrum
-
-Sliggoo-Hisui @ Leftovers
-Level: 25
-Sassy Nature
-Ability: Gooey
-- Muddy Water
-- Protect
-- Acid Spray
-- Dragon Pulse
-
-Diancie @ Room Service
-Level: 27
-Quiet Nature
-Ability: Clear Body
-- Smack Down
-- Draining Kiss
-- Trick Room
-- Silver Wind
-
 === TRAINER_WATTSON_1 ===
 Name: WATTSON
 Class: Leader
@@ -6088,99 +7520,6 @@ Hariyama
 Level: 39
 IVs: 29 HP / 29 Atk / 29 Def / 29 SpA / 29 SpD / 29 Spe
 
-=== TRAINER_SAYO_1 ===
-Name: Sayo
-Class: Rival
-Pic: Leaf
-Gender: Female
-Double Battle: No
-AI: Omniscient
-Mugshot: Pink
-
-Gible @ Eviolite
-Level: 13
-Ability: Rough Skin
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-Nature: Jolly
--Stealth Rock
--Mud Slap
--Metal Claw
--Dragon Breath
-
-Litten @ Charcoal
-Level: 14
-Ability: Intimidate
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-Nature: Adamant
--Fire Fang
--Bite
--Trailblaze
-
-Corvisquire @ Mirror Herb
-Level: 12
-Ability: Unnerve
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-Nature: Jolly
--Pluck
--Swagger
--Power Trip
-
-Kubfu @ Salac Berry
-Level: 12
-Ability: Inner Focus
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-Nature: Jolly
--Reversal
--Counter
--Focus Energy
-
-=== TRAINER_GRUNT_1 ===
-Name: Grunt
-Class: Team Aqua
-Pic: Aqua Grunt M
-Gender: Male
-Music: Aqua
-Double Battle: No
-AI: Basic Trainer
-
-Qwilfish @ Black Sludge
-Level: 15
-Ability: Poison Point
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-Nature: Naive
--Toxic
--Protect
--Barb Barrage
--Brine
-
-Farfetch'd @ Leek
-Level: 15
-Ability: Defiant
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-Nature: Naive
--Slash
--Air Cutter
--U-Turn
-
-Corsola_Galar @ Weakness Policy
-Level: 15
-Ability: Weak Armor
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-Nature: Naive
--Whirlpool
--Disable
--Icicle Spear
--Flail
-
-Magnemite @ Air Balloon
-Level: 15
-Ability: Sturdy
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-Nature: Timid
--Volt Switch
--Sonicboom
--Supersonic
-
 === TRAINER_JOSH ===
 Name: JOSH
 Class: Youngster
@@ -6302,96 +7641,6 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Aerial Ace
 - Brick Break
 
-=== TRAINER_YOUNGSTERTAYLOR ===
-Name: Taylor
-Class: Youngster
-Pic: Youngster
-Gender: Male
-Music: Male
-Double Battle: No
-AI: Check Bad Move
-
-Sandslash @ Scope Lens
-Level: 25
-Jolly Nature
-Ability: Sand Veil
-- Drill Run
-- Poison Jab
-- Swords Dance
-- Night Slash
-
-Swellow @ Life Orb
-Level: 25
-Timid Nature
-Ability: Scrappy
-- Tailwind
-- Heat Wave
-- Ominous Wind
-- Air Slash
-
-Boltund @ Lum Berry
-Level: 25
-Jolly Nature
-Ability: Strong Jaw
-- Thunder Fang
-- Fire Fang
-- Howl
-- Crunch
-
-Watchog @ Normal Gem
-Level: 25
-Jolly Nature
-Ability: Analytic
-- Retaliate
-- Ice Punch
-- Iron Tail
-- Crunch
-
-=== TRAINER_YOUNGSTERMIKEY ===
-Name: Mikey
-Class: Youngster
-Pic: Youngster
-Gender: Male
-Music: Male
-Double Battle: No
-AI: Check Bad Move
-
-Mothim @ Charti Berry
-Level: 25
-Timid Nature
-Ability: Tinted Lens
-- Air Slash
-- Psychic
-- Bug Buzz
-- Sunny Day
-
-Wormadam-Sandy @ Life Orb
-Level: 25
-Naughty Nature
-Ability: Overcoat
-- Earth Power
-- Bug Buzz
-- Sucker Punch
-- Rock Tomb
-
-Cherrim @ Covert Cloak
-Level: 26
-Modest Nature
-Ability: Flower Gift
-- Sunny Day
-- Morning Sun
-- Weather Ball
-- Giga Drain
-
-Munchlax @ Berserk Gene
-Level: 26
-Brave Nature
-Ability: Thick Fat
-- Double-Edge
-- Gyro Ball
-- Earthquake
-- Crunch
-
 === TRAINER_CALVIN_2 ===
 Name: CALVIN
 Class: Youngster
@@ -6463,94 +7712,6 @@ IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 Mightyena
 Level: 36
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
-
-=== TRAINER_YOUNGCOUPLELARAANDJACK ===
-Name: Lara&Jack
-Class: Young Couple
-Pic: Young Couple
-Gender: Male
-Music: Male
-Double Battle: Yes
-AI: Check Bad Move
-
-Rhydon @ Eviolite
-Level: 26
-Sassy Nature
-Ability: Lightning Rod
-- Thunderbolt
-- Flamethrower
-- Icy Wind
-- Earth Power
-
-Kilowattrel @ Lum Berry
-Level: 27
-Timid Nature
-Ability: Competitive
-IVs: 0 Atk
-- Discharge
-- Electroweb
-- Air Slash
-- Tailwind
-
-Seaking @ Clear Amulet
-Level: 27
-Naive Nature
-Ability: Lightning Rod
-- Drill Run
-- Waterfall
-- Blizzard
-- Smart Strike
-
-Swanna @ Flying Gem
-Level: 26
-Naive Nature
-Ability: Big Pecks
-- Feather Dance
-- Acrobatics
-- Helping Hand
-- Brine
-
-Oricorio @ Life Orb
-Level: 26
-Timid Nature
-Ability: Dancer
-IVs: 30 SpA
-- Revelation Dance
-- Hidden Power
-- Psych Up
-- Air Cutter
-
-=== TRAINER_CAMPERDAVID ===
-Name: David
-Class: Camper
-Pic: Camper
-Gender: Male
-Music: Male
-Double Battle: No
-AI: Check Bad Move
-
-Yungoos @ Oran Berry
-Level: 6
-Ability: Strong Jaw
-Nature: Jolly
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
--Bite
--Super Fang
-
-Shinx @ Oran Berry
-Level: 6
-Ability: Intimidate
-Nature: Jolly
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
--Spark
--Charge
-
-Bonsly @ Oran Berry
-Level: 7
-Ability: Sturdy
-Nature: Jolly
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
--Rollout
 
 === TRAINER_TIMMY ===
 Name: TIMMY
@@ -9995,19 +11156,6 @@ Marshtomp
 Level: 31
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
-=== TRAINER_EVE_STARTINGTOWN_JANGMO_O ===
-Name: Eve
-Class: Rival
-Pic: Brendan
-Gender: Male
-Music: Male
-Double Battle: No
-AI: Basic Trainer
-
-Dratini
-Level: 5
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
 === TRAINER_MAY_ROUTE_110_MUDKIP ===
 Name: MAY
 Class: Rival
@@ -10050,19 +11198,6 @@ Grovyle
 Level: 31
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
-=== TRAINER_EVE_STARTINGTOWN_DRATINI ===
-Name: Eve
-Class: Rival
-Pic: Brendan
-Gender: Male
-Music: Male
-Double Battle: No
-AI: Basic Trainer
-
-Frigibax
-Level: 5
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
 === TRAINER_MAY_ROUTE_110_TREECKO ===
 Name: MAY
 Class: Rival
@@ -10104,19 +11239,6 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 Combusken
 Level: 31
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-
-=== TRAINER_EVE_STARTINGTOWN_FRIGIBAX ===
-Name: Eve
-Class: Rival
-Pic: Brendan
-Gender: Male
-Music: Male
-Double Battle: No
-AI: Basic Trainer
-
-Jangmo-o
-Level: 5
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_MAY_ROUTE_110_TORCHIC ===
 Name: MAY
@@ -11252,65 +12374,6 @@ Poochyena
 Level: 27
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_ADMIN_GAIA_BLOSSOMTOWN ===
-Name: Gaia
-Class: Magma Admin
-Pic: Magma Admin
-Gender: Male
-Music: Magma
-Double Battle: No
-AI: Basic Trainer
-
-Shuckle @ Smooth Rock
-Level: 23
-Nature: Impish
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-Ability: Contrary
-- Sticky Web
-- Sandstorm
-- Toxic
-- Knock Off
-
-Klang @ Lum Berry
-Level: 22
-Nature: Hasty
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-Ability: Clear Body
-- Gear Grind
-- Power Gem
-- Discharge
-- Screech
-
-Toedscruel @ Yache Berry
-Level: 23
-Nature: Hasty
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-Ability: Storm Drain
-- Spore
-- Growth
-- Seed Bomb
-- Earth Power
-
-Morgrem @ Black Glasses
-Level: 24
-Nature: Lonely
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-Ability: Prankster
-- False Surrender
-- Play Rough
-- Sucker Punch
-- Thunder Wave
-
-Klawf @ Lum Berry
-Level: 22
-Nature: Adamant
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-Ability: Anger Shell
-- Stomping Tantrum
-- Metal Claw
-- Rock Slide
-- Trailblaze
-
 === TRAINER_JONATHAN ===
 Name: JONATHAN
 Class: Cooltrainer
@@ -11406,42 +12469,6 @@ IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 Camerupt
 Level: 25
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-
-=== TRAINER_BENSON ===
-Name: Benson
-Class: Camper
-Pic: Camper
-Gender: Male
-Music: Male
-Double Battle: No
-AI: Check Bad Move
-
-Teddiursa @ Toxic Orb
-Level: 7
-Ability: Quick Feet
-Nature: Jolly
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
--Fury Cutter
--Fury Swipes
--Metal Claw
-
-Wattrel @ Oran Berry
-Level: 7
-Ability: Competitive
-Nature: Naive
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
--Pluck
--Electro Ball
--Agility
-
-Exeggcute @ Oran Berry
-Level: 8
-Ability: Harvest
-Nature: Modest
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
--Psybeam
--Stun Spore
--Mega Drain
 
 === TRAINER_HALEY_1 ===
 Name: HALEY
@@ -11629,23 +12656,6 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 Wailmer
 Level: 39
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-
-=== TRAINER_RIVAL_JOHN_1 ===
-Name: ???
-Class: Android
-Pic: Steven
-Gender: Male
-Music: Male
-Double Battle: No
-AI: Basic Trainer
-
-Meltan @ Oran Berry
-Level: 10
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
--Thundershock
--Magnet Bomb
--Harden
--Flash Cannon
 
 === TRAINER_LYLE ===
 Name: LYLE
@@ -12777,50 +13787,6 @@ Marshtomp
 Level: 34
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
-=== TRAINER_JONAH ===
-Name: Jonah
-Class: Triathlete
-Pic: Running Triathlete M
-Gender: Male
-Music: Hiker
-Double Battle: No
-AI: Check Bad Move
-
-Bergmite @ Weakness Policy
-Level: 16
-Nature: Brave
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-Ability: Sturdy
-- Mirror Coat
-- Avalanche
-- Recover
-
-Binacle @ Scope Lens
-Level: 16
-Nature: Hasty
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-Ability: Sniper
-- Surf
-- Rock Blast
-
-Amaura @ Chople Berry
-Level: 15
-Nature: Naive
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-Ability: Refrigerate
-- Body Slam
-- Ancient Power
-- Thunder Wave
-
-Drilbur @ Power Herb
-Level: 15
-Nature: Jolly
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-Ability: Mold Breaker
-- Dig
-- Rock Slide
-- Swords Dance
-
 === TRAINER_HENRY ===
 Name: HENRY
 Class: Fisherman
@@ -13371,974 +14337,6 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 Zigzagoon @ Nugget
 Level: 8
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_DALLAS ===
-Name: Dallas
-Class: Pkmn Ranger
-Pic: Pokemon Ranger M
-Gender: Male
-Music: Hiker
-Double Battle: No
-AI: Check Bad Move
-
-Growlithe @ Muscle Band
-Level: 8
-Nature: Jolly
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-Ability: Intimidate
--Temper Flare
--Thunder Fang
--Dig
-
-Machop @ Scope Lens
-Level: 8
-Nature: Adamant
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-Ability: Guts
--Focus Energy
--Karate Chop
--Dual Chop
-
-Pikachu @ Steel Gem
-Level: 9
-Nature: Jolly
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-Ability: Static
--Iron Tail
--Thunder Punch
--Upper Hand
-
-=== TRAINER_KATRINA ===
-Name: Katrina
-Class: Pkmn Ranger
-Pic: Pokemon Ranger F
-Gender: Female
-Music: Girl
-Double Battle: No
-AI: Check Bad Move
-
-Skiddo @ Big Root
-Level: 8
-Nature: Adamant
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-Ability: Sap Sipper
--Horn Leech
--Wild Charge
--Stomping Tantrum
-
-Flabebe_Orange @ Big Root
-Level: 8
-Nature: Timid
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-Ability:  Flower Veil
--Draining Kiss
--Magical Leaf
--Chilling Water
-
-Vivillon @ Big Root
-Level: 10
-Nature: Timid
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-Ability: Compound_Eyes
--Sleep Powder
--Air Cutter
--Draining Kiss
-
-=== TRAINER_DIRK ===
-Name: Dirk
-Class: Fisherman
-Pic: Fisherman
-Gender: Male
-Music: Male
-Double Battle: No
-AI: Check Bad Move
-
-Wishiwashi @ Choice Band
-Level: 9
-Nature: Adamant
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-Ability: Schooling
--Wave Crash
-
-Finneon @ Choice Specs
-Level: 9
-Nature: Modest
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-Ability: Storm Drain
--Hydro Pump
-
-Feebas @ Choice Specs
-Level: 9
-Nature: Modest
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-Ability: Oblivious
--Hydro Pump
-
-=== TRAINER_HIKERRILEY ===
-Name: Riley
-Class: Hiker
-Pic: Hiker
-Gender: Male
-Music: Hiker
-Double Battle: No
-AI: Check Bad Move
-
-Zubat @ Oran Berry
-Level: 11
-Nature: Timid
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-Ability: Inner Focus
--Nasty Plot
--Giga Drain
--Venoshock
--Air Slash
-
-Woobat @ Scope Lens
-Level: 11
-Nature: Timid
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-Ability: Simple
--Work Up
--Air Cutter
--Psycho Cut
-
-Noibat @ Weakness Policy
-Level: 12
-Nature: Jolly
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-Ability: Infiltrator
--Screech
--Wing Attack
--Breaking Swipe
-
-=== TRAINER_RANGERBRENT ===
-Name: Brent
-Class: Pkmn Ranger
-Pic: Pokemon Ranger M
-Gender: Male
-Music: Hiker
-Double Battle: No
-AI: Check Bad Move
-
-Numel @ Passho Berry
-Level: 12
-Nature: Modest
-IVs: 30 HP / 31 Atk / 31 Def / 30 SpA / 31 SpD / 31 Spe
-Ability: Own Tempo
--Earth Power
--Incinerate
--Hidden Power
-
-Stunky @ Petaya Berry
-Level: 12
-Nature: Timid
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-Ability: Aftermath
--Belch
--Snarl
--Flame Burst
-
-Aipom @ Wishing Piece
-Level: 12
-Nature: Jolly
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-Ability: Technician
--Double Hit
--Trailblaze
--Fling
--Fake Out
-
-=== TRAINER_DESMOND ===
-Name: Desmond
-Class: Triathlete
-Pic: Cycling Triathlete M
-Gender: Male
-Music: Male
-Double Battle: No
-AI: Check Bad Move
-
-Seel @ Leftovers
-Level: 16
-Nature: Naive
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-Ability: Ice Body
-- Aqua Ring
-- Drill Run
-- Weather Ball
-- Water Pulse
-
-Spheal @ Berry Juice
-Level: 15
-Nature: Adamant
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-Ability: Oblivious
-- Rollout
-- Ice Ball
-
-Brionne @ Throat Spray
-Level: 16
-Nature: Modest
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-Ability: Liquid Voice
-- Brine
-- Sing
-- Disarming Voice
-- Aqua Jet
-
-
-=== TRAINER_LAYLA ===
-Name: Layla
-Class: Psychic
-Pic: Psychic F
-Gender: Male
-Music: Intense
-Double Battle: Yes
-AI: Check Bad Move
-
-Mightyena @ Black Glasses
-Level: 18
-Nature: Naive
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-Ability: Intimidate
-- Snarl
-- Sucker Punch
-- Ice Fang
-- Scary Face
-
-Zorua-Hisui @ Wise Glasses
-Level: 15
-Nature: Hasty
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-Ability: Illusion
-- Bitter Malice
-- Swift
-- Knock Off
-
-Froslass @ Wide Lens
-Level: 16
-Nature: Modest
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-Ability: Cursed Body
-- Will-O-Wisp
-- Confuse Ray
-- Ice Shard
-- Hex
-
-=== TRAINER_TRISTIAN ===
-Name: Tristian
-Class: Camper
-Pic: Camper
-Gender: Male
-Music: Intense
-Double Battle: No
-AI: Check Bad Move
-
-Dedenne @ Oran Berry
-Level: 13
-Nature: Timid
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-Ability: Cheek Pouch
-- Parabolic Charge
-- Grass Knot
-- Covet
-
-Deerling @ King's Rock
-Level: 13
-Nature: Jolly
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-Ability: Serene Grace
-- Razor Leaf
-- Zen Headbutt
-- Stomp
-
-Dustox @ Wise Glasses
-Level: 14
-Nature: Timid
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-Ability: Cheek Pouch
-- Toxic
-- Silver Wind
-- Psybeam
-- Moonlight
-
-=== TRAINER_NICKI ===
-Name: Nicki
-Class: Engineer
-Pic: Bug Maniac
-Gender: Male
-Music: Male
-Double Battle: No
-AI: Check Bad Move
-
-Klink @ Air Balloon
-Level: 14
-Nature: Adamant
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-Ability: Clear Body
-- Gear Grind
-- Autotomize 
-
-Varoom @ Shuca Berry
-Level: 14
-Nature: Naive
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-Ability: Overcoat
-- Swagger
-- Flash Cannon
-- Poison Jab
-
-Dustox @ Flying Gem
-Level: 15
-Nature: Hardy
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-Ability: Battery
-- Acrobatics
-- Pounce
-- Discharge
-
-=== TRAINER_POODLE ===
-Name: Poodle
-Class: Pokefan
-Pic: Pokefan F
-Gender: Female
-Music: Female
-Double Battle: No
-AI: Check Bad Move
-
-Fidough @ Oran Berry
-Level: 15
-Nature: Jolly
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-Ability: Own Tempo
-- Attract
-- Play Rough
-- Mud Slap
-
-Greavard @ Lum Berry
-Level: 14
-Nature: Naive
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-Ability: Fluffy
-- Poltergeist
-- Rest
-- Bulldoze
-- Bite
-
-Herdier @ Normal Gem
-Level: 15
-Nature: Jolly
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-Ability: Intimidate
-- Take Down
-- Reversal
-
-Maschiff @ Razor Fang
-Level: 15
-Nature: Adamant
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-Ability: Stakeout
-- Trailblaze
-- Fire Fang
-- Bite
-
-=== TRAINER_WORKER_MARTY ===
-Name: Marty
-Class: Pokefan
-Pic: Pokefan M
-Gender: Male
-Music: Male
-Double Battle: No
-AI: Check Bad Move
-
-Gurdurr @ Flame Orb
-Level: 18
-Nature: Adamant
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-Ability: Guts
-- Facade
-- Mach Punch
-- Ice Punch
-- Protect
-
-Carkol @ Passho Berry
-Level: 19
-Nature: Modest
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-Ability: Steam Engine
-- Endure
-- Body Press
-- Ancient Power
-- Scorching Sands
-
-Tinkatuff @ Eviolite
-Level: 20
-Nature: Jolly
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-Ability: Mold Breaker
-- Work Up
-- Play Rough
-- Flash Cannon
-- Ice Hammer
-
-=== TRAINER_AROMALADY_DELIAH ===
-Name: Deliah
-Class: Aroma Lady
-Pic: Aroma Lady
-Gender: Female
-Music: Female
-Double Battle: No
-AI: Check Bad Move
-
-Venomoth @ Grass Gem
-Level: 19
-Nature: Timid
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-Ability: Tinted Lens
-- Toxic Spikes
-- Endeavor
-- Giga Drain
-- Psychic Noise
-
-Eldegoss @ Red Card
-Level: 20
-Nature: Modest
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-Ability: Cotton Down
-- Synthesis
-- Leaf Tornado
-- Pollen Puff
-- Substitute
-
-Vespiquen @ Lum Berry
-Level: 20
-Nature: Quiet
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-Ability: Unnerve
-- Power Gem
-- Aerial Ace
-- Hex
-- Bug Bite
-
-Girafarig @ Miracle Seed
-Level: 20
-Nature: Jolly
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-Ability: Inner Focus
-- Grass Knot
-- Trailblaze
-- Zen Headbutt
-- Stomp
-
-=== TRAINER_BEAUTY_LAURIE ===
-Name: Laurie
-Class: Beauty
-Pic: Beauty
-Gender: Female
-Music: Girl
-Double Battle: No
-AI: Check Bad Move
-
-Chatot @ Throat Spray
-Level: 20
-Nature: Naive
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-Ability: Big Pecks
-- Chatter
-- Sing
-- Steel Wing
-- Heat Wave
-
-Audino @ Throat Spray
-Level: 21
-Nature: Timid
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-Ability: Healer
-- Hyper Voice
-- Alluring Voice
-- Attract
-- Pain Split
-
-Meowstic-F @ Lum Berry
-Level: 21
-Nature: Timid
-Ability: Competitive
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Magical Leaf
-- Charge Beam
-- Fake Tears
-- Alluring Voice
-
-=== TRAINER_LASS_DALIA ===
-Name: Dalia
-Class: Lass
-Pic: Lass
-Gender: Female
-Music: Female
-Double Battle: No
-AI: Check Bad Move
-
-Monferno @ Focus Sash
-Level: 21
-Nature: Naive
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-Ability: Iron Fist
-- Fake Out
-- Thunder Punch
-- Fire Punch
-- Brick Break
-
-Grotle @ White Herb
-Level: 21
-Nature: Adamant
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-Ability: Overgrow
-- Seed Bomb
-- Smack Down
-- Superpower
-- Shell Smash
-
-Prinplup @ Expert Belt
-Level: 21
-Nature: Hasty
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-Ability: Competitive
-- Brine
-- Roost
-- Drill Peck
-- Ice Beam
-
-=== TRAINER_FISHERMAN_TIMOTHY ===
-Name: Timothy
-Class: Fisherman
-Pic: Fisherman
-Gender: Male
-Music: Male
-Double Battle: No
-AI: Check Bad Move
-
-Slowpoke-Galar @ Eviolite
-Level: 21
-Nature: Relaxed
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-Ability: Own Tempo
-- Surf
-- Avalanche
-- Shadow Ball
-- Psyshock
-
-Spidops @ Lum Berry
-Level: 21
-Nature: Adamant
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-Ability: Technician
-- Rock Tomb
-- Pounce
-- Knock Off
-
-Cramorant @ Wacan Berry
-Level: 21
-Nature: Naive
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-Ability: Gulp Missile
-- Dive
-- Belch
-- Icy Wind
-- Air Cutter
-
-Veluza @ Lum Berry
-Level: 22
-Nature: Lonely
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-Ability: Mold Breaker
-- Agility
-- Aqua Cutter
-- Pluck
-- Stored Power
-
-=== TRAINER_BLACKBELTNIXON ===
-Name: Nixon
-Class: Black Belt
-Pic: Black Belt
-Gender: Male
-Music: Suspicious
-Double Battle: No
-AI: Check Bad Move
-
-Hitmonlee @ Normal Gem
-Level: 23
-Jolly Nature
-Ability: Unburden
-- Low Sweep
-- Fake Out
-- Throat Chop
-- Facade
-
-Hitmontop @ Lum Berry
-Level: 23
-Jolly Nature
-Ability: Technician
-- Mach Punch
-- Bulk Up
-- Ice Spinner
-- Bulldoze
-
-Hitmonchan @ Punching Glove
-Level: 23
-Jolly Nature
-Ability: Iron Fist
-- Bullet Punch
-- Ice Punch
-- Thunder Punch
-- Power-Up Punch
-
-=== TRAINER_TWINSLILYANDLEIA ===
-Name: Lily&Leia
-Class: Twins
-Pic: Twins
-Gender: Female
-Music: Girl
-Double Battle: Yes
-AI: Check Bad Move
-
-Ninetales @ Lum Berry
-Level: 23
-Timid Nature
-Ability: Flash Fire
-- Hex
-- Hypnosis
-- Extrasensory
-- Incinerate
-
-Shiinotic @ Kebia Berry
-Level: 24
-Modest Nature
-Ability: Effect Spore
-- Cotton Spore
-- Protect
-- Sludge Bomb
-- Grass Knot
-
-Breloom @ Coba Berry
-Level: 23
-Jolly Nature
-Ability: Effect Spore
-- Rock Tomb
-- Wake-Up Slap
-- Mach Punch
-- Spore
-
-Lampent
-Level: 24
-Hasty Nature
-Ability: Flash Fire
-- Hex
-- Ominous Wind
-- Temper Flare
-- Confuse Ray
-
-=== TRAINER_AROMALADYCHRISTINA ===
-Name: Christina
-Class: Aroma Lady
-Pic: Aroma Lady
-Gender: Female
-Music: Female
-Double Battle: No
-AI: Check Bad Move
-
-Ludicolo @ Damp Rock
-Level: 23
-Naive Nature
-Ability: Swift Swim
-- Rain Dance
-- Ice Punch
-- Seed Bomb
-- Bubble Beam
-
-Roselia @ Choice Scarf
-Level: 24
-Modest Nature
-Ability: Poison Point
-- Petal Dance
-- Sludge Bomb
-- Weather Ball
-
-Oricorio-Pa'u @ Wise Glasses
-Level: 23
-Hasty Nature
-Ability: Dancer
-- Revelation Dance
-- Quiver Dance
-- Rain Dance
-- Air Slash
-
-Illumise @ Lum Berry
-Level: 23
-Timid Nature
-Ability: Tinted Lens
-- Shadow Ball
-- Thunder
-- Bug Buzz
-- Water Pulse
-
-=== TRAINER_GOURMET_HANK ===
-Name: Hank
-Class: Pokefan
-Pic: Pokefan M
-Gender: Male
-Music: Male
-Double Battle: No
-AI: Check Bad Move
-
-Clodsire @ Lum Berry
-Level: 23
-Careful Nature
-Ability: Water Absorb
-- Poison Jab
-- Dig
-- Yawn
-- Liquidation
-
-Flapple @ Sitrus Berry
-Level: 24
-Naive Nature
-Ability: Ripen
-- Recycle
-- Dragon Dance
-- Dragon Breath
-- Grassy Glide
-
-Greedent @ Enigma Berry
-Level: 24
-Impish Nature
-Ability: Cheek Pouch
-- Belly Drum
-- Body Slam
-- Bulldoze
-- Bullet Seed
-
-=== TRAINER_TRIATHLETESHELDON ===
-Name: Sheldon
-Class: Triathlete
-Pic: Running Triathlete M
-Gender: Male
-Music: Male
-Double Battle: No
-AI: Check Bad Move
-
-Durant @ Lum Berry
-Level: 23
-Jolly Nature
-Ability: Hustle
-- Hone Claws
-- Bug Bite
-- Stomping Tantrum
-- Metal Claw
-
-Squawkabilly-Blue @ Normal Gem
-Level: 24
-Jolly Nature
-Ability: Hustle
-- Retaliate
-- Final Gambit
-- Reversal
-- Aerial Ace
-
-Zweilous @ Zoom Lens
-Level: 24
-Brave Nature
-Ability: Hustle
-- Dragon Tail
-- Aqua Tail
-- Assurance
-- Body Slam
-
-=== TRAINER_GRUNT1_ROUTE5 ===
-Name: Grunt
-Class: Team Aqua
-Pic: Aqua Grunt M
-Gender: Male
-Music: Aqua
-Double Battle: No
-AI: Check Bad Move
-
-Liepard @ Life Orb
-Level: 24
-Jolly Nature
-Ability: Unburden
-- Grass Knot
-- Aerial Ace
-- Night Slash
-- Screech
-
-Basculin-Blue-Striped @ Liechi Berry
-Level: 24
-Jolly Nature
-Ability: Reckless
-- Take Down
-- Substitute
-- Scale Shot
-- Waterfall
-
-Golbat @ Lum Berry
-Level: 25
-Timid Nature
-Ability: Inner Focus
-- Giga Drain
-- Shadow Ball
-- Sludge Bomb
-- Hypnosis
-
-=== TRAINER_GRUNT2_ROUTE5 ===
-Name: Grunt
-Class: Team Aqua
-Pic: Aqua Grunt F
-Gender: Female
-Music: Aqua
-Double Battle: No
-AI: Check Bad Move
-
-Wugtrio @ Ice Gem
-Level: 24
-Lonely Nature
-Ability: Gooey
-- Triple Dive
-- Dig
-- Ice Beam
-- Sucker Punch
-
-Murkrow @ Flying Gem
-Level: 24
-Naive Nature
-Ability: Prankster
-- Tailwind
-- Foul Play
-- Psychic
-- Acrobatics
-
-Granbull @ Toxic Orb
-Level: 25
-Jolly Nature
-Ability: Intimidate
-- Play Rough
-- Low Sweep
-- Thunder Fang
-- Bulk Up
-
-Koffing @ Payapa Berry
-Level: 25
-Rash Nature
-Ability: Levitate
-- Self-Destruct
-- Flamethrower
-- Thunderbolt
-- Sludge Bomb
-
-=== TRAINER_GRUNT3_ROUTE5 ===
-Name: Grunt
-Class: Team Aqua
-Pic: Aqua Grunt M
-Gender: Male
-Music: Aqua
-Double Battle: No
-AI: Check Bad Move
-
-Seadra @ Scope Lens
-Level: 24
-Timid Nature
-Ability: Sniper
-- Focus Energy
-- Brine
-- Dragon Breath
-- Flash Cannon
-
-Voltorb @ Custap Berry
-Level: 25
-Hasty Nature
-Ability: Static
-- Explosion
-- Thunderbolt
-- Endure
-- Helping Hand
-
-=== TRAINER_GRUNT4_ROUTE5 ===
-Name: Grunt
-Class: Team Aqua
-Pic: Aqua Grunt F
-Gender: Female
-Music: Aqua
-Double Battle: No
-AI: Check Bad Move
-
-Cryogonal @ Lum Berry
-Level: 24
-Timid Nature
-Ability: Levitate
-- Icy Wind
-- Water Pulse
-- Reflect
-- Ancient Power
-
-Kecleon @ Sitrus Berry
-Level: 25
-Jolly Nature
-Ability: Protean
-- Shadow Claw
-- Rock Slide
-- Aerial Ace
-
-=== TRAINER_ADMIN_LOCH_CRYSTAL_LAKE ===
-Name: Loch
-Class: Aqua Admin
-Pic: Pike Queen Lucy
-Gender: Female
-Music: Magma
-Double Battle: No
-AI: Check Bad Move
-
-Qwilfish_Hisui @ Clear Amulet
-Level: 26
-Jolly Nature
-Ability: Poison Point
-- Toxic Spikes
-- Spikes
-- Aqua Tail
-- Crunch
-
-Perrserker @ Metal Coat
-Level: 25
-Brave Nature
-Ability: Battle Armor
-- Lash Out
-- Hone Claws
-- Seed Bomb
-- Bullet Punch
-
-Gabite @ Yache Berry
-Level: 26
-Jolly Nature
-Ability: Rough Skin
-- Swords Dance
-- Fire Fang
-- Bulldoze
-- Dragon Claw
-
-Cloyster @ Lum Berry
-Level: 24
-Naive Nature
-Ability: Shell Armor
-- Razor Shell
-- Whirlpool
-- Rock Blast
-- Aurora Beam
-
-Dhelmise @ Iron Ball
-Level: 26
-Quiet Nature
-Ability: Steelworker
-- Gyro Ball
-- Brine
-- Rest
-- Sleep Talk
 
 === TRAINER_GRUNT_MAGMA_HIDEOUT_6 ===
 Name: GRUNT
