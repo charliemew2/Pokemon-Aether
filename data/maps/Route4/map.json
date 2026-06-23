@@ -17,6 +17,11 @@
       "map": "MAP_ROUTE3",
       "offset": -23,
       "direction": "down"
+    },
+    {
+      "map": "MAP_CHI_CITY",
+      "offset": -19,
+      "direction": "up"
     }
   ],
   "object_events": [
