@@ -264,12 +264,12 @@
 #define TRAINER_WALTER_3                    258
 #define TRAINER_WALTER_4                    259
 #define TRAINER_WALTER_5                    260
-#define TRAINER_SIDNEY                      261
+#define TRAINER_SAYO_E4                     261 //REPLACES SIDNEY
 #define TRAINER_PHOEBE                      262
 #define TRAINER_GLACIA                      263
 #define TRAINER_DRAKE                       264
 #define TRAINER_KRISTINEICEMOUNTAIN         265 //REPLACES ROXANNE 1
-#define TRAINER_DIANCIE                    266
+#define TRAINER_DIANCIE                     266 //REPLACES BRAWLY 1
 #define TRAINER_WATTSON_1                   267
 #define TRAINER_FLANNERY_1                  268
 #define TRAINER_NORMAN_1                    269

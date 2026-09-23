@@ -4740,6 +4740,16 @@
       "secondary_tileset": "gTileset_Lilycove",
       "border_filepath": "data/layouts/ChiCity/border.bin",
       "blockdata_filepath": "data/layouts/ChiCity/map.bin"
+    },
+    {
+      "id": "LAYOUT_SAYO_BATTLE_GROUND",
+      "name": "Sayo_BattleGround_Layout",
+      "width": 23,
+      "height": 40,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/Sayo_BattleGround/border.bin",
+      "blockdata_filepath": "data/layouts/Sayo_BattleGround/map.bin"
     }
   ]
 }

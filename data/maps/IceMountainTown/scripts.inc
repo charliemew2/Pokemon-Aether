@@ -2,7 +2,7 @@ IceMountainTown_MapScripts::
 map_script MAP_SCRIPT_ON_FRAME_TABLE, DefeatedKristine_OnFrameTable
 	.byte 0
 
-@VAR_ICE_MOUNTAIN_EVENTS LISTING
+@VAR_ICEMOUNTAIN_EVENTS LISTING
 	@0 - Triggers the first Sayo Fight on F3
 	@1 - Unblocks the Avalanche in SnowCot to allow passage up the mountain
 	@2 - Allows the Grunt to attack the player on the path

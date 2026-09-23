@@ -1,0 +1,53 @@
+{
+  "id": "MAP_SAYO_BATTLE_GROUND",
+  "name": "Sayo_BattleGround",
+  "layout": "LAYOUT_SAYO_BATTLE_GROUND",
+  "music": "MUS_VICTORY_ROAD",
+  "region_map_section": "MAPSEC_EVER_GRANDE_CITY",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_NONE",
+  "allow_cycling": false,
+  "allow_escaping": false,
+  "allow_running": false,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_SIDNEY",
+  "connections": null,
+  "object_events": [
+    {
+      "local_id": "LOCAL_ID_SAYOELITEFOURBATTLE",
+      "graphics_id": "OBJ_EVENT_GFX_SAYO",
+      "x": 11,
+      "y": 7,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "FLAG_HIDE_SAYO_ELITEFOUR"
+    }
+  ],
+  "warp_events": [
+    {
+      "x": 13,
+      "y": 23,
+      "elevation": 0,
+      "dest_map": "MAP_STARTING_TOWN",
+      "dest_warp_id": "1"
+    }
+  ],
+  "coord_events": [
+    {
+      "type": "trigger",
+      "x": 11,
+      "y": 16,
+      "elevation": 0,
+      "var": "VAR_E4FIGHTS",
+      "var_value": "0",
+      "script": "Sayo_BattleGround_EventScript_SayoEliteFour"
+    }
+  ],
+  "bg_events": []
+}

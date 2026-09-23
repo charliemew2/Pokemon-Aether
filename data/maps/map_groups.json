@@ -5,6 +5,7 @@
     "gMapGroup_IndoorIceMountainTown",
     "gMapGroup_IndoorBlossomwoodTown",
     "gMapGroup_KushoDungeons",
+    "gMapGroup_KushoEliteFourBattleGround",
     "gMapGroup_TownsAndRoutes",
     "gMapGroup_IndoorLittleroot",
     "gMapGroup_IndoorOldale",
@@ -82,6 +83,9 @@
     "IceMountain3F",
     "MountainSpring",
     "CrystalLake"
+  ],
+  "gMapGroup_KushoEliteFourBattleGround": [
+    "Sayo_BattleGround"
   ],
   "gMapGroup_TownsAndRoutes": [
     "PetalburgCity",

@@ -288,5 +288,6 @@ EventScript_ResetAllMapFlags::
 	setflag FLAG_HIDEDIANCIE
 	setflag FLAG_HIDEMEW_CRYSTAL_LAKE
 	setflag FLAG_HIDEDIANCIETEAM
+	setflag	FLAG_HIDE_SAYO_ELITEFOUR
 	call EventScript_ResetAllBerries
 	end

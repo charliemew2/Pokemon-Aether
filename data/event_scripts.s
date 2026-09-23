@@ -1216,3 +1216,5 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/CrystalLake/scripts.inc"
 
 	.include "data/maps/ChiCity/scripts.inc"
+
+	.include "data/maps/Sayo_BattleGround/scripts.inc"
