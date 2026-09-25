@@ -250,11 +250,12 @@
 #define OBJ_EVENT_GFX_SAYO                       243 //added Sayo
 #define OBJ_EVENT_GFX_CHARLIE                    244 //added Charlie
 #define OBJ_EVENT_GFX_DAWN                       245 //added Dawn
+#define OBJ_EVENT_GFX_JOHN_1                     246 //added John from the earlygame sections
 
 // NOTE: The maximum amount of object events has been expanded from 255 to 65535.
 // Since dynamic graphics ids still require at least 16 free values, the actual limit
 // is 65519, but even considering follower Pokémon, this should be more than enough :)
-#define NUM_OBJ_EVENT_GFX                        246 //Dont forget to make sure this increments by 1 when you add a new guy
+#define NUM_OBJ_EVENT_GFX                        247 //Dont forget to make sure this increments by 1 when you add a new guy
 
 
 // These are dynamic object gfx ids.
@@ -387,6 +388,7 @@
 #define OBJ_EVENT_PAL_SAYO                        0x1125 //Define Sayo
 #define OBJ_EVENT_PAL_CHARLIE                     0x1126 //Define Charlie
 #define OBJ_EVENT_PAL_DAWN                        0x1127 //Define Dawn
+#define OBJ_EVENT_PAL_JOHN_1                      0x1128 //Define John Earlygame
 
 #if OW_FOLLOWERS_POKEBALLS
 // Vanilla

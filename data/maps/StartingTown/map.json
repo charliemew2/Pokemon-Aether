@@ -46,7 +46,7 @@
     },
     {
       "local_id": "LOCAL_ID_JOHN_STARTINGTOWN_RIVAL1",
-      "graphics_id": "OBJ_EVENT_GFX_STEVEN",
+      "graphics_id": "OBJ_EVENT_GFX_JOHN_1",
       "x": 32,
       "y": 26,
       "elevation": 0,

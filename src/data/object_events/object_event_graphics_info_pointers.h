@@ -21,6 +21,7 @@ extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Man1;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sayo;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Charlie;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Dawn;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_John1;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Woman2;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ExpertM;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ExpertF;
@@ -378,6 +379,7 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_SAYO] =                     &gObjectEventGraphicsInfo_Sayo,
     [OBJ_EVENT_GFX_CHARLIE] =                  &gObjectEventGraphicsInfo_Charlie,
     [OBJ_EVENT_GFX_DAWN] =                     &gObjectEventGraphicsInfo_Dawn,
+    [OBJ_EVENT_GFX_JOHN_1] =                   &gObjectEventGraphicsInfo_John1,
     [OBJ_EVENT_GFX_SIDNEY] =                   &gObjectEventGraphicsInfo_Sidney,
     [OBJ_EVENT_GFX_PHOEBE] =                   &gObjectEventGraphicsInfo_Phoebe,
     [OBJ_EVENT_GFX_GLACIA] =                   &gObjectEventGraphicsInfo_Glacia,
