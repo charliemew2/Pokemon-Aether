@@ -4747,3 +4747,22 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Charlie = {
     .images = gObjectEventPicTable_Charlie,
     .affineAnims = gDummySpriteAffineAnimTable,
 };
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Dawn = { 
+    .tileTag = TAG_NONE,
+    .paletteTag = OBJ_EVENT_PAL_DAWN,
+    .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
+    .size = 256,
+    .width = 16,
+    .height = 32,
+    .paletteSlot = PALSLOT_NPC_3,
+    .shadowSize = SHADOW_SIZE_M,
+    .inanimate = FALSE,
+    .compressed = FALSE,
+    .tracks = TRACKS_FOOT,
+    .oam = &gObjectEventBaseOam_16x32,
+    .subspriteTables = sOamTables_16x32,
+    .anims = sAnimTable_Standard,
+    .images = gObjectEventPicTable_Dawn,
+    .affineAnims = gDummySpriteAffineAnimTable,
+};
